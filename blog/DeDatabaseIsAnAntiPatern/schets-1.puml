@@ -1,0 +1,38 @@
+@startuml
+skinparam componentStyle uml2
+
+() in
+() out
+in -[hidden]down-> out /'layout'/
+
+package "System" {
+   [Sensors]     as S
+   [Harvesters]  as H
+   in -> S
+   S -> H
+   database raw
+   H -> raw
+
+   [Actuators] as  Ac
+   Ac -> out
+   S -[hidden]down-> Ac /'layout'/
+
+   [Controllers] as C
+   H --> C
+   Ac <-C
+
+   [Aggregators] as Ag
+   raw --> Ag
+
+   database info
+   Ag --> info
+
+   [UI]
+   C -[hidden]down-> UI /'layout'/
+   info <-> UI
+   }
+
+() user
+UI <.(0).> user
+
+@enduml
