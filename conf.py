@@ -39,7 +39,8 @@ if True:
 
     blog_authors = {'GAM' : ('ALbert Mietus', 'http://albert.mietus.nl') }
     blog_default_author = 'GAM'
-    blog_languages = {'nl'  : ('Nederlands', None) }
+    blog_languages = {'nl' : ('Nederlands', None),
+                      'en' : ('English', None)}
     blog_default_language = 'nl'
     post_always_section = True
 
