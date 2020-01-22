@@ -1,4 +1,6 @@
+VENV
 __result
+__result.*
 tmp
 __pycache__
 .*\.pyc
