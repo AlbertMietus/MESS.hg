@@ -47,9 +47,8 @@ When a player goes down in a (great) sports team, the other members *automatical
 continue as a team --even when it is the goalie.  And, when an athlete is replaced by a spare, you still should have one
 team.
 |BR|
-The coach doesn't instruct the team on how to act during a game.  The team is trained to behave “automatically” when
-it happens.  That is the role of the coach: prepare the team for all (un)foreseen situations.
-
+The coach doesn't instruct the team on how to act during a game.  The team should be trained to behave “automatically” when
+it happens.  The coach's role is to prepare the team for all (un)foreseen situations.
 
 ---
 
