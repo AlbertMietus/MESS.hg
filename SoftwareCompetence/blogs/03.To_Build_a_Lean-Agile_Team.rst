@@ -1,0 +1,165 @@
+.. Copyright (C) ALbert Mietus; 2023
+
+.. _To_Build_a_Lean-Agile_Team:
+
+**************************
+To build a Lean-Agile team
+**************************
+
+.. post:: 2023/06/11
+   :category: opinion
+   :tags: MESS
+   :location: Geldrop
+   :language: en
+
+   :reading-time: XXX
+
+   Once in a while, I get questions about crafting a (scrum) team.  Questions like “*Who is responsible for that?*” And
+   above all: “*How does this help to make the team more lean; more efficient?*”
+
+   I try to share my experience (and vision) on this expertise.  Don't expect simple answers, however, as they don't
+   exist.  Building a team is hard work! And, every time the project grows or shrinks, you have to rethink building the
+   team.
+
+   Building a team isn’t software specific, however.  So we can borrow some inspiration from other domains, like a
+   sports team.
+
+
+The key is to think in teams: what should the team do?  Next, you should select team members that collectively can fulfil
+all those tasks and take authority over what they are responsible for.  It is hardly about how skilled a person is; when it
+doesn't add to the team, it does not complete the team.
+
+I often compare it to soccer: A soccer team plays with eleven players.  Albeit, eleven players are not automatically one
+team.  Multiple 'kinds' of players are needed: some attackers and defenders and a goalie; everybody will agree.  You will
+never win a game when you pick only the top-11 goalies!
+|BR|
+For a software team, you need developers and testers.  That is a minimum.
+
+
+A fruitful team
+===============
+
+There is more you should  consider.  Aside from the essential roles, you will need an  able mix of personalities.  Don’t
+hope your crew  work together.  No, build a team that loves to assist  others, where everybody has a  backup.  And where
+everybody can & will substitute all others.
+
+When a player goes down in a (great) sports team, the other members *automatically* reshuffle to fill the hole and
+continue as a team --even when it is the goalie.  And, when an athlete is replaced by a spare, you still should have one
+team.
+|BR|
+The coach doesn't instruct the team on how to act during a game.  The team is trained to behave “automatically” when
+it happens.  That is the role of the coach: prepare the team for all (un)foreseen situations.
+
+
+The coach doesn't tell the team how to act during a game.  The team is trained to behave “automatically” when it
+happens.  A coach prepares the team for all foreseen situations.  A great coach even for the unforeseen ones.
+
+---
+
+To make it more complicated, a soccer team needs also spare-players.  Sometimes they are part of the team, like during
+the trainings.  Though not during the match: more as eleven players means disqualification.  Moreover: when the coach
+replaces one player, it should still be one team!
+|BR|
+The coach has to think both in terms of team-of-11 and team-of-all.
+
+Building a software team differs from a establishing a soccer team.  There is no hard limit of “eleven” --a scrum team
+is typically *around 8*; there are no goalies -- although we can compare attackers with developers and testers with the
+defenders.  And, there are no “spare player” in a SW-team; albeit we have flex-employees.
+
+.. hint::
+
+   For pragmatic reasons, I usually use *"scrum team"* to denote a smallest team, of about 8 engineers  And *“project
+   team”* for  collective of multiple (scrum) teams.
+
+Software teams
+--------------
+
+The key, however, is to think in teams.  That can be one scrum team of (about) 8 people or a project team of 50FTE.
+|BR|
+But they should become one!
+
+To build a team, you need to consider how to value the team: For me, that typically involves words as ‘lean’ (aka: fast,
+high velocity), ‘agile’ (or flexibile, nimble) and ‘mature’ --in which league are you playing?
+|BR|
+All teams should be able to deliver working software --including all documentation (on all levels of the ‘V’)-- in a
+predicable piece.  For bigger projects, you need multiple scrum teams, and the (project) team should be able to grow (or
+shrink) in the anticipated scope-expectation.  In a perfect world, your teams should be able to yield all kind of
+requirements, even when unexpected, or in other languages.
+
+---------
+
+
+Each (scrum) team should be autonomous.  And at the same time, all members should act together as one independent team.
+
+All (scrum) teams should contain sufficient knowledge for the job at hand.  For a software engineering project, each team
+should include at least programmers and testers.  But functional and domain knowledge is essential as well!  In technical
+& embedded software that can imply you need mechanical, electrical, or other technical experts too.
+
+Without those minimum demands it's highly questionable whether the objectives are ever reached.  Therefore, I prefer a
+full-scrum team over a *‘halve team’* of (e.g.) 4 FTE: the more people, the easier it becomes to select candidates that
+en masse have all the needed expertise and skills.
+
+
+
+
+
+
+
+-----------
+
+
+
+
+
+Albeit the questions are valid in general, the answers strongly depend on the project and the environment.  Setting up a
+new project of 8 FTE differs from adapting an existing team of, let's say, 50 people.  And in contrast to what many
+expect, building an effective team of 4 costs more effort than a full-size team of 8!
+
+
+
+-----------------
+
+
+Maturity & Soft Skills
+In addition to those 'cognitive' knowledge, experience, and 'seniority' are also needed, as well as a good mix of soft skills. A team with only gray mice is often ineffective, but neither is a team in which everyone fights for the most attention. While a mix of boring, 'ant-fucking', detailers and the well-known spring-in-the-field, unguided 'geniuses' can work just fine. Especially if there are also a few 'ordinary' colleagues between those extremes.
+
+It's about the mix. Not every group of people is a team. So don't look for perfection in people, but for people who work well together and strive for perfection.
+For example, a good ScrumMaster is also a leader who listens to his team members and builds a team out of them.
+
+
+
+
+Considerations
+
+The craftsmanship of the ScrumMaster
+Building a good team is the responsibility of the ScrumMaster. He has to steer that in the right direction, although the rest of the team has a lot of influence. And as in any team or project, it is above all craftsmanship that determines whether it is done properly.
+While craftsmanship and experience are important, there are several general considerations.
+
+One rule is implicit and most important: Make sure the return is in line with the investment!
+Doubling a project team in size without the conviction that the velocity will also be (approximately) twice as large is often not wise. Of course, there are circumstances where it cannot be otherwise. But make sure the reasons are discussed beforehand.
+
+Priorities
+Many things are important; the question is, which ones are even more important than others? In the style of the Agile manifesto, several priorities can be identified:
+
+Motivation is much more important than knowledge (of Agile).
+
+Improving is much more important than perfection.
+
+An improved future is much more important than any mistake in the past.
+
+Rules of thumb
+Together with a few rules of thumb, the right balance must be sought. Often it is not about applying the process or the rules but about the (intended) effect.
+
+Keep people and knowledge!
+
+Row with the oars you do have!
+
+Improve per sprint!
+
+Look at the whole
+One of the most important principles is: a team is independent. So sufficient knowledge must be available. In a software engineering project, each team should include both programmers and testers. Functional and domain knowledge is also important. as well as knowledge about test automation. These are minimum requirements; without meeting these, it is highly questionable whether the objectives will be achieved. See also the well-known pitfalls in Black & White, without Grey!
+
+In addition to this 'cognitive' knowledge, experience, and 'seniority' are also needed, as well as a good mix of soft skills. A team with only gray mice is often ineffective, but neither is a team in which everyone fights for the most attention. While a mix of boring, 'ant-fucking', detailers and the well-known spring-in-the-field, unguided 'geniuses' can work just fine. Especially if there are also a few 'ordinary' colleagues between those extremes.
+
+It's about the mix. Not every group of people is a team. So don't look for perfection in people, but for people who work well together and strive for perfection.
+For example, a good ScrumMaster is also a leader who listens to his team members and builds a team out of them.                  

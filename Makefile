@@ -71,5 +71,5 @@ RTD  RTfD-build RTfD RTFD RTfD-webhook:
 
 wc:
 	@echo "lines	words	file"
-	@wc -lw `find . -iname \*rst`|sort -r | grep -v /index.rst | grep -v /zz.todo.rst
+	@wc -lw `find . -iname \*rst`|sort -r +2n | grep -v /index.rst | grep -v /zz.todo.rst
 
