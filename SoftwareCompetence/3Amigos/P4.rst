@@ -171,12 +171,12 @@ While not everyone in the military will become a general, the progression system
 work, significant growth is possible. As shown by Tommy Franks, 35 years after starting as a private, he became a 4-star
 general.
 
-With 26 steps on the career ladder, ne can be promoted every few year. And with clear ranks, everybody becomes motivated
+With 26 steps on the career ladder, one can be promoted every few year. And with clear ranks, everybody becomes motivated
 to take an extra step.
 |BR|
 In software engineering, leadership progression isn’t that clear. Often, role titles like "junior" or "senior" engineer
 are the only indicators of career growth, which can make the path forward seem limited. Especially as those grades are
-often ‘forever’ —not depending on the role. Once a junior coder is promoted to senior, he will stay ‘senor’. Even when
+often ‘forever’ —not depending on the role. Once a junior coder is promoted to senior, he will stay ‘senior’. Even when
 he makes the transition to, e.g. ScrumMaster, he is seen as a ‘senior SM’. Which answers my astonishment: Why are there
 no junior ScrumMasters?
 
