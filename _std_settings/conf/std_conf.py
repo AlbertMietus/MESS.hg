@@ -88,7 +88,8 @@ if True or DEBUG:
 
 # Needs
 #------
-extensions.append('sphinxcontrib.needs')
+#extensions.append('sphinxcontrib.needs')
+extensions.append('sphinx_needs')
 needs_include_needs = True
 needs_id_required = True
 needs_id_regex = r'^[A-Z][A-Za-z-0-9_]{4,}'

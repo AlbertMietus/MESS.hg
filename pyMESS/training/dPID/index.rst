@@ -11,12 +11,16 @@ dPID: A Python ‘homework’ exercise
    :location:
    :language: en
 
-   :practice-time: 1 hour
+   Write an (discrete) PID-controller, for fun and exercise.
 
-   This is an optional exercise for the python-3 workshops: program a **d**\iscrete **PID**-controller.
+.. update:: 2023/10/01
 
-   A basic :class:`class definition <dpid.dPID>` is given; which has to be tested and implemented. By starting
-   with the *test-part*, which is advisable anyhow (the TDD approach), the exercise starts simple.
+   Updated the dPID exercise, with Python Type Hints. And Use it more generic.
+   Although it still an python exercise, one can also implemented it in f.e. C++
+
+
+A basic :class:`class definition <dpid.dPID>` is given; which has to be tested and implemented. By starting
+with the *test-part*, which is advisable anyhow (the TDD approach), the exercise starts simple.
 
 A few :ref:`test-examples <dPID_test_examples>` are also given. This file can be used as *'template'* to
 write your own tests.

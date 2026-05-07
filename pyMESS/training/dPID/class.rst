@@ -4,7 +4,7 @@
 ====================
 dPID: The dPID class
 ====================
-:status: RC-1.0
+:version: 2 (alfa)
 
 This article shows the :class:`dpid.PID` documentation, as specified in :ref:`the python file
 <dPID_code>`.

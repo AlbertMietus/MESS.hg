@@ -71,7 +71,7 @@ Hogsmeade-clean: Hogsmeade_check
 #	@echo
 
 RTD:
-	-hg push
+	-hg push --all
 	-hg bookmarks default
 	-hg push github
 	@echo "push to github will trigger RTD"

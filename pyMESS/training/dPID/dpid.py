@@ -1,7 +1,9 @@
-# Copyright (C) 2017: ALbert Mietus, SoftwareBeterMaken
+# Copyright (C) 2017, 2025: ALbert Mietus, SoftwareBeterMaken
 # Part of my MESS project
 # Dropjes licencie: Beloon me met dropjes naar nuttigheid
 
+from numbers import Real
+from typing import Optional
 
 from logging import getLogger
 logger = getLogger(__name__)
@@ -45,22 +47,19 @@ class dPID:
 
     """
 
+    def __init__(self, P:Real, I:Real, D:Real, min_result:Optional[Real]=None, max_result:Optional[Real]=None):
+        assert NotImplementedError("This class is part of an exercise; please implement it yourself")
 
-
-    def __init__(self, P,I,D, min_result=None, max_result=None): pass
-
-    def setpoint(self, sp):
+    def setpoint(self, sp:Real):
         """Set the setpoint: a numeric value."""
 
-    def measured(self, value):
+    def measured(self, value:Real):
         """Give the controller an update on the actual *measured* (or simulated) process-value.
 
-        The controller will assume a linear progression between the last update and the current one
-        """
+        The controller will assume a linear progression between the last update and the current one."""
 
-    def result(self):
+    def result(self) -> Real:
         """Return the actual result value"""
-        return 0.0 # XXX
 
-    def set_min_max(self, min_result=None, max_result=None):
+    def set_min_max(self, min_result :Optional[Real]=None, max_result :Optional[Real]=None):
         """Change the minimum and/or maximal result value. Used to clip the :meth:`.result`"""
