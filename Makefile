@@ -63,21 +63,29 @@ Hogsmeade: Hogsmeade_check
 Hogsmeade-clean: Hogsmeade_check
 	${MAKE} OUTd=${HOGSMEADEd} cleanest
 
-#include RTD-settings.mk
-#RTD  RTfD-build RTfD RTFD RTfD-webhook:
-#	-hg push
-#	@BRANCH=$${BRANCH:-`hg branch`} ;\
-#	curl -X POST -d "branches=$${BRANCH}" -d "token=${TOKEN}"  ${HOOK}
+include RTD-settings.mk
+RTD  RTfD-build RTfD RTFD RTfD-webhook:
+	@BRANCH=$${BRANCH:-`hg branch`} ;\
+	curl -X POST -d "branches=$${BRANCH}" -d "token=${TOKEN}"  ${HOOK}
 #	@echo
 
-RTD:
-	-hg push --all
-	-hg bookmarks default
-	-hg push github
-	@echo "push to github will trigger RTD"
+## RTD:
+## 	-hg push --all
+## 	-hg bookmarks default
+## 	-hg push github
+## 	@echo "push to github will trigger RTD"
 
 
 wc:
 	@echo "lines	words	file"
 	@wc -lw `find . -iname \*rst`|sort -r | grep -v /index.rst | grep -v /zz.todo.rst
 
+_sync-bookmarks:
+	for b in $$(hg branches | awk '{print $$1}'); do \
+	    hg bookmark -r "$$b" "_g_$$b"; \
+	done
+
+push-all: _sync-bookmarks
+	-hg push
+	-hg push --all SF
+	-hg push --all github
