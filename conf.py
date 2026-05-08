@@ -78,3 +78,17 @@ if os.environ.get("READTHEDOCS", "") == "True":
     if "html_context" not in globals():
         html_context = {}
     html_context["READTHEDOCS"] = True
+
+
+
+###
+if os.environ.get("READTHEDOCS", "") == "True":
+    exclude_patterns.append('**DRAFT**')
+
+def setup(app):
+    app.connect('html-page-context', css_by_dir)
+
+def css_by_dir(app, pagename, templatename, context, doctree):
+    if  pagename.find('DRAFT') != -1:
+        context['css_files']  += ['_static/DRAFT.css']
+
