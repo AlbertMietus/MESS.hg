@@ -1,0 +1,29 @@
+.. -*- rst -*-
+   USE AS:
+   .. include:: ./sidebar-ScenerySketching.irst
+
+.. sidebar:: ScenerySketching:: CodeAI
+   :class: sidebar-ScenerySketching
+
+   .. Zo'n 110 woorden -- komt terug in elke blog
+
+   Engineers use tools.  But which ones?  Should we stick to our
+   familiar, trusted gear, or embrace the "silver bullets" every AI
+   provider promises?
+   |BR|
+   Or, can we mix and match?
+
+   Mastering a tool takes *forever*; learning every ‘CodeAI’ tool takes
+   even longer.  Unlucky engineers spend more time selecting genAI tools
+   than those tools can ever make up for -- particularly, as you have to
+   deliver high-quality, long-lasting software for HighTech embedded
+   systems.
+   |BR|
+   Although CodeAI can assist.
+
+   In this series, I sketch the scenery as a Holistic Architectural
+   Leader; skipping constantly changing details to boost that
+   ‘golden’ controlled approach to rocket speed.
+   |BR|
+   Remember: As an engineer, you’re able to fill in the details, I
+   only highlight the interfaces.
