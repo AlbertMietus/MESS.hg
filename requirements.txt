@@ -1,5 +1,5 @@
 sphinx==6.2.1
-ablog
+ablog == 0.10.25
 sphinxcontrib-plantuml
 sphinx_needs
 sphinx_rtd_theme
