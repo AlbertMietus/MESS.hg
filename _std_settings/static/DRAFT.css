@@ -1,0 +1,5 @@
+/* DRAFT pages are GRAY*/
+body {
+    background-color: gray !important;
+    color: #8b4513 !important;
+}
