@@ -1,0 +1,75 @@
+.. image:: ScenerySketching-image6.png
+      :width: 100%
+
+:reading-time: 4-5min  XXX (500 Words)
+
+DRAFT Templates
+===============
+
+.. post:: 2026/01/01
+   :category: ScenerySketching
+   :tags: CodeAI
+   :location: Geldrop
+   :language: en
+
+   A LEAD of a about 3 lines, 84 word.    A LEAD of a about 3 lines, 84 word.    A LEAD of a about 3 lines, 84 word
+   A LEAD of a about 3 lines, 84 word.    A LEAD of a about 3 lines, 84 word.    A LEAD of a about 3 lines, 84 word
+   A LEAD of a about 3 lines, 84 word.    A LEAD of a about 3 lines, 84 word.    A LEAD of a about 3 lines, 84 word
+
+.. include:: ./sidebar-ScenerySketching.irst
+
+.. sidebar:: Door & More
+   :class: sidebar-ScenerySketching
+
+   In ca 63 worden wat links naar meer info
+   In ca 63 worden wat links naar meer info
+   In ca 63 worden wat links naar meer info
+   In ca 63 worden wat links naar meer info
+   In ca 63 worden wat links naar meer info
+   In ca 63 worden wat links naar meer info
+   In ca 63 worden wat links naar meer info
+
+
+Kopje (a)
+---------
+De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
+best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+|BR|
+Sub-alines (BR)  mogen, beperkt
+
+De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
+best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+
+Kopje B
+-------
+
+De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
+best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+|BR|
+Sub-alines (BR)  mogen, beperkt
+
+De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
+best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+|BR|
+Sub-alines (BR)  mogen, beperkt
+
+Kopje C
+-------
+De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
+best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+|BR|
+Sub-alines (BR)  mogen, beperkt
+
+De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
+best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+
+Kopje D
+-------
+De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
+best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+
+De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
+best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+
+
+
