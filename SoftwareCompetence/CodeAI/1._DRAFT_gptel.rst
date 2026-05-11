@@ -1,0 +1,97 @@
+.. image:: ScenerySketching-image6.png
+      :width: 100%
+
+:reading-time: 4-5min                
+
+gptel: Refine your thoughts
+===========================
+
+
+                     
+.. post:: 2026/05/07
+   :category: ScenerySketching
+   :tags: CodeAI
+   :location: Geldrop
+   :language: en
+
+   Many teams use AI to “type faster”, either by using tools that produce *ghost code* or by practicing *vibe
+   coding*. But “building `sovereign software`” isn’t like building a house—where high-speed brick-laying does
+   shorten takt time.  Determining “what” the (embedded) system should do and “how” the (technical complex)
+   software should interact takes a significant amount of time.
+   |BR|
+   Engineering is mostly reasoning; typing speed is futile.
+
+   To speed up engineering the real question is: *How to use CodeAI to “think faster”?*
+
+
+.. include:: ./sidebar-ScenerySketching.irst
+
+.. sidebar:: Door & More
+   :class: sidebar-ScenerySketching
+
+   In ca 63 worden wat links naar meer info
+   In ca 63 worden wat links naar meer info
+   In ca 63 worden wat links naar meer info
+   In ca 63 worden wat links naar meer info
+   In ca 63 worden wat links naar meer info
+   In ca 63 worden wat links naar meer info
+   In ca 63 worden wat links naar meer info
+
+
+Refactor you chats
+-------------------
+
+Chatting with an LLM via an app or web-tool is convenient, but the conversation can go haywire. More than once,
+I press `send` instead of `newline`, or start with the wrong questions. It lacks
+
+
+And miss the option to re-edit my 
+questions, or simply delete the irrelevant parts.
+
+Chatting with a LLM by an app or web-tool is convenient, but the conversation can go highwire  it misses the power of a proper editor. More than
+once, I press `send` instead of `newline`, or start with the wrong questions. And miss the option to re-edit my
+questions, or simply delete the irrelevant parts.
+
+
+
+De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
+best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+|BR|
+Sub-alines (BR)  mogen, beperkt
+
+De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
+best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+
+Kopje B
+-------
+
+De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
+best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+|BR|
+Sub-alines (BR)  mogen, beperkt
+
+De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
+best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+|BR|
+Sub-alines (BR)  mogen, beperkt
+
+Kopje C
+-------
+De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
+best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+|BR|
+Sub-alines (BR)  mogen, beperkt
+
+De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
+best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+
+Kopje D
+-------
+De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
+best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+
+De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
+best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+
+
+
