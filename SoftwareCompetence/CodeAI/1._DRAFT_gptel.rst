@@ -1,13 +1,11 @@
 .. image:: ScenerySketching-image6.png
-      :width: 100%
+   :class: codeai-head
 
 :reading-time: 4-5min                
 
 gptel: Refine your thoughts
 ===========================
 
-
-                     
 .. post:: 2026/05/07
    :category: ScenerySketching
    :tags: CodeAI
@@ -19,79 +17,72 @@ gptel: Refine your thoughts
    shorten takt time.  Determining “what” the (embedded) system should do and “how” the (technical complex)
    software should interact takes a significant amount of time.
    |BR|
-   Engineering is mostly reasoning; typing speed is futile.
+   As engineering is mostly reasoning; typing speed is futile.
 
-   To speed up engineering the real question is: *How to use CodeAI to “think faster”?*
-
+   To speed-up engineering the real question is: *How to use CodeAI to “think faster”?*
 
 .. include:: ./sidebar-ScenerySketching.irst
 
-.. sidebar:: Door & More
+.. sidebar:: More & More
    :class: sidebar-ScenerySketching
 
-   In ca 63 worden wat links naar meer info
-   In ca 63 worden wat links naar meer info
-   In ca 63 worden wat links naar meer info
-   In ca 63 worden wat links naar meer info
-   In ca 63 worden wat links naar meer info
-   In ca 63 worden wat links naar meer info
-   In ca 63 worden wat links naar meer info
+   As an ancient (Gnu)Emacs user, I’m happy to experiment with Emacs-gptel, and use that as a
+   reference. Installing it s trivial -- and most CodeAI’s tools are happy to help with the detail.
+   |BR|
+   In general, CodeAI is great for *install-parties*
+
+   I used gptel also to discuss the variants for other editors -- with several artificial intellectuals.  They
+   convinced me that there plenty of options. For each major editor there are options that enables chatting and
+   refactoring, in a workflow that is close to the preferred editor.
+   |BR|
+   As CodeAI doesn't support artificial emotions, they are perfectly able to promote a competitor:-)
 
 
 Refactor you chats
 -------------------
 
-Chatting with an LLM via an app or web-tool is convenient, but the conversation can go haywire. More than once,
-I press `send` instead of `newline`, or start with the wrong questions. It lacks
-
-
-And miss the option to re-edit my 
-questions, or simply delete the irrelevant parts.
-
-Chatting with a LLM by an app or web-tool is convenient, but the conversation can go highwire  it misses the power of a proper editor. More than
-once, I press `send` instead of `newline`, or start with the wrong questions. And miss the option to re-edit my
-questions, or simply delete the irrelevant parts.
-
-
-
-De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
-best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+Chatting with an LLM via an app or web-tool is convenient, but the conversation can go haywire.  More than
+once, I press `send` instead of `newline`, those wrong questions give never to be read answers.  Or, I have
+some good side-questions, which are unrelated to the main discussion.  All of that makes the dialog hard to
+understand, when reading it back a few days later. Moreover, all those irrelevant collectibles eat up tokes,
+round after round.
 |BR|
-Sub-alines (BR)  mogen, beperkt
+Even more cumbersome, when using several AI-tools, and/or multiple models, all information becomes spread and I
+almost need an meta-AI tool to find my details..
 
-De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
-best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+As a (former) software-engineer, I know the solution. When it was code, I would refactor it; using the power of
+a proper editor.
 
-Kopje B
+
+GPTEL
+-----
+
+This is what tools as **gptel** provide! Even though `gptel` it’s an Emacs extension, similar plugins exist for
+all major (open) editors -- see the sidebar.
+|BR|
+Now, everybody can use the power of her/his favorite editor, to rewrite the discussions with the LLM(s) you
+prefer.  You can even save it and continue a day later. Spiting-out those side-questions is trivial; which make
+them easier to find. You main line of thoughts become clean again. And, as a bonus, the save tokens, cost and
+speed-up the slow long conversation.
+
+
+
+
+
+The best of 2 worlds
+---------------------
+
+It’s like a chat with your web-LLM: type, send, and continue. As `gptel` is *async*, the answers will be added
+to your buffer -- but you do not need to wait! Moreover, you typically work in a markdown buffer, giving you
+highlight by default, like it can fold sections in and out
+
+
 -------
 
-De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
-best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
-|BR|
-Sub-alines (BR)  mogen, beperkt
 
-De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
-best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
-|BR|
-Sub-alines (BR)  mogen, beperkt
-
-Kopje C
--------
-De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
-best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
-|BR|
-Sub-alines (BR)  mogen, beperkt
-
-De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
-best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
-
-Kopje D
--------
-De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
-best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
-
-De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
-best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+..  note:: De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vaak zijn het 1,2, hooguit
+           3 alinea’s.  Dat is best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus
+           56 woorden per stuk -- bij 3, maar 38. 
 
 
 
