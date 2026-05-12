@@ -1,12 +1,12 @@
 .. image:: ScenerySketching-image6.png
-      :width: 100%
+   :class: codeai-head
 
 :reading-time: 4-5min  XXX (500 Words)
 
 DRAFT Templates
 ===============
 
-.. post:: 2026/01/01
+.. post::
    :category: ScenerySketching
    :tags: CodeAI
    :location: Geldrop

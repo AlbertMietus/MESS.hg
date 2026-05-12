@@ -4,7 +4,6 @@
 
 import os
 on_rtd = os.environ.get('READTHEDOCS') == 'True'
-
 print("Using std_conf [%s-version]" % ('RTfD' if on_rtd else 'local'))
 
 ###
@@ -45,7 +44,7 @@ html_theme_options = {
 }
 html_style = 'SwBMnl+rtfd.css'
 
-html_context={'display_github':False} 
+html_context={'display_github':False}
 
 #html_logo= ...file...
 #html_theme_options['logo_only']=True # True: only logo, False: Logo & name

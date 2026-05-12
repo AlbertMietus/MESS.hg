@@ -1,0 +1,15 @@
+/* (C) Albert Mietus, 2026 Extra CSS settings for (SoftwareCompetence/)CodeAI*/
+
+img.codeai-head { /* use lowecase!*/
+    margin-left: -1em;
+    margin-top: -24px;
+    with: 100%;
+
+}
+
+.rst-content h1 {
+    color: #000066; background-color: #e7f2fa;
+    font-size: 200%;
+    margin-top:0;
+
+}

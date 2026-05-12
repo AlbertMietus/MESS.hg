@@ -74,7 +74,7 @@ import os
 html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "")
 
 # Tell Jinja2 templates the build is running on Read the Docs
-if os.environ.get("READTHEDOCS", "") == "True":
+if on_rtd:
     if "html_context" not in globals():
         html_context = {}
     html_context["READTHEDOCS"] = True
@@ -82,7 +82,7 @@ if os.environ.get("READTHEDOCS", "") == "True":
 
 
 ###
-if os.environ.get("READTHEDOCS", "") == "True":
+if on_rtd:
     exclude_patterns.append('**DRAFT**')
 
 def setup(app):
@@ -91,4 +91,6 @@ def setup(app):
 def css_by_dir(app, pagename, templatename, context, doctree):
     if  pagename.find('DRAFT') != -1:
         context['css_files']  += ['_static/DRAFT.css']
+    if  pagename.find('SoftwareCompetence/CodeAI') != -1:
+        context['css_files']  += ['_static/CodeAI.css']
 
