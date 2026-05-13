@@ -23,7 +23,7 @@ Document your thoughts (with gptel)
 
 .. include:: ./sidebar-ScenerySketching.irst
 
-.. sidebar:: More & More
+.. sidebar:: Maps & Milestones
    :class: sidebar-ScenerySketching
 
    As an ancient (GNU)Emacs user, I’m happy to experiment with Emacs-gptel, and use that as a

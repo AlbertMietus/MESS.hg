@@ -18,58 +18,99 @@ DRAFT Templates
 
 .. include:: ./sidebar-ScenerySketching.irst
 
-.. sidebar:: Door & More
+.. sidebar:: Maps & Milestones
    :class: sidebar-ScenerySketching
 
-   In ca 63 worden wat links naar meer info
-   In ca 63 worden wat links naar meer info
-   In ca 63 worden wat links naar meer info
-   In ca 63 worden wat links naar meer info
-   In ca 63 worden wat links naar meer info
-   In ca 63 worden wat links naar meer info
-   In ca 63 worden wat links naar meer info
+   In ca 100 woorden: wat achtergrond e/o links naar (eigen/externe) voorbeelden, als brug naar actie.
+   In ca 100 woorden: wat achtergrond e/o links naar (eigen/externe) voorbeelden, als brug naar actie.
+   In ca 100 woorden: wat achtergrond e/o links naar (eigen/externe) voorbeelden, als brug naar actie.
+   In ca 100 woorden: wat achtergrond e/o links naar (eigen/externe) voorbeelden, als brug naar actie.
+   In ca 100 woorden: wat achtergrond e/o links naar (eigen/externe) voorbeelden, als brug naar actie.
+   In ca 100 woorden: wat achtergrond e/o links naar (eigen/externe) voorbeelden, als brug naar actie.
 
 
 Kopje (a)
 ---------
-De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
-best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
-|BR|
-Sub-alines (BR)  mogen, beperkt
 
-De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
-best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
+lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
+|BR|
+Het gebruik sub alinea’s is toegestaan.
+
+De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
+lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
+Het gebruik sub alinea’s is toegestaan.
+|BR|
+De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
+lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
+Het gebruik sub alinea’s is toegestaan.
+De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
+lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
+Het gebruik sub alinea’s is toegestaan.
 
 Kopje B
 -------
 
-De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
-best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
+lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
 |BR|
-Sub-alines (BR)  mogen, beperkt
+Het gebruik sub alinea’s is toegestaan.
 
-De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
-best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
+lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
+Het gebruik sub alinea’s is toegestaan.
 |BR|
-Sub-alines (BR)  mogen, beperkt
+De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
+lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
+Het gebruik sub alinea’s is toegestaan.
+De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
+lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
+Het gebruik sub alinea’s is toegestaan.
+De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
+lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
+Het gebruik sub alinea’s is toegestaan.
+
 
 Kopje C
 -------
-De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
-best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
-|BR|
-Sub-alines (BR)  mogen, beperkt
 
-De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
-best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
+lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
+|BR|
+Het gebruik sub alinea’s is toegestaan.
+
+De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
+lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
+Het gebruik sub alinea’s is toegestaan.
+|BR|
+De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
+lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
+Het gebruik sub alinea’s is toegestaan.
+De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
+lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
+Het gebruik sub alinea’s is toegestaan.
 
 Kopje D
 -------
-De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
-best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
 
-De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vak zijn het 1,2, hooguit 3 alinea’s.  Dat is
-best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus 56 woorden per stuk -- bij 3, maar 38.
+Zorg dat de laatste alinea
+A) de cirkel rond maakt. Het moet de vraag van de lead (of 1ste kopje) beantwoorden.
+B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende blogs/artikelen
+
+
+Zorg dat de laatste alinea
+A) de cirkel rond maakt. Het moet de vraag van de lead (of 1ste kopje) beantwoorden.
+B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende blogs/artikelen
+
+
+Zorg dat de laatste alinea
+A) de cirkel rond maakt. Het moet de vraag van de lead (of 1ste kopje) beantwoorden.
+B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende blogs/artikelen
+
+
+Zorg dat de laatste alinea
+A) de cirkel rond maakt. Het moet de vraag van de lead (of 1ste kopje) beantwoorden.
+B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende blogs/artikelen
 
 
 
