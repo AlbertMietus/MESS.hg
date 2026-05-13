@@ -1,7 +1,7 @@
 .. image:: ScenerySketching-image6.png
    :class: codeai-head
 
-:reading-time: 4-5min  XXX (500 Words)
+:reading-time: 4-5min (900 words in this file)
 
 DRAFT Templates
 ===============

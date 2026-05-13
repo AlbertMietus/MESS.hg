@@ -1,10 +1,10 @@
 .. image:: ScenerySketching-image6.png
    :class: codeai-head
 
-:reading-time: 4-5min                
+:reading-time: 4-5min (900 words in this file)               
 
-Refine your thoughts (with gptel)
-=================================
+Document your thoughts (with gptel)
+===================================
 
 .. post:: 2026/05/19
    :category: ScenerySketching
@@ -14,12 +14,12 @@ Refine your thoughts (with gptel)
 
    Many teams use AI to “type faster”, either by using tools that produce *ghost code* or by practicing *vibe
    coding*. But “building `sovereign software`” isn’t like building a house—where high-speed brick-laying does
-   shorten takt time.  Determining “what” the (embedded) system should do and “how” the (technical complex)
+   shorten takt time.  Determining “what” the (embedded) system should do and “how” the (technically complex)
    software should interact takes a significant amount of time.
    |BR|
    As engineering is mostly reasoning; typing speed is futile.
 
-   To speed-up engineering the real question is: *How to use CodeAI to “think faster”?*
+   To speed up engineering, the real question is: *How to use CodeAI to “think faster”?*
 
 .. include:: ./sidebar-ScenerySketching.irst
 
@@ -37,17 +37,39 @@ Refine your thoughts (with gptel)
    |BR|
    As CodeAI doesn't support artificial emotions, they are perfectly able to promote a competitor :-)
 
+Reason by writing
+-----------------
+
+Even AI knows: to reason, you have to write. By putting your thoughts on paper, or a whiteboard, you quickly discover
+the real challenges. In this phase it is not about that perfect drawing -- a sketch will do. Unlike reading, thinking
+isn't linear; maybe you start with a hypothesis, analyze it, find new assumptions. Perhaps you discover a perfect
+solution after a few quick iterations. Or, you continue circling in a few sprints from now.
+
+To speed up that cycle, you can nowadays chat with AI. That coworker is always available and never displeased as you
+make the same typo again and again *(which is a big plus for me)*.
+|BR|
+Chats are sometimes seen as scaffolding: a temporary assembly, which falls away once the final code is complete. That
+can be correct for simple, short, self-documenting code. Our (embedded) systems, *lasting forever*,  also demand
+documentation, however.
+
+Either you write out those design papers yourself, or we need to summarize our reasoning. As AI does, after the
+reasoning phase, it tries to formulate a comprehensive, clean answer. Typically, that is what you read. You only study
+the reasoning for details and to check that the obvious --but not working-- solution is considered.
+|BR|
+That is how we build great software systems: Keep it simple, but document it’s not stupid.
+
+
 
 Clean Chats
 -----------
 
-Chatting with an LLM via an app or web-tool is convenient, but reading it back is often troublesome.  When
+Chatting with an LLM via an app or web tool is convenient, but reading it back is often troublesome.  When
 spending so much time producing words, it would be wonderful if it delivered clean documentation, showing the
 line of thought. And maybe support the design, especially to display that alternatives are investigated.
 
 Let me give you two *personal* examples of why the current interfaces fail in that aspect.  More than once, the web
-interface tricks me, and I accidentally press ‘`send`’ instead of ‘`newline`’. Even as I ignore the partial/answer-pair,
-it does pollute the reasoning. Moreover, as LLMs use “high/low priority”, that distracting part can confuse the LLM in
+interface tricks me, and I accidentally press ‘`send`’ instead of ‘`newline`’. Even as I ignore the partial query/replay-pair,
+it does pollute the reasoning. Moreover, as LLMs use “fist/bottom priority”, that distracting part can confuse the LLM in
 the next rounds.
 |BR|
 Secondly, I tend to ask side-questions in the same chat -- who doesn't? Very useful at the moment, but again: it does
@@ -65,7 +87,7 @@ Refactor your chats
 Every engineer knows: code will rot, unless you refactor it. Once in a while, you delete dead code, split a file, and
 work on the structure. Nothing will change, but readability. Sound engineers handle documentation in the same way.
 |BR|
-AI-chats are new assets, and clean chats deliver value. Therefore, we should be able to “refactor” --edit-- out
+AI-chats are new assets, and clean chats deliver value. Therefore, we should be able to “refactor” --edit-- our
 chats. And store them, so they can be reactivated later (maybe in the next sprint, by your coworker)
 |BR|
 Or do we consider chats as temporary -- as items without value? Even then, clean chats are cheaper, faster and keeps
@@ -76,12 +98,20 @@ focus of the LLM.
 --------------------
 
 Basically, the power of and editor is needed. As, in the end, the LLM’s main interface is tekst, your favorite editor
-will do. We only need a small bridge between your editor and the LLM.
+should do. We only need a small bridge between your editor and the LLM.
 |BR|
 **gptell**, an Emacs extension, provides that. Similar plugins exist for all major (open) editors -- see the sidebar.
 
-Ultimately, you work in a buffer. Als customary you edit, writing word. And chat: gptel will send the text to the
+Ultimately, you work in a buffer: you edit, write words, and restructure. And chat: `gptel` can send it to the
 configured LLM, and insert the answer. As it works async, you don’t even have to wait.
+|BR|
+Basically, it’s a chat! One that you control, as it also an editor.
+
+Now you can delete that “stupid questions” --as well as answers without value. Besides, as it’s structured text (like
+MD) you can fold sections to keep overview. Deleting irrelevant (side) questions has become trivial -- or maybe you
+prefer to move them to another, new chat-buffer. I hope I don’t have to explain how to save it, store it in you archive,
+and reopen it again -- gptel will save some meta-data to facilitate this (and  you can even edit it).
+
 
 
 
