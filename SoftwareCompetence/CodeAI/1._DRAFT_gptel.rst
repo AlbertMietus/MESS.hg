@@ -3,10 +3,10 @@
 
 :reading-time: 4-5min                
 
-gptel: Refine your thoughts
-===========================
+Refine your thoughts (with gptel)
+=================================
 
-.. post:: 2026/05/07
+.. post:: 2026/05/19
    :category: ScenerySketching
    :tags: CodeAI
    :location: Geldrop
@@ -35,54 +35,53 @@ gptel: Refine your thoughts
    convinced me that there plenty of options. For each major editor there are options that enables chatting and
    refactoring, in a workflow that is close to the preferred editor.
    |BR|
-   As CodeAI doesn't support artificial emotions, they are perfectly able to promote a competitor:-)
+   As CodeAI doesn't support artificial emotions, they are perfectly able to promote a competitor :-)
 
 
-Refactor you chats
+Clean Chats
+-----------
+
+Chatting with an LLM via an app or web-tool is convenient, but reading it back is often troublesome.  When
+spending so much time producing words, it would be wonderful if it delivered clean documentation, showing the
+line of thought. And maybe support the design, especially to display that alternatives are investigated.
+
+Let me give you two *personal* examples of why the current interfaces fail in that aspect.  More than once, the web
+interface tricks me, and I accidentally press ‘`send`’ instead of ‘`newline`’. Even as I ignore the partial/answer-pair,
+it does pollute the reasoning. Moreover, as LLMs use “high/low priority”, that distracting part can confuse the LLM in
+the next rounds.
+|BR|
+Secondly, I tend to ask side-questions in the same chat -- who doesn't? Very useful at the moment, but again: it does
+not lead to clean documentation.
+
+Both are human errors -- Or not? Perhaps the interface is just a poor fit for the way we think and design. Aside from
+that, as this pollution is added as *context* -- which costs tokens and resources -- it dilutes the LLM.
+|BR|
+Even a feature as simple as ‘delete a few lines’ would be more than helpful.
+
+
+Refactor your chats
 -------------------
 
-Chatting with an LLM via an app or web-tool is convenient, but the conversation can go haywire.  More than
-once, I press `send` instead of `newline`, those wrong questions give never to be read answers.  Or, I have
-some good side-questions, which are unrelated to the main discussion.  All of that makes the dialog hard to
-understand, when reading it back a few days later. Moreover, all those irrelevant collectibles eat up tokes,
-round after round.
+Every engineer knows: code will rot, unless you refactor it. Once in a while, you delete dead code, split a file, and
+work on the structure. Nothing will change, but readability. Sound engineers handle documentation in the same way.
 |BR|
-Even more cumbersome, when using several AI-tools, and/or multiple models, all information becomes spread and I
-almost need an meta-AI tool to find my details..
-
-As a (former) software-engineer, I know the solution. When it was code, I would refactor it; using the power of
-a proper editor.
-
-
-GPTEL
------
-
-This is what tools as **gptel** provide! Even though `gptel` it’s an Emacs extension, similar plugins exist for
-all major (open) editors -- see the sidebar.
+AI-chats are new assets, and clean chats deliver value. Therefore, we should be able to “refactor” --edit-- out
+chats. And store them, so they can be reactivated later (maybe in the next sprint, by your coworker)
 |BR|
-Now, everybody can use the power of her/his favorite editor, to rewrite the discussions with the LLM(s) you
-prefer.  You can even save it and continue a day later. Spiting-out those side-questions is trivial; which make
-them easier to find. You main line of thoughts become clean again. And, as a bonus, the save tokens, cost and
-speed-up the slow long conversation.
+Or do we consider chats as temporary -- as items without value? Even then, clean chats are cheaper, faster and keeps
+focus of the LLM.
 
 
+`gptel` and friends
+--------------------
 
+Basically, the power of and editor is needed. As, in the end, the LLM’s main interface is tekst, your favorite editor
+will do. We only need a small bridge between your editor and the LLM.
+|BR|
+**gptell**, an Emacs extension, provides that. Similar plugins exist for all major (open) editors -- see the sidebar.
 
-
-The best of 2 worlds
----------------------
-
-It’s like a chat with your web-LLM: type, send, and continue. As `gptel` is *async*, the answers will be added
-to your buffer -- but you do not need to wait! Moreover, you typically work in a markdown buffer, giving you
-highlight by default, like it can fold sections in and out
-
-
--------
-
-
-..  note:: De hoofdtekst (in 4 kopjes) is ca 450 woorden. Ofwel 112,5 per kopje. En vaak zijn het 1,2, hooguit
-           3 alinea’s.  Dat is best te doen. Maar is ook kort en dus een uitdaging. Bij 2 alines zijn het dus
-           56 woorden per stuk -- bij 3, maar 38. 
+Ultimately, you work in a buffer. Als customary you edit, writing word. And chat: gptel will send the text to the
+configured LLM, and insert the answer. As it works async, you don’t even have to wait.
 
 
 
