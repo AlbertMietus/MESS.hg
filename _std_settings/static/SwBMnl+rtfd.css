@@ -154,20 +154,4 @@ table.rtm-rotated-head th:not(:first-child)>p {
 
 
 
-/*
-  ScenerySketching:: CodeAI
-  - scenerysketching sidebar
-  - Also see, DRAF template for oder
-*/
-
-.rst-content aside.sidebar-scenerysketching  {
-    max-width:30%; width: auto;
-    clear: right;
-    padding:0;
-    margin-top:0;
-    margin-bottom:0;
-}
-.rst-content aside.sidebar-scenerysketching  .sidebar-title {
-    margin: 0; /*Reset default*/
-}
 
