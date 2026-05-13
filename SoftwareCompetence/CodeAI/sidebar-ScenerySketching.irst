@@ -5,25 +5,35 @@
 .. sidebar:: ScenerySketching:: CodeAI
    :class: sidebar-ScenerySketching
 
-   .. Zo'n 110 woorden -- komt terug in elke blog
+   .. Zo'n 160 woorden -- komt terug in elke blog
 
-   Engineers use tools.  But which ones?  Should we stick to our
-   familiar, trusted gear, or embrace the "silver bullets" every AI
-   provider promises?
-   |BR|
-   Or, can we mix and match?
+   Software engineers use interfaces, like APIs.
+   But also meta-interfaces -- like your editor;
+   it’s the interface between the team and
+   the code it produces. That meta-interface
+   determines how *efficiently* you work.
 
-   Mastering a tool takes *forever*; learning every ‘CodeAI’ tool takes
-   even longer.  Unlucky engineers spend more time selecting genAI tools
-   than those tools can ever make up for -- particularly, as you have to
-   deliver high-quality, long-lasting software for HighTech embedded
-   systems.
+   Every AI provider promises new “silver bullets”
+   to make coding trivial. But, does it work --
+   outside the trivial examples they show? Does it
+   work for us?
    |BR|
-   Although CodeAI can assist.
+   Or should we stick to our familiar, trusted gear
+   for the embedded, sovereign software we work on?
+   |BR|
+   Like our electrical coworkers – even though AI
+   can generate diagrams, I have never seen a PCB
+   design made by AI …
 
-   In this :ref:`series <ScenerySketching_CodeAI>`, I sketch the scenery as a Holistic Architectural
-   Leader; skipping constantly changing details to boost that
-   ‘golden’ controlled approach to rocket speed.
-   |BR|
-   Remember: As an engineer, you’re able to fill in the details, I
-   only highlight the interfaces.
+   We can't deny CodeAI is coming. The question is
+   can we use it to become more efficient. Or will
+   mastering them consume more time than they can
+   ever save you?
+
+   In this :ref:`series <ScenerySketching_CodeAI>`,
+   I sketch the scenery as a Holistic Architectural
+   Leader, skipping constantly changing details.
+
+   My goal is simple, boost that ‘golden’
+   controlled approach to rocket speed.
+
