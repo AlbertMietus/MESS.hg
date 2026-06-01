@@ -1,0 +1,156 @@
+.. image:: ScenerySketching-image6.png
+   :class: codeai-head
+
+:reading-time:
+
+.. goal: about 5min (1000 words)
+.. Now (no sidebars): 911 words (4min)
+
+.. _CodeAI-LSP:
+
+Bridging the odds, with LSP
+===========================
+
+.. .. post:: 2026/05/29
+   :category: ScenerySketching
+   :tags: CodeAI
+   :location: Geldrop
+   :language: en
+
+.. Admonition:: post
+
+    As *CodeAI* makes **mistakes**, code-checking has become even more important. And, it needs to be smarter than
+    traditional “static checkers”.
+
+    Where human developers traditionally make mistakes around syntax details, generated code is often correct on that aspect
+    --but **the reverse** is often true for ‘names’. An engineer will hardly ever call an internal function that does
+    not exist, but CodeAI might use a name, *because* it is often named that way ...
+    |BR|
+    Especially when using hardware-related details, this can become erroneous. Reading register ‘X’ --because that is
+    statically accurate-- may even compile and yield a bit, but when your pin is connected to register ‘Y’, it is the
+    wrong result!
+
+    So, we need a checker that knows these kinds of details about your (teams’) code. And when possible, can *talk* to
+    the CodeAI to provide that kind of detail.  It is possible to connect those ideas, although it is not obvious. We
+    need a few big steps to bridge the gap.
+    |BR|
+    In this article, we introduce `LSP`; later, we will handle the other parts, such as :ref:`MCP <CodeAI-MCP>`.
+
+
+From editors and compilers to LSP
+---------------------------------
+
+Although the Language Server Protocol is an important step to bridge the probabilistic nature of generative AI with the
+need for deterministic quality, it is older than CodeAI. And even before LSP was invented, similar non-generic solutions
+existed.
+|BR|
+Let’s quickly look backward to understand future options.
+
+Originally, a compiler's job was to translate program code to machine code, and nothing more. That code was written (by
+an engineer) in an editor --ideally flawless. Quickly, editors began to back up developers, with syntax highlighting,
+auto-completion, and much more. Back then, that support had to be implemented over and over again, for every editor,
+every language, and even for every language variant.
+|BR|
+Conceptually, compilers could assist --but traditionally they were not designed for that. Modern compilers have that
+ability, but a custom editor-compiler plugin was still needed. A well-known illustration is Clang, which is used in
+Apple’s Xcode to accommodate the programmer. That compiler has a modern, modular architecture, so it can parse and
+inspect code fragments in the editor to give feedback to the developers. And as Clang ‘knows’ many languages, variants
+and options, it uses the same set to give feedback --a great help.
+
+Later, Microsoft went a step further with Visual Studio Code. It developed an open standard on how to connect any ‘IDE’
+with each and every *‘language server’* --any tool that can annotate the code. Not only syntax highlighting, but also
+all available functions, the order and type of the parameters, tricks specific to the selected language variant (like
+C++26), etc. Again, conceptually, that is available in a compiler, but any tool is allowed --even spell-checkers (mostly
+for comments and strings).
+
+In short, LSP was designed to support human developers about half a dozen years before CodeAI arose.
+
+LSP provides accurate predictability
+------------------------------------
+
+In many ways, editors have become much smarter. Nowadays, an editor can complete a name when it has seen the first few
+keystrokes, check the types, and mark function calls it does not know --just by parsing the internal interfaces. When
+you update the code, it will see that immediately.
+|BR|
+LSP boosted this, as one only has to write such a ‘server’ once. Then, any editor (when it supports LSP) can use that
+server. Note: that ‘server’ is run *locally*, as a sub-process of the editor --not as a remote “cloud solution”.
+
+The consolidation of editor, LSP, and language-servers gives the engineer much more feedback and raises the
+productivity --this all without CodeAI. The process is completely deterministic. When the abstract ``FileObject``
+defines ``write``, the server/editor knows that this method is available for all subclasses. As it reads the same code
+as you, it knows about registers ``X`` and ``Y``, and it helps you to code it right.
+|BR|
+Many engineers use this daily: it is quick and mostly active in the background.  Maybe you are not even aware.
+Presumably, your editor displays ‘ghost text’ with type annotations, or shows a pop-up with optional completions --all
+small aids that make you more productive and prevent hasty mistakes.
+
+LSP used to be a “hidden” interface; known only by designers of those language servers, and by the programmers of the
+editors. The objective used to be to develop developer-tools efficiently. And, indirectly, providing developers with
+accurate, up-to-date, and trustworthy information.
+|BR|
+That is changing; the focus may shift ...
+
+
+
+CodeAI is great, on average
+----------------------------
+
+The world is changing; many believe that *bots* will soon do most of the coding.
+|BR|
+This resembles the paradigm shift early in the second half of the last century.  Until then, “programming” was writing
+assembly. Compilers changed that; they generated the (assembly) “code”. Many believed that soon computers could
+understand plain English, and software engineering was a decaying profession. Indeed, when we compare ‘C’ (1972) to
+assembly, it’s *Almost* English...
+|BR|
+Still, the number of SW-designers has doubled every 3 to 5 years, and the number of technical SW-Engineers has grown
+even faster.
+
+Surely, software written by those young, artificial coworkers should have the same quality as expected by the
+users. Which differs by the domain. For :term:`sovereign software`, this is typically above average. Technical software
+is either wrong or right, with little or no margin.  Besides, many embedded systems need to be verified against their
+technical specifications --“usually correct” will not do!
+
+Another point of attention is the lifespan of the software as embedded software can exist for 15, 30, and even 50
+years. This implies that some code we have to maintain today was initiated before many of the current
+developers were born. And other parts will be maintained, long after you retire!
+|BR|
+For us, *code quality* used to be very important. “Clean code” is not about flawless software; it gives us
+maintainability and prevents bugs in the next few decades.
+
+CodeAI is changing how we look at ‘code’; it’s a great tool. Maybe we can finally program in “Almost English”.
+|BR|
+But, *M*\odern *E*\ngineering of *S*\overeign *S*\oftware is also about quality, around reliability, and consistently
+right. *Probabilistic greatness* will not do, we have require certainty --do we read always the right pin?
+
+How do we mix a tool based on a statistical process with a deterministic outcome? And,  how check that we  can maintain that
+code, when a new wave of tools arises?
+
+
+Overarching: statistical & proven
+---------------------------------
+
+The “*old*” LSP protocol has proven its use. It can check any code for consistency and is fully deterministic.
+|BR|
+It does not matter who wrote the code, a human or a bot. With LSP, it is easy to check. LSP doesn’t even require an
+*editor*; any tool can retrieve accurate, current information from *language servers*. Writing such a server is
+relatively easy, and many free/open versions are available.
+
+We can, conceptually, even go a step further. Using LSP, the LLM can chat with your local language server, which provides
+the latest, stable interface of your software. Ask it for available functions, retrieving type information, and even
+artificially annotated function calls, and immediately improve them --before presenting the code to the (human) users!
+
+*Conceptually?* **Yes!** As far as I know, this isn't common.
+|BR|
+The LLM's architecture differs a bit from how humans work with editors, and isn't very suited to *speak* via LSP. But most
+LLMs can speak :ref:`MCP <CodeAI-MCP>`, which can act as a “bridge” to LSP. We will discuss that in another (upcoming)
+article. Stay tuned! --ALbert
+
+
+==================
+
+.. .. seealso::
+
+   * https://share.google/aimode/BtIhfFOhkJsfuFxdf
+   * https://en.wikipedia.org/wiki/Language_Server_Protocol
+
+..  LocalWords:  Xcode LSP fileobject LLM LLMs APIs ManagerAgent subclasses FileObject

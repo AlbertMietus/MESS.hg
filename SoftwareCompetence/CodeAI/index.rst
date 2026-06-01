@@ -10,7 +10,7 @@ Scenery Sketching:: CodeAI
    :glob:
    :titlesonly:
 
-   *
+   [0-9]*
 
 
 --------
