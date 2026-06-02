@@ -1,3 +1,5 @@
+.. Copyright (C) ALbert Mietus; 2026
+
 .. image:: ScenerySketching-image6.png
    :class: codeai-head
 
@@ -6,7 +8,7 @@
 Document your thoughts (with gptel)
 ===================================
 
-.. post:: 2026/05/19
+.. post:: 		
    :category: ScenerySketching
    :tags: CodeAI
    :location: Geldrop

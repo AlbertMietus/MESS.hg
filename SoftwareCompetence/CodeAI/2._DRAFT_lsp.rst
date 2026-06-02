@@ -1,40 +1,60 @@
+.. Copyright (C) ALbert Mietus; 2026
+
 .. image:: ScenerySketching-image6.png
    :class: codeai-head
 
 :reading-time:
-
-.. goal: about 5min (1000 words)
-.. Now (no sidebars): 911 words (4min)
 
 .. _CodeAI-LSP:
 
 Bridging the odds, with LSP
 ===========================
 
-.. .. post:: 2026/05/29
+.. post:: 		
    :category: ScenerySketching
    :tags: CodeAI
    :location: Geldrop
    :language: en
 
-.. Admonition:: post
+   As CodeAI makes *mistakes*, code-checking has become even more important. And, it needs to be smarter than
+   traditional “static checkers”.  Where human developers traditionally make mistakes around syntax details, generated
+   code is often correct on that aspect --but **the reverse** is often true for ‘names’. An engineer will hardly ever
+   call an internal function that does not exist, but CodeAI might use a name, *because* it is often named that way ...
+   |BR|
+   Especially when using hardware-related details, this can become erroneous. Reading register ‘X’ --because that is
+   statically accurate-- may even compile and yield a bit, but when your pin is connected to register ‘Y’, it is the
+   wrong result!
 
-    As *CodeAI* makes **mistakes**, code-checking has become even more important. And, it needs to be smarter than
-    traditional “static checkers”.
+   So, we need a checker that knows these kinds of details about your (teams’) code. And when possible, can *talk* to
+   the CodeAI to provide that kind of detail.  It is possible to connect those ideas, although it is not obvious. We
+   need a few big steps to bridge the gap.
+   |BR|
+   In this article, we introduce `LSP`; later, we will handle the other parts, such as :ref:`MCP <CodeAI-MCP>`.
 
-    Where human developers traditionally make mistakes around syntax details, generated code is often correct on that aspect
-    --but **the reverse** is often true for ‘names’. An engineer will hardly ever call an internal function that does
-    not exist, but CodeAI might use a name, *because* it is often named that way ...
-    |BR|
-    Especially when using hardware-related details, this can become erroneous. Reading register ‘X’ --because that is
-    statically accurate-- may even compile and yield a bit, but when your pin is connected to register ‘Y’, it is the
-    wrong result!
+.. include:: ./sidebar-ScenerySketching.irst
 
-    So, we need a checker that knows these kinds of details about your (teams’) code. And when possible, can *talk* to
-    the CodeAI to provide that kind of detail.  It is possible to connect those ideas, although it is not obvious. We
-    need a few big steps to bridge the gap.
-    |BR|
-    In this article, we introduce `LSP`; later, we will handle the other parts, such as :ref:`MCP <CodeAI-MCP>`.
+.. sidebar:: Maps & Milestones
+   :class: sidebar-ScenerySketching
+
+   Initially, I was completely unaware of LSP --it simply did not exist when I was writing lots of real-time embedded
+   code. My favorite editor did provide the same features, but written as Elisp plugins.
+
+   When I started experimenting with CodeAI, I found it hard to connect those features with *ghost-code*. And GenAI kept
+   repeating “use LSP” ...
+   |BR|
+   Asking around, it showed that many mature engineers didn't know the term --a good reason to write this article.
+
+   **LSP** became an open standard in 2016; in the same year, an early Emacs plugin became available (`lsp-mode`). Which
+   is superseded by `eglot`, which started in 2018, and part of Emacs since 2024.
+   |BR|
+   *Eglot* is a typical Emacs feature. It just does its job in the background --as LSP is intended.
+
+   The Emacs developers silently follow the new LSP specification. And gradually replace long-standing built-in features
+   by LSP-driven variants --like code-highlighting.  Now, many modes use ‘tree-sitters’ where the language-servers take
+   over the intelligence that used to be built-in *(look for ‘ts’ in the names)*.
+
+   Another nice advantage of `eglot` is that it runs concurrently with a *‘MCP’-package* in Emacs And you **need**
+   :term:`MCP` --more on that in an :ref:`upcoming article <MCP>`.
 
 
 From editors and compilers to LSP
@@ -81,7 +101,7 @@ defines ``write``, the server/editor knows that this method is available for all
 as you, it knows about registers ``X`` and ``Y``, and it helps you to code it right.
 |BR|
 Many engineers use this daily: it is quick and mostly active in the background.  Maybe you are not even aware.
-Presumably, your editor displays ‘ghost text’ with type annotations, or shows a pop-up with optional completions --all
+Presumably, your editor displays ‘ghost-code’ with type annotations, or shows a pop-up with optional completions --all
 small aids that make you more productive and prevent hasty mistakes.
 
 LSP used to be a “hidden” interface; known only by designers of those language servers, and by the programmers of the
@@ -153,4 +173,4 @@ article. Stay tuned! --ALbert
    * https://share.google/aimode/BtIhfFOhkJsfuFxdf
    * https://en.wikipedia.org/wiki/Language_Server_Protocol
 
-..  LocalWords:  Xcode LSP fileobject LLM LLMs APIs ManagerAgent subclasses FileObject
+..  LocalWords:  Xcode LSP fileobject LLM LLMs APIs ManagerAgent subclasses FileObject elisp Eglot

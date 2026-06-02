@@ -1,3 +1,5 @@
+.. Copyright (C) ALbert Mietus; 2026
+
 .. image:: ScenerySketching-image6.png
    :class: codeai-head
 
