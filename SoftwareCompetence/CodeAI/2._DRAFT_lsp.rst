@@ -3,7 +3,8 @@
 .. image:: ScenerySketching-image6.png
    :class: codeai-head
 
-:reading-time:
+:reading-time: 5-6 min
+.. 1200 words ex sidebar (a bit long)
 
 .. _CodeAI-LSP:
 
@@ -26,7 +27,7 @@ Bridging the odds, with LSP
    wrong result!
 
    So, we need a checker that knows these kinds of details about your (teams’) code. And when possible, can *talk* to
-   the CodeAI to provide that kind of detail.  It is possible to connect those ideas, although it is not obvious. We
+   the CodeAI to contribute that kind of detail.  It is possible to connect those ideas, although it is not obvious. We
    need a few big steps to bridge the gap.
    |BR|
    In this article, we introduce `LSP`; later, we will handle the other parts, such as :ref:`MCP <CodeAI-MCP>`.
@@ -44,8 +45,8 @@ Bridging the odds, with LSP
    |BR|
    Asking around, it showed that many mature engineers didn't know the term --a good reason to write this article.
 
-   **LSP** became an open standard in 2016; in the same year, an early Emacs plugin became available (`lsp-mode`). Which
-   is superseded by `eglot`, which started in 2018 and has been a part of Emacs since 2024.
+   **LSP** became an open standard in 2016; in the same year, an early Emacs plugin became available (`lsp-mode`). Now
+   superseded by `eglot`, which started in 2018 and has been a part of Emacs since 2023.
    |BR|
    *Eglot* is a typical Emacs feature. It just does its job in the background --as LSP is intended.
 
@@ -53,8 +54,8 @@ Bridging the odds, with LSP
    by LSP-driven variants --like code-highlighting.  Now, many modes use ‘tree-sitters’ where the language-servers take
    over the intelligence that used to be built-in *(look for ‘ts’ in the names)*.
 
-   Another nice advantage of `eglot` is that it runs concurrently with any *‘MCP’-package* in Emacs. You **need**
-   :term:`MCP` --as we will see in  an :ref:`upcoming article <MCP>`.
+   Another nice advantage of `eglot` is that it runs concurrently with any *‘MCP’-package* in Emacs, see 
+   :ref:`an upcoming article <MCP>`.
 
 
 From editors and compilers to LSP
@@ -137,40 +138,33 @@ other parts will be maintained, long after you retire!
 For us, *code quality* used to be very important. “Clean code” is not about flawless software; it brings
 maintainability and prevents bugs for the next few decades.
 
-CodeAI is changing how we look at ‘code’; it’s a great tool. Maybe we can finally program in “Almost English”.
+
+Statistically proven
+--------------------
+
+CodeAI is changing how we look at ‘code’; maybe we can finally program in “Almost English”.  But, ... *it makes
+mistakes*, and we require certainty. Code that mostly uses register ``Y`` and *only* at one place uses pin ``X`` isn't
+almost right, it's wrong! We can’t blame the LLM for that; it just doesn't know the names we use.
 |BR|
-*M*\odern *E*\ngineering of *S*\overeign *S*\oftware is also about quality, about reliability, and about being consistently
-right. *Probabilistic greatness* will not do; we require certainty --do we always ``read`` the right pin?
+Remember: an LLM stops “learning” when it is released. It will only “know” your code when it's available in the
+*training phase* --not an option when it isn't open-source. But even then, it knows only the old code!
 
-How do we mix a tool based on a statistical process with a deterministic outcome?  Can we maintain that
-code when a new wave of tools arises? Are you sure?
-
-
-Overarching: statistical & proven
----------------------------------
-
-The “*old*” LSP protocol has proven its use. It can check any code for consistency and is fully deterministic.
+So, our LLM needs a bit of help. To prevent it from using a statistical approach (aka *guessing*), it should have access to
+your code. Conceptually, you can add all your code as *context* --but that’s overkill. A more meticulous procedure would
+be beneficial.
 |BR|
-It does not matter who wrote the code, a human or a bot. With LSP, it is easy to check. LSP doesn’t even require an
-*editor*; any tool can retrieve accurate, current information from *language servers*. Writing such a server is
-relatively easy, and many free/open versions are available.
+The *old* LSP protocol has proven its use. It is fully deterministic, has ‘life’ access to the current version, and
+*understands* the code at a high abstraction level. Also, it only demands a fragment of the code to contribute the info
+that is needed, as is statistically proven by the billions of queries that LSP handles daily.
 
-We can, conceptually, even go a step further. Using LSP, the LLM can chat with your local language server, which provides
-the latest, stable interface of your software. Ask it for available functions, retrieving type information, and even
-artificially annotated function calls, and immediately improve them --before presenting the code to the (human) users!
-
-*Conceptually?* **Yes!** As far as I know, this isn't common.
+Unfortunately, the architecture of an LLM prevents it from speaking LSP directly. Maybe I will dive into that later, but
+for now, remember we need an extra step to bridge the gap, just because bots and humans code differently.
 |BR|
-The LLM's architecture differs a bit from how humans work with editors, and isn't very suited to *speak* via LSP. But most
-LLMs can speak :ref:`MCP <CodeAI-MCP>`, which can act as a “bridge” to LSP. We will discuss that in another (upcoming)
-article. Stay tuned! --ALbert
+Ignoring that, LSP can provide the fine points and factual details that an LLM is missing.
+
+That is why we need to comprehend LSP before we can study :ref:`MCP <CodeAI-MCP>`. See you soon, plz keep using own synapses --ALbert
 
 
-==================
 
-.. .. seealso::
 
-   * https://share.google/aimode/BtIhfFOhkJsfuFxdf
-   * https://en.wikipedia.org/wiki/Language_Server_Protocol
 
-..  LocalWords:  Xcode LSP fileobject LLM LLMs APIs ManagerAgent subclasses FileObject elisp Eglot
