@@ -45,7 +45,7 @@ Bridging the odds, with LSP
    Asking around, it showed that many mature engineers didn't know the term --a good reason to write this article.
 
    **LSP** became an open standard in 2016; in the same year, an early Emacs plugin became available (`lsp-mode`). Which
-   is superseded by `eglot`, which started in 2018, and part of Emacs since 2024.
+   is superseded by `eglot`, which started in 2018 and part of Emacs since 2024.
    |BR|
    *Eglot* is a typical Emacs feature. It just does its job in the background --as LSP is intended.
 
@@ -72,10 +72,10 @@ auto-completion, and much more. Back then, that support had to be implemented ov
 every language, and even for every language variant.
 |BR|
 Conceptually, compilers could assist --but traditionally they were not designed for that. Modern compilers have that
-ability, but a custom editor-compiler plugin was still needed. A well-known illustration is Clang, which is used in
-Apple’s Xcode to accommodate the programmer. That compiler has a modern, modular architecture, so it can parse and
-inspect code fragments in the editor to give feedback to the developers. And as Clang ‘knows’ many languages, variants
-and options, it uses the same set to give feedback --a great help.
+ability, but a custom editor-compiler plugin was still needed. A well-known example is Clang, which is used in
+Apple’s Xcode to assist the programmer. That compiler has a modern, modular architecture, so it can parse and
+inspect code fragments in the editor to give feedback to the developers. Clang ‘knows’ many languages, and all
+variants and options, and uses the same set to give feedback --a great help.
 
 Later, Microsoft went a step further with Visual Studio Code. It developed an open standard on how to connect any ‘IDE’
 with each and every *‘language server’* --any tool that can annotate the code. Not only syntax highlighting, but also
@@ -120,30 +120,30 @@ The world is changing; many believe that *bots* will soon do most of the coding.
 This resembles the paradigm shift early in the second half of the last century.  Until then, “programming” was writing
 assembly. Compilers changed that; they generated the (assembly) “code”. Many believed that soon computers could
 understand plain English, and software engineering was a decaying profession. Indeed, when we compare ‘C’ (1972) to
-assembly, it’s *Almost* English...
+assembly, it’s *almost English*...
 |BR|
 Still, the number of SW-designers has doubled every 3 to 5 years, and the number of technical SW-Engineers has grown
 even faster.
 
-Surely, software written by those young, artificial coworkers should have the same quality as expected by the
-users. Which differs by the domain. For :term:`sovereign software`, this is typically above average. Technical software
-is either wrong or right, with little or no margin.  Besides, many embedded systems need to be verified against their
-technical specifications --“usually correct” will not do!
+Surely, software written by those young, artificial coworkers should still have the same quality as before, and as
+expected by users. Which differs by the domain. For :term:`sovereign software`, this is typically above
+average. Technical software is either wrong or right, with little or no margin.  Besides, many embedded systems need to
+be verified against their technical specifications --“usually correct” will not do!
 
-Another point of attention is the lifespan of the software as embedded software can exist for 15, 30, and even 50
-years. This implies that some code we have to maintain today was initiated before many of the current
-developers were born. And other parts will be maintained, long after you retire!
+Another point of attention is the lifespan of the software --embedded software can exist for 15, 30, and even 50
+years. This implies that some code maintained today was crafted before many of the current developers were born. And
+other parts will be maintained, long after you retire!
 |BR|
-For us, *code quality* used to be very important. “Clean code” is not about flawless software; it gives us
-maintainability and prevents bugs in the next few decades.
+For us, *code quality* used to be very important. “Clean code” is not about flawless software; it brings
+maintainability and prevents bugs for the next few decades.
 
 CodeAI is changing how we look at ‘code’; it’s a great tool. Maybe we can finally program in “Almost English”.
 |BR|
-But, *M*\odern *E*\ngineering of *S*\overeign *S*\oftware is also about quality, around reliability, and consistently
-right. *Probabilistic greatness* will not do, we have require certainty --do we read always the right pin?
+*M*\odern *E*\ngineering of *S*\overeign *S*\oftware is also about quality, about reliability, and about being consistently
+right. *Probabilistic greatness* will not do; we require certainty --do we always ``read`` the right pin?
 
-How do we mix a tool based on a statistical process with a deterministic outcome? And,  how check that we  can maintain that
-code, when a new wave of tools arises?
+How do we mix a tool based on a statistical process with a deterministic outcome?  Can we maintain that
+code when a new wave of tools arises? Are you sure?
 
 
 Overarching: statistical & proven
