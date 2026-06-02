@@ -45,7 +45,7 @@ Bridging the odds, with LSP
    Asking around, it showed that many mature engineers didn't know the term --a good reason to write this article.
 
    **LSP** became an open standard in 2016; in the same year, an early Emacs plugin became available (`lsp-mode`). Which
-   is superseded by `eglot`, which started in 2018 and part of Emacs since 2024.
+   is superseded by `eglot`, which started in 2018 and has been a part of Emacs since 2024.
    |BR|
    *Eglot* is a typical Emacs feature. It just does its job in the background --as LSP is intended.
 
@@ -53,8 +53,8 @@ Bridging the odds, with LSP
    by LSP-driven variants --like code-highlighting.  Now, many modes use ‘tree-sitters’ where the language-servers take
    over the intelligence that used to be built-in *(look for ‘ts’ in the names)*.
 
-   Another nice advantage of `eglot` is that it runs concurrently with a *‘MCP’-package* in Emacs And you **need**
-   :term:`MCP` --more on that in an :ref:`upcoming article <MCP>`.
+   Another nice advantage of `eglot` is that it runs concurrently with any *‘MCP’-package* in Emacs. You **need**
+   :term:`MCP` --as we will see in  an :ref:`upcoming article <MCP>`.
 
 
 From editors and compilers to LSP
@@ -105,7 +105,7 @@ Presumably, your editor displays ‘ghost-code’ with type annotations, or show
 small aids that make you more productive and prevent hasty mistakes.
 
 LSP used to be a “hidden” interface; known only by designers of those language servers, and by the programmers of the
-editors. The objective used to be to develop developer-tools efficiently. And, indirectly, providing developers with
+editors. The objective used to be to develop developers-tools efficiently. And, indirectly, providing developers with
 accurate, up-to-date, and trustworthy information.
 |BR|
 That is changing; the focus may shift ...
