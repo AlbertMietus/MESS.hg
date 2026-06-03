@@ -115,4 +115,31 @@ A) de cirkel rond maakt. Het moet de vraag van de lead (of 1ste kopje) beantwoor
 B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende blogs/artikelen
 
 
-See you soon, plz keep using own synapses --ALbert
+See you soon; keep using your own synapses too--ALbert
+
+=========
+
+Em/En dashes
+------------
+
+* Sphinx converts ``---`` to an em-dash, the longer of the two; and ``--`` to the en-dash
+* We use em-dash (except for ranges)
+
+  - To break/connect a line *(dramatically)*: without spaces: ``xxxx---yyyy``
+  - Between parenthesis: a space before “ (“ and after “) ”:  ``xxx ---tussen haakjes--- yyy``
+  - When “tussen haakjes” is at the end of the line, the trailing one is missing. Use a dot: ``xxx ---no end haak.``
+
+* When in doubt: use no spaces!
+* The “tag” ``too --- ALbert`` has spaces before and after.
+  
+
+.. seealso::
+
+   Sphinx::smartquotes
+     - default: `qDe` (D: Convert dashes (old school) (convert -- to en-dashes and --- to em-dashes)
+     - https://www.sphinx-doc.org/en/master/usage/configuration.html
+
+   em-dashes vs en-dashes
+      - https://share.google/aimode/oEn0l83UGHJUhvaiz
+      - https://www.merriam-webster.com/grammar/em-dash-en-dash-how-to-use
+   
