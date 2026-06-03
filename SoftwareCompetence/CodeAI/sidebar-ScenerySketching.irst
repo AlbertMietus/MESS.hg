@@ -8,26 +8,26 @@
    .. Zo'n 160 woorden -- komt terug in elke blog
 
    Software engineers use interfaces such as APIs.
-   But also meta-interfaces -- like your editor;
+   But also meta-interfaces---like your editor;
    it’s the interface between the team and
    the code it produces. That meta-interface
    determines how *efficiently* you work.
 
    Every AI provider promises new “silver bullets”
-   to make coding trivial. But, does it work --
-   outside the trivial examples they show? Does it
-   work for us?
+   to make coding trivial. But, does it work,
+   outside the trivial examples they show? Does
+   it work for us?
    |BR|
    Or should we stick to our familiar, trusted gear
    for the embedded, sovereign software we work on?
    |BR|
-   Like our electrical coworkers – even though AI
+   Like our electrical coworkers---even though AI
    can generate diagrams, I have never seen a PCB
-   design made by AI …
+   design made by AI ...
 
    We can't deny CodeAI is coming. The question is,
    can we use it to become more efficient? Or will
-   mastering them consume more time than they can
+   mastering it consume more time than they can
    ever save you?
 
    In this :ref:`series <ScenerySketching_CodeAI>`,
