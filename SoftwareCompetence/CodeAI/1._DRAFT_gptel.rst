@@ -15,7 +15,7 @@ Document your thoughts (with gptel)
    :language: en
 
    Many teams use AI to “type faster”, either by using tools that produce *ghost code* or by practicing *vibe
-   coding*. But “building `sovereign software`” isn’t like building a house—where high-speed brick-laying does
+   coding*. But “building :term:`sovereign software`” isn’t like building a house—where high-speed brick-laying does
    shorten takt time.  Determining “what” the (embedded) system should do and “how” the (technically complex)
    software should interact takes a significant amount of time.
    |BR|

@@ -17,7 +17,7 @@ Glossary
       essential to build that software – this can include the ‘compiler’ and even influence the selected programming
       language.
 
-      Nowadays, *‘geopolitical sovereignty’* makes this topic even more relevant. E.g. the EU is stimulating that
+      Nowadays, **‘geopolitical sovereignty’** makes this topic even more relevant. E.g. the EU is stimulating that
       software (and especially data) does not depend on foreign administrations, nor cross borders.
       |BR|
       Apparently, the trust in former allies has shrunken.
