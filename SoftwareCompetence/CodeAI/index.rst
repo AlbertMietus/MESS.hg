@@ -1,6 +1,48 @@
 .. image:: ScenerySketching-image6.png
       :width: 100%
 
+.. sidebar:: Interfaces
+   :class: sidebar-ScenerySketching
+
+   An architect concentrates on interfaces: technical interfaces, such as *“What is done by hardware and what in
+   software”* ---which should be driven by economics anyhow. And many others.
+   |BR|
+   Here we focus on a very interesting other kind of ‘intersection’: The interface between humans and tools. I call it
+   a **“meta-interface”**.
+
+   Developers work with *tools* and *process*. **‘CodeAI’** may shift that (meta)-interface to make development more
+   efficient. But only when we understand the options, and design that interface correctly, we will get the change we
+   want. 
+   |BR|
+   That is one reason to study, and blog, about it.
+
+   But there are more reasons...
+
+.. sidebar:: Sovereignty
+   :class: sidebar-ScenerySketching
+
+   The AI tech- bros promote their all-in-one solutions, making us vulnerable to vendor lock-in. Sometimes that is
+   fine, sometimes it's not.
+   |BR|
+   In all cases it should be a deliberate choice -- and we should be able to change that later.
+
+   Again, the demands that we understand the parts, and how we can mix them.
+
+.. sidebar:: Team Building
+   :class: sidebar-ScenerySketching
+
+   As a symbolic spot on the horizon, I aim to build a team of “CodeAI bots” that build “`CCastle
+   <https://docideas.mietus.nl/en/default/CCastle>`__”. CCastle is one of my other side-projects -- and a bit ambitious:
+   workshop-tools ---like compilers--- for a new language, based on ‘CC’ ---the successor of  ‘OO’ ...
+   |BR|
+   So, Yes, I can use some help.
+
+   Comparing it to a real (commercial, research) project --where I would select/build a team of real engineers-- I try
+   to do the same with bots ...
+   |BR|
+   Will it work? Probably not. But I will try, and learn (and blog).
+
+
 .. _ScenerySketching_CodeAI:
 
 Scenery Sketching:: CodeAI
@@ -9,42 +51,25 @@ Scenery Sketching:: CodeAI
 The software world is changing rapidly. Some believe that bots will take over coding. Others see **(gen)AI** as a
 threat, pointing mainly to the amount of energy it consumes or to the risk that computers will supersede humans. Those
 are all big words, and to me, they are mostly driven by fear and marketing.
+
+In this series I will sketch the scenery around “CodeAI”. What are the options, what the interfaces, and *(how)* can it
+help? I will focus on engineering complicated, technical software systems.
 |BR|
 Looking to history, all big changes have come with huge promises and burdens. Seldom were those judgments based on
 facts --- it was simply too early to call. In due time, we will see the debate on ‘CodeAI’ in the same way. But, how can
 we reason about that future today?
-
-.. sidebar:: Build a virtual Team
-   :class: sidebar-ScenerySketching
-
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna
-   aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-   pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-   laborum.
-
-   Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-   eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-   voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-   voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-   velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-
-   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-   irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-   cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. (200 words)
-
-Doubtless, some simple coding work can be automated -- this is a normal way forward, as we like to “automate”. But software
-engineering is more than writing code, a lot more. In particular for :term:`sovereign software` ---which includes
-software for embedded systems--- ‘engineering’ is *thinking*: Understanding the needs, grasping the possibilities of the
-hardware, comparing the options, and aligning it with others takes a big part of our time. When we comprehend all that,
-writing the code is almost trivial --- personally, I’m glad when I don’t have to do that.
-
-But, I don’t know! However, I have the skills to investigate. Using my ‘HAL’ approach, I will look to the options,
-examen the new *(meta)* **interfaces* and share this ‘blue print’. I hope it helps me -- and you-- to sketch the future
-a bit better. Still gambling, but now with a few facts.
 |BR|
-Feel free to disagree, share your ideas below every post, and to request new “topics” in the comment field below.
+Doubtless, some simple coding work can be automated -- this is a normal way forward, as we like to “automate”.
 
+But software engineering is more than writing code, a lot more. In particular for “:term:`sovereign software`” ---which
+includes embedded software--- ‘engineering’ is *thinking*: Understanding the needs, grasping the possibilities of the
+hardware, comparing the options, and aligning it with others, takes most of our time. When we comprehend all that,
+writing the code is almost trivial. Personally, I’m glad when bots can do the boring parts.
+
+Remember, we might be at the dawn of big changes ahead. I can’t predict the future. But, I have the skills to
+investigate. I will look to the options, examine the new *(meta)* **interfaces** and share this ‘blueprint’. I hope it
+helps me -- and you-- to sketch the future a bit better. Still, we are navigating uncertainty, but now with a few facts.
+|BR| Feel free to disagree, share your ideas below every post, and to request new “topics” in the comment field below.
 
 
 .. toctree::
@@ -53,3 +78,5 @@ Feel free to disagree, share your ideas below every post, and to request new “
 
    [0-9]*
 
+
+..  LocalWords:  CCastle
