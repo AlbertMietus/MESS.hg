@@ -1,34 +1,46 @@
 .. image:: ScenerySketching-image6.png
       :width: 100%
 
-                            
-                            
-                            
-                            
-
-.. sidebar:: Text for in een sidebar?
-
-   * I will focus on engineering complicated, technical software systems.
-   * are the interfaces, and *(how)* can it help?
-                            
-                            
-                            
-.. sidebar:: Interfaces
+.. sidebar:: CodeAI: The Architect’s View
    :class: sidebar-ScenerySketching
 
-   An architect concentrates on interfaces: technical interfaces, such as *“What is done by hardware and what in
-   software”* ---which should be driven by economics anyhow. And many others.
-   |BR|
-   Here we focus on a very interesting other kind of ‘intersection’: The interface between humans and tools. I call it
-   a **“meta-interface”**.
+   Software engineers are accustomed to interfaces like APIs. But we must also master the **‘meta-interface’**: the way
+   our tools and workflows dictate our output. If our IDE is the interface between the team and the code, CodeAI is a
+   radical shift in that boundary.
 
-   Developers work with *tools* and *process*. **‘CodeAI’** may shift that (meta)-interface to make development more
-   efficient. But only when we understand the options, and design that interface correctly, we will get the change we
-   want. 
+   AI providers like to sell there "silver bullets", but do they fit our requirements?  :term:`Sovereign software` is
+   about control! No matter how complex an embedded system is, we are responsible for every detail. Not only of the code,
+   but also of the system and the process to craft it.
    |BR|
-   That is one reason to study, and blog, about it.
+   For example in regulated domains (healthcare/automotive), AI-generated code" is a liability unless it can be
+   audited. Often (like in is defense), there are very strict rules on handing code “exporting” it can be illegal
 
-   But there are more reasons...
+   My perspective is to treat CodeAI not as a replacement, but as an tool. It can help, but only when we understand it.
+
+.. sidebar:: Engineering
+   :class: sidebar-ScenerySketching
+
+   GenAI can also images, but are our electrical colleagues are using them to generate PCB designs? Surely not!
+   Engineering is more then a rush to the outcome. We need to thing, to understand, to engineer.
+
+
+
+.. sidebar:: Maps & Milestones
+   :class: sidebar-ScenerySketching
+
+   This series is a technical lab report, not a marketing pitch. As we integrate CodeAI into our toolchain, we face two
+   non-negotiable constraints:
+
+   #. **Auditability:** In regulated domains, a "black box" is a liability. We will explore how to retain full
+      sovereignty and code transparency.
+   #. **Independence:** We must avoid vendor lock-in. Our goal is to leverage AI without sacrificing our autonomy over
+      training data or architectural choice.
+
+   Throughout this series, I will test these tools against the reality of building complex embedded software—starting
+   with my own projects like `CCastle <https://docideas.mietus.nl/en/default/CCastle>`__.
+
+
+
 
 .. sidebar:: Sovereignty
    :class: sidebar-ScenerySketching
