@@ -88,7 +88,7 @@ You can also find the last ones in the navigation bar (:ref:`Recent Posts <blog-
    :glob:
    :titlesonly:
 
-   [0-9]*
+   [0-9][0-9]*
 
 Cooperation
 -----------
