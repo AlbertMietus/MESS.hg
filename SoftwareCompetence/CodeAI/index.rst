@@ -1,77 +1,40 @@
 .. image:: ScenerySketching-image6.png
       :width: 100%
 
-.. sidebar:: CodeAI: The Architect’s View
-   :class: sidebar-ScenerySketching
-
-   Software engineers are accustomed to interfaces like APIs. But we must also master the **‘meta-interface’**: the way
-   our tools and workflows dictate our output. If our IDE is the interface between the team and the code, CodeAI is a
-   radical shift in that boundary.
-
-   AI providers like to sell there "silver bullets", but do they fit our requirements?  :term:`Sovereign software` is
-   about control! No matter how complex an embedded system is, we are responsible for every detail. Not only of the code,
-   but also of the system and the process to craft it.
-   |BR|
-   For example in regulated domains (healthcare/automotive), AI-generated code" is a liability unless it can be
-   audited. Often (like in is defense), there are very strict rules on handing code “exporting” it can be illegal
-
-   My perspective is to treat CodeAI not as a replacement, but as an tool. It can help, but only when we understand it.
-
-.. sidebar:: Engineering
-   :class: sidebar-ScenerySketching
-
-   GenAI can also images, but are our electrical colleagues are using them to generate PCB designs? Surely not!
-   Engineering is more then a rush to the outcome. We need to thing, to understand, to engineer.
-
-
+.. include:: ./sidebar-ScenerySketching.irst
 
 .. sidebar:: Maps & Milestones
    :class: sidebar-ScenerySketching
 
-   This series is a technical lab report, not a marketing pitch. As we integrate CodeAI into our toolchain, we face two
-   non-negotiable constraints:
-
-   #. **Auditability:** In regulated domains, a "black box" is a liability. We will explore how to retain full
-      sovereignty and code transparency.
-   #. **Independence:** We must avoid vendor lock-in. Our goal is to leverage AI without sacrificing our autonomy over
-      training data or architectural choice.
-
-   Throughout this series, I will test these tools against the reality of building complex embedded software—starting
-   with my own projects like `CCastle <https://docideas.mietus.nl/en/default/CCastle>`__.
-
-
-
-
-.. sidebar:: Sovereignty
-   :class: sidebar-ScenerySketching
-
-   The AI tech- bros promote their all-in-one solutions, making us vulnerable to vendor lock-in. Sometimes that is
-   fine, sometimes it's not.
+   Throughout this series, I will test these concepts against the reality of designing a complex sovereign software
+   product: `CCastle <https://docideas.mietus.nl/en/default/CCastle>`__; another, long-running, ambitious
+   side-project. Here, I’m aiming to build a tool-chain for a new language, based on ‘CC’ ---the successor of ‘OO’. I
+   can indeed use the assistance of a few (artificial) teams.
    |BR|
-   In all cases it should be a deliberate choice -- and we should be able to change that later.
+   Both to code, but mainly to engineer (design, brainstorm, test, ...).
 
-   Again, the demands that we understand the parts, and how we can mix them.
+   As we integrate CodeAI into our generic toolbox, we face some extra non-negotiable constraints, that will need
+   special attention (as they are less obvious for CCastle).
 
-.. sidebar:: Team Building
-   :class: sidebar-ScenerySketching
+   #. **Maintainability**:
+      Big, long living code-bases do change often over time. Every modification has to be checked and traced (see:
+      :ref:`RequirementsTraceability`). Even CodeAI should not change lines, when not needed.
 
-   As a symbolic spot on the horizon, I aim to build a team of “CodeAI bots” that build “`CCastle
-   <https://docideas.mietus.nl/en/default/CCastle>`__”. CCastle is one of my other side-projects -- and a bit ambitious:
-   workshop-tools ---like compilers--- for a new language, based on ‘CC’ ---the successor of  ‘OO’ ...
-   |BR|
-   So, Yes, I can use some help.
+   #. **Auditability**:
+      A "black box" is a liability; especially in regulated domains. But it applies to any commercial software.
+      |BR|
+      This includes questions like: *‘Are we allowed to use this code?’* As CodeAI is usually trained with open-source,
+      whose copyrights might create conflicts.
 
-   Comparing it to a real (commercial, research) project --where I would select/build a team of real engineers-- I try
-   to do the same with bots ...
-   |BR|
-   Will it work? Probably not. But I will try, and learn (and blog).
+   #. **Sovereignty**:
+      The AI tech-bros promote their all-in-one solutions, making us vulnerable to vendor lock-in. Sometimes that is
+      fine, sometimes it's not.
+      |BR|
+      In all cases it should be a deliberate choice -- and we should be able to change that later.
+
 
 
 .. _ScenerySketching_CodeAI:
-
-
-
-
 
 Scenery Sketching:: CodeAI
 ==========================
@@ -80,17 +43,20 @@ The software world is changing rapidly. Some believe that bots will take over co
 threat, pointing to the amount of energy it consumes, or to the risk that computers will supersede humans. Those
 are all big words, and to me, they are mostly driven by fear and marketing.
 
-In this series, I will sketch the “CodeAI” scenery --- at the architectural level. For a moment, we set the great all-in-one solutions of the AI tech-bros aside. To study the options: what are the interfaces, what are the parts and parcels we can use to build complicated, high-tech software systems, using generative AI.
-|BR|
-Our goal is to have options.
+In this series, I will sketch the “CodeAI” scenery --- at the architectural level. For a moment, we set the great
+*all-in-one solutions* of the AI tech-bros aside. To study the options: what are the interfaces, what are the parts and
+parcels we can use to build complicated, high-tech software systems, using generative AI. Our goal is to have
+options --- and we need alternatives.
 
-Sometimes an integrated cloud solution is fine. But what if your software shouldn't leave the premises?  Can we trust
-the output of common “statistical apparatus” when inventing a bespoke embedded system?  Given it involves new hardware and
-software, how likely that it knows all technical details? Will the code be right on average, or fit our system?
+Sometimes, an integrated cloud solution is fine. But what if your software shouldn't leave the premises?  Can we ---when
+inventing a bespoke embedded system--- trust the output of common “statistical apparatus”?  Given it involves new
+hard- and software, how likely is it that “recycling existing code” will comply to our new specifications?
 
-The question is: Can we build a flexible team of bots suited to the technical complications of the embedded systems we build?
+The core question is: Can we build a flexible team of bots suited to the technical complications of the embedded
+systems we build? (And does it speed up development).
 |BR|
 Therefore, we should be able to look under the bonnet ...
+
 
 Architecting the Horizon
 ------------------------
@@ -110,10 +76,12 @@ Remember, we might be at the dawn of big changes ahead. I can’t predict the fu
 investigate. I will look to the options, examine the new *(meta)* **interfaces** and share this ‘blueprint’. I hope it
 helps me -- and you-- to sketch the future a bit better. Still, we are navigating uncertainty, but now with a few facts.
 
-Cooperation
------------
 
-Feel free to disagree, share your ideas below every post, and to request new “topics” in the comments field below.
+Articles
+---------
+
+See below for the current articles, expect more soon.
+You can also find the last ones in the navigation bar (:ref:`Recent Posts <blog-posts>`)
 
 
 .. toctree::
@@ -121,6 +89,11 @@ Feel free to disagree, share your ideas below every post, and to request new “
    :titlesonly:
 
    [0-9]*
+
+Cooperation
+-----------
+
+Feel free to disagree, share your ideas below every post, and to request new “topics” in the comments field below.
 
 
 ..  LocalWords:  CCastle

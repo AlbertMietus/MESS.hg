@@ -2,41 +2,49 @@
    USE AS:
    .. include:: ./sidebar-ScenerySketching.irst
 
-.. sidebar:: ScenerySketching:: CodeAI
+.. sidebar:: CodeAI: The Architect’s View
    :class: sidebar-ScenerySketching
 
-   .. Zo'n 160 woorden -- komt terug in elke blog
+   .. komt terug in elke blog!
 
-   Software engineers use interfaces such as APIs.
-   But also meta-interfaces---like your editor;
-   it’s the interface between the team and
-   the code it produces. That meta-interface
-   determines how *efficiently* you work.
+   Engineers use interfaces, but also
+   ‘**meta-interfaces**’: the tools and processes
+   between the team and the product.  If we see our IDE
+   as an interface, CodeAI could shift that boundary to
+   make engineering more efficient.
 
-   Every AI provider promises new “silver bullets”
-   to make coding trivial. But, does it work,
-   outside the trivial examples they show? Does
-   it work for us?
+   AI works for trivial examples, but does it work for
+   us --- (embedded) engineers?
    |BR|
-   Or should we stick to our familiar, trusted gear
-   for the embedded, :term:`sovereign software` we
-   work on?
+   For instance, even though AI can generate diagrams,
+   I have never seen a PCB design made by AI ...
    |BR|
-   Like our electrical coworkers---even though AI
-   can generate diagrams, I have never seen a PCB
-   design made by AI ...
+   Even CodeAI has to comply with our (meta)
+   requirements.
 
-   We can't deny CodeAI is coming. The question is,
-   can we use it to become more efficient? Or will
-   mastering it consume more time than they can
-   ever save you?
+   :term:`Sovereign software` is about control.  No
+   matter how complex an embedded system is, we are
+   responsible for every detail --- not only for the
+   functionality.   Also the quality of the system
+   and the crafting process, is our responsibility.
+   |BR|
+   For example, in **regulated domains** (*healthcare*,
+   *automotive*, *defense*), AI-generated code is a
+   liability unless it can be audited. Likewise, there
+   are often very strict rules on handling
+   ("exporting") code.
 
-   In this :ref:`series <ScenerySketching_CodeAI>`,
-   I sketch the scenery as a Holistic Architectural
-   Leader, skipping constantly changing details.
+   We can't deny CodeAI is coming. The question is, can
+   we use it to become more efficient?  Or should we
+   stick to our familiar, trusted gear?
 
-   My goal is simple: boost that ‘golden’
-   controlled approach to rocket speed.
-
+   My goal is to treat CodeAI not as a replacement, but
+   as a tool.  This :ref:`series
+   <ScenerySketching_CodeAI>` is like a technical lab
+   report, not a marketing pitch.
+   |BR|
+   My question is simple: How can we use CodeAI while
+   maintaining control as required for the complex
+   systems we build?
 
 ..  LocalWords:  APIs
