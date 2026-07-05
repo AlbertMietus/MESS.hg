@@ -8,7 +8,7 @@
 Document your thoughts (with gptel)
 ===================================
 
-.. post:: 		
+.. post:: 2026/07/05
    :category: ScenerySketching
    :tags: CodeAI
    :location: Geldrop
@@ -28,30 +28,32 @@ Document your thoughts (with gptel)
 .. sidebar:: Maps & Milestones
    :class: sidebar-ScenerySketching
 
-   As an ancient (GNU)Emacs user, I’m happy to experiment with Emacs-gptel, and use that as a
+   As an ancient (GNU)Emacs user, I’m happy to experiment with Emacs-gptel and use it as a
    reference. Installing it is trivial---and most CodeAI tools are happy to help with the details.
    |BR|
-   In general, CodeAI is great for *install-parties*
+   CodeAI is great at supporting “*install sessions*”.
 
-   I used gptel also to discuss the variants for other editors ---with several artificial intellectuals.  They
+   I used gptel to discuss the plug-ins for other editors --- with several artificial intellectuals.  They
    convinced me that there are plenty of options. For each major editor, there are variants that enable chatting and
-   refactoring, in a workflow that is close to the preferred editor.
+   refactoring with a workflow close to the preferred editor style.
    |BR|
    As CodeAI doesn't support artificial emotions, they are perfectly able to promote a competitor :-)
+
+   So, no links today just ask  CodeAI bot!
 
 
 Reason by writing
 -----------------
 
-Even AI knows: to reason, you have to write. By putting your thoughts on paper, or a whiteboard, you quickly discover
+Even AI knows: to reason, you have to write. By putting your thoughts on paper or a whiteboard, you quickly discover
 the real challenges. In this phase, it is not about that perfect drawing---a sketch will do. Besides, unlike reading,
 thinking isn't linear; maybe you start with a hypothesis, analyze it, and find new assumptions. Perhaps you discover a
 perfect solution after a few quick iterations. Or, you will continue circling in a few sprints from now.
 
-To speed up that cycle, you can nowadays chat with AI. That coworker is always available and never displeased as you
+To speed up that cycle, you can nowadays chat with AI. That coworker is always available and never displeased when you
 make the same typo again and again.
 |BR|
-Chats are sometimes seen as scaffolding: a temporary assembly, which falls away once the final code is complete. That
+Chats are sometimes seen as scaffolding: a temporary assembly that falls away once the final code is complete. That
 can be correct for simple, short, self-documenting code. However, our (embedded) systems, *lasting forever*,  also demand
 documentation.
 
@@ -74,7 +76,7 @@ interface tricks me, and I accidentally press ‘`send`’ instead of ‘`newlin
 query/reply-pair, it does pollute the reasoning. Moreover, as LLMs are sensitive to
 positional bias, that distracting part can confuse the LLM in the next rounds.
 |BR|
-Secondly, I tend to ask side-questions in the same chat---who doesn't? Very useful at the moment, but again: it does
+Secondly, I tend to ask side-questions in the same chat---who doesn't? Very useful at the moment, but again, it does
 not lead to clean documentation.
 
 Both are human errors---Or not? Perhaps the interface is just a poor fit for the way we think and design. Aside from
@@ -86,13 +88,13 @@ Even a feature as simple as ‘delete a few lines’ would be more than helpful.
 Refactor your chats
 -------------------
 
-Every engineer knows: code will rot, unless you refactor it. Once in a while, you delete dead code, split a file, and
-work on the structure. Nothing will change, but readability. Sound engineers handle documentation in the same way.
+Every engineer knows: code will rot unless you refactor it. Once in a while, you delete dead code, split a file, and
+work on the structure. Nothing will change but readability. Sound engineers handle documentation in the same way.
 |BR|
-AI-chats are new assets, and clean chats deliver value. Therefore, we should be able to “refactor” ---edit--- our
+AI chats are new assets, and clean chats deliver value. Therefore, we should be able to “refactor” ---edit--- our
 chats. And store them, so they can be reactivated later (maybe in the next sprint, by your coworker).
 |BR|
-Or do we consider chats as temporary---as items without value? Even then, clean chats are cheaper, faster and help
+Or do we consider chats as temporary---as items without value? Even then, clean chats are cheaper, faster, and help
 the LLM to focus.
 
 
@@ -104,19 +106,19 @@ need a small bridge between your editor and the LLM.
 |BR|
 **gptel**, an Emacs extension, provides that. And similar plugins exist for all major (open) editors---see the sidebar.
 
-Ultimately, you work in a buffer: you edit, write words, and restructure. And chat; `gptel` can send the text to the
-configured LLM, and insert the answer. As it works async, you don’t even have to wait.
+Ultimately, you work in a buffer: you edit, write words, and restructure. And chat: `gptel` will send the text to the
+configured LLM and insert the answer. As it works asynchronously, you don’t even have to wait.
 |BR|
 Basically, it’s a chat! One that you control, as it’s your editor.
 
 Now you can delete that “stupid question” ---as well as answers without value. Besides, as it’s structured text (like
-*Markdown*) you can fold sections to keep an overview. Irrelevant (side) questions can be deleted ---or maybe you prefer to
-move them to another, new chat-buffer. I hope I don’t have to explain how to save it, store it in your archive,
-and reopen it again---gptel will save some meta-data to facilitate this (and  you can even edit it).
+*Markdown*), you can fold sections to keep an overview. Irrelevant (side) questions can be deleted ---or maybe you prefer to
+move them to another, new chat buffer. I hope I don’t have to explain how to save it, store it in your archive,
+and reopen it ---gptel will save some metadata to facilitate this (and you can even edit that).
 
-Basically, you have refactored a personal sketch into a team-asset! Your team, and the future you, will be grateful!
+Basically, you have refactored a personal sketch into a team asset! Your team and the future you will be grateful!
 
-In this way we can blend proven gear with new machinery. You hardly have to spend time mastering new tools. And gradually become more
+In this way, we can blend proven gear with new machinery. You hardly have to spend time mastering new tools. And gradually become more
 productive, while keeping control.
 |BR|
 This meta-interface can be extended even more, as we will see in upcoming columns.
