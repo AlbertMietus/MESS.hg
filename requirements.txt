@@ -3,6 +3,6 @@ ablog==0.10.25
 sphinxcontrib-plantuml
 sphinx_needs
 sphinx_rtd_theme
-setuptools
+setuptools>=60.0.0,<70.0.0
 
 
