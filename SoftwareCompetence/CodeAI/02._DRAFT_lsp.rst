@@ -3,29 +3,29 @@
 .. image:: ScenerySketching-image6.png
    :class: codeai-head
 
-:reading-time: 5-6 min
+:reading-time: 7 min
 
 .. _CodeAI-LSP:
 
 Bridging the odds, with LSP
 ===========================
 
-.. post:: 		
+.. post:: 2026/08/09
    :category: ScenerySketching
    :tags: CodeAI
    :location: Geldrop
    :language: en
 
    As CodeAI makes *mistakes*, code-checking has become even more important. And, it needs to be smarter than
-   traditional “static checkers”.  Where human developers traditionally make mistakes around syntax details, generated
-   code is often correct on that aspect---but **the reverse** is often true for ‘names’. An engineer will hardly ever
-   call an internal function that does not exist, but CodeAI might use a name, *because* it is often named that way ...
+   traditional *static checkers*.  Where human developers traditionally make mistakes around syntax details, generated
+   code is often correct on that aspect --- but **the reverse** is often true for ‘names’. An engineer will hardly ever
+   calls an internal function that does not exist, but CodeAI might use a name *because* it is often named that way ...
    |BR|
    Especially when using hardware-related details, this can become erroneous. Reading register ‘X’ ---because that is
-   statically accurate--- may even compile and yield a bit, but when your pin is connected to register ‘Y’, it is the
-   wrong result!
+   statistically likely--- may even compile and yield a bit, but when your pin is connected to register ‘Y’, it’s **the
+   wrong result**.
 
-   So, we need a checker that knows these kinds of details about your (teams’) code. And when possible, can *talk* to
+   So, we need a checker that knows these kinds of details about your teams’ code. And when possible, can *talk* with
    the CodeAI to contribute that kind of detail.  It is possible to connect those ideas, although it is not obvious. We
    need a few big steps to bridge the gap.
    |BR|
@@ -36,22 +36,21 @@ Bridging the odds, with LSP
 .. sidebar:: Maps & Milestones
    :class: sidebar-ScenerySketching
 
-   Initially, I was completely unaware of LSP---it simply did not exist when I was writing lots of real-time embedded
+   Initially, I was completely unaware of LSP --- it simply did not exist when I was writing real-time embedded
    code. My favorite editor did provide the same features, but written as Elisp plugins.
 
-   When I started experimenting with CodeAI, I found it hard to connect those features with *ghost-code*. And GenAI kept
-   repeating “use LSP” ...
+   When I started experimenting with CodeAI, I found it hard to connect those features with *ghost-code*. Even though
+   ‘AI’ kept repeating “use LSP” ...
    |BR|
-   Asking around, it showed that many mature engineers didn't know the term---a good reason to write this article.
+   Asking around, it showed that many mature engineers didn't know the term --- another good reason to write this article.
 
    **LSP** became an open standard in 2016; in the same year, an early Emacs plugin became available (`lsp-mode`). Now
-   superseded by `eglot`, which started in 2018 and has been a part of Emacs since 2023.
-   |BR|
-   *Eglot* is a typical Emacs feature. It just does its job in the background---as LSP is intended.
+   superseded by `eglot`, which started in 2018 and has been a part of Emacs since 2023.  It is a typical Emacs
+   feature: it does its job in the background ---as LSP is intended.
 
-   The Emacs developers silently follow the new LSP specification. And gradually replace long-standing built-in features
+   The Emacs developers silently follow the new LSP specification, and gradually replace long-standing built-in features
    with LSP-driven variants ---like code-highlighting.  Now, many modes use ‘tree-sitters’ where the language servers take
-   over the intelligence that used to be built-in *(look for ‘ts’ in the names)*.
+   over the intelligence that used to be built-in *(look for ‘-ts’ in the mode names)*.
 
    Another nice advantage of `eglot` is that it runs concurrently with any *‘MCP’-package* in Emacs, see
    :ref:`an upcoming article <MCP>`.
@@ -60,7 +59,7 @@ Bridging the odds, with LSP
 From editors and compilers to LSP
 ---------------------------------
 
-Although the Language Server Protocol is an important step to bridge the probabilistic nature of generative AI with the
+Although the Language Server Protocol (‘LSP’) is an important step to bridge the probabilistic nature of generative AI with the
 need for deterministic quality, it is older than CodeAI. And even before LSP was invented, similar non-generic solutions
 existed.
 |BR|
@@ -71,14 +70,14 @@ an engineer) in an editor ---ideally flawless. Quickly, editors began to back up
 auto-completion, and much more. Back then, that support had to be implemented over and over again, for every editor,
 every language, and even for every language variant.
 |BR|
-Conceptually, compilers could assist---but traditionally they were not designed for that. Modern compilers have that
+Conceptually, compilers could assist --- but traditionally they were not designed for that. Modern compilers have that
 ability, but a custom editor-compiler plugin was still needed. A well-known example is Clang, which is used in
 Apple’s Xcode to assist the programmer. That compiler has a modern, modular architecture, so it can parse and
 inspect code fragments in the editor to give feedback to the developers. Clang ‘knows’ many languages, and all
 variants and options, and uses the same set to give feedback ---a great help.
 
 Later, Microsoft went a step further with Visual Studio Code. It developed an open standard on how to connect any ‘IDE’
-with each and every *‘language server’*---any tool that can annotate the code. Not only syntax highlighting, but also
+with each and every *‘language server’* ---any tool that can annotate the code. Not only syntax highlighting, but also
 all available functions, the order and type of the parameters, tricks specific to the selected language variant (like
 C++26), etc. Again, conceptually, that is available in a compiler, but any tool is allowed ---even spell-checkers (mostly
 for comments and strings).
@@ -89,19 +88,19 @@ LSP provides accurate predictability
 ------------------------------------
 
 In many ways, editors have become much smarter. Nowadays, an editor can complete a name when it has seen the first few
-keystrokes, check the types, and mark function calls it does not know---just by parsing the internal interfaces. When
+keystrokes, check the types, and mark function calls it does not know --- just by parsing the internal interfaces. When
 you update the code, it will see that immediately.
 |BR|
 LSP boosted this, as one only has to write such a ‘server’ once. Then, any editor (when it supports LSP) can use that
-server. Note: that ‘server’ is run *locally*, as a sub-process of the editor---not as a remote “cloud solution”.
+server. Note: that ‘server’ is run *locally*, as a sub-process of the editor ---not as a remote “cloud solution”.
 
 The consolidation of editor, LSP, and language-servers gives the engineer much more feedback and raises the
-productivity---all without CodeAI. The process is completely deterministic. When the abstract ``FileObject``
+productivity --- all without CodeAI. The process is completely deterministic. When the abstract ``FileObject``
 defines ``write``, the server/editor knows that this method is available for all subclasses. As it reads the same code
 as you, it knows about registers ‘X’ and ‘Y’, and it helps you to code it right.
 |BR|
 Many engineers use this daily: it is quick and mostly active in the background.  Maybe you are not even aware.
-Presumably, your editor displays ‘ghost-code’ with type annotations, or shows a pop-up with optional completions---all
+Presumably, your editor displays ‘ghost-code’ with type annotations, or shows a pop-up with optional completions ---all
 small aids that make you more productive and prevent hasty mistakes.
 
 LSP used to be a “hidden” interface; known only by designers of those language servers, and by the programmers of the
@@ -126,13 +125,13 @@ Still, the number of SW-designers has doubled every 3 to 5 years, and the number
 even faster.
 
 Surely, software written by those young, artificial coworkers should still have the same quality as before, and as
-expected by users. Which differs by the domain. For :term:`sovereign software`, this is typically above
-average. Technical software is either wrong or right, with little or no margin.  Besides, many embedded systems need to
-be verified against their technical specifications---“usually correct” will not do!
+expected by its users. This expectation differs by the domain. For :term:`sovereign software`, this is typically above
+average. Technical software is either wrong or right, with little or no margin.  Furthermore, many embedded systems need to
+be verified against their technical specifications --- “usually correct” will not do!
 
-Another point of attention is the lifespan of the software---embedded software can exist for 15, 30, and even 50
+Another point of attention is the lifespan of the software --- embedded software can exist for 15, 30, and even 50
 years. This implies that some code maintained today was crafted before many of the current developers were born. And
-other parts will be maintained, long after you retire!
+other parts will be maintained --- long after you retire!
 |BR|
 For us, *code quality* used to be very important. “Clean code” is not about flawless software; it brings
 maintainability and prevents bugs for the next few decades.
@@ -142,17 +141,17 @@ Statistically proven
 --------------------
 
 CodeAI is changing how we look at ‘code’; maybe we can finally program in “Almost English”.  But, ... *it makes
-mistakes*, and we require certainty. Code that mostly uses register ‘Y’ and *only* at one place uses pin ‘X’ isn't
+mistakes*, and we require certainty. Code that mostly uses ‘Y’, but mistakenly uses pin ‘X’ at one place isn't
 almost right, it's wrong! We can’t blame the LLM for that; it just doesn't know the names we use.
 |BR|
 Remember: an LLM stops “learning” when it is released. It will only “know” your code when it's available in the
 *training phase* ---not an option when it isn't open-source. Even then, it does not know the recent improvements!
 
 So, our LLM needs a bit of help. To prevent it from using a statistical approach (aka *guessing*), it should have access to
-your code. One option is to add all your code as *context*---but that’s overkill. A more meticulous procedure would
+your code. One option is to add all your code as *context* ---but that’s overkill. A more meticulous procedure would
 be beneficial.
 |BR|
-Here the *old* LSP protocol has proven its use. It is fully deterministic, has ‘live’ access to the current version, and
+Here, the *old* LSP protocol has proven its use. It is fully deterministic, has ‘live’ access to the current version, and
 *understands* the code at a high abstraction level. Also, it only demands a fragment of the code to contribute the info
 that is needed, as is statistically proven by the billions of queries that LSP handles daily.
 
@@ -161,7 +160,7 @@ for now, remember we need an extra step to bridge the gap, just because bots and
 |BR|
 Ignoring that, LSP can provide the fine points and factual details that an LLM is missing.
 
-That is why we need to comprehend LSP before we can study :ref:`MCP <CodeAI-MCP>`.
+That is why we need to comprehend LSP before we can study :ref:`MCP <CodeAI-MCP>`, the new interface toward LLMs.
 See you soon; keep using your own synapses to --- ALbert
 
 
