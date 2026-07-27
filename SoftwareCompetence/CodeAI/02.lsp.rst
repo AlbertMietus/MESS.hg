@@ -10,7 +10,7 @@
 Bridging the odds, with LSP
 ===========================
 
-.. post:: 2026/08/09
+.. post:: 2026/07/26
    :category: ScenerySketching
    :tags: CodeAI
    :location: Geldrop
