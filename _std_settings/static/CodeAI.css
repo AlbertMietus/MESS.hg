@@ -1,10 +1,9 @@
 /* (C) Albert Mietus, 2026 Extra CSS settings for (SoftwareCompetence/)CodeAI*/
 
-img.codeai-head { /* use lowecase!*/
+img.codeai-head { /* use lowercase!*/
     margin-left: -1em;
     margin-top: -24px;
-    with: 100%;
-
+    width: 100%;
 }
 
 .rst-content h1 {
@@ -17,7 +16,7 @@ img.codeai-head { /* use lowecase!*/
 /*
   ScenerySketching:: CodeAI
   - scenerysketching sidebar
-  - Also see, DRAF template for oder
+  - Also see, DRAFT template for order
 */
 
 .rst-content aside.sidebar-scenerysketching  {
@@ -34,4 +33,44 @@ img.codeai-head { /* use lowecase!*/
 .rst-content aside.sidebar-scenerysketching p {
     padding-left: 1ex;
     margin: 0 0 1ex;
+}
+
+/* The scenerysketching-sidebars are ugly on an iPhone. Make them invisible & open-clickable */
+@media screen and (max-width: 870px) {
+   /* Hide the content of a scenerysketching-sidebar */
+    .rst-content aside.sidebar-scenerysketching > *:not(.sidebar-title) {
+       display: none;
+   }
+
+   /* The scenerysketching-sidebars title are shown an "clickable" to open*/
+   .rst-content aside.sidebar-scenerysketching p.sidebar-title {
+       font-size: 80%;
+       cursor: pointer;
+   }
+   .rst-content aside.sidebar-scenerysketching p.sidebar-title::before {
+       content: "sidebar:: ";
+       color: gray;
+   }
+   .rst-content aside.sidebar-scenerysketching p.sidebar-title::after {
+       content: "📂";
+       color: #000066;
+   }
+
+   /* 3. Klap alles open bij 'hover', 'active' of 'focus-within' */
+   .rst-content aside.sidebar-scenerysketching:hover > *,
+   .rst-content aside.sidebar-scenerysketching:active > *,
+   .rst-content aside.sidebar-scenerysketching:focus-within > * {
+       display: block !important;
+   }
+
+   /* Zorg dat de sidebar zelf de volle breedte van het scherm pakt */
+   .rst-content aside.sidebar-scenerysketching {
+       display: block !important;
+       float: none !important;
+       width: 100% !important;
+       max-width: none !important;
+       box-sizing: border-box !important;
+       margin: 1em 0 !important;
+       clear: both !important;
+   }
 }
