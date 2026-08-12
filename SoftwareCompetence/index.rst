@@ -6,7 +6,8 @@ Software Competency
 
 .. toctree::
    :maxdepth: 2
-   :glob:
+   :titlesonly:
+
 
    CodeAI/index
    3Amigos/index
