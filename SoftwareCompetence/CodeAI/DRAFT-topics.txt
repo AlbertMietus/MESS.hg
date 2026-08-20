@@ -1,1 +1,11 @@
+TOPICS
+=======
+
 * Chat Driven Development  with GPT
+
+LINES
+=====
+
+#. Can we ---when inventing a bespoke embedded system--- trust the output of common “statistical apparatus”? Given it
+   involves new hard- and software, how likely is it that “recycling existing code” will comply to our new
+   specifications?

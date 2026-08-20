@@ -14,7 +14,7 @@ import os.path; sys.path.append('pyMESS/training/dPID')
 # General information about the project.
 #======================================
 project = 'MESS'
-copyright = "ALbert Mietus, 2017- 2026"
+copyright = "ALbert Mietus, 2017 - 2026"
 
 from datetime import datetime
 release = datetime.now().strftime("%Y%m%d.%H")
