@@ -1,12 +1,11 @@
 .. Copyright (C) ALbert Mietus; 2026
 
-.. This ‘MESS’ version will be continued; the ‘MIJN’ one not.
-
 .. image:: ScenerySketching-image6.png
    :class: codeai-head
 
 :reading-time:  XXX		
 
+=======================
 Sovereignty with Ollama
 =======================
 

@@ -5,6 +5,7 @@
 
 :reading-time: 4-5min (900 words in this file)
 
+===============
 DRAFT Templates
 ===============
 
@@ -32,7 +33,7 @@ DRAFT Templates
 
 
 Kopje (a)
----------
+=========
 
 De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
 lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
@@ -51,7 +52,7 @@ lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zij
 Het gebruik sub alinea’s is toegestaan.
 
 Kopje B
--------
+=======
 
 De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
 lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
@@ -74,7 +75,7 @@ Het gebruik sub alinea’s is toegestaan.
 
 
 Kopje C
--------
+=======
 
 De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
 lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
@@ -93,7 +94,7 @@ lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zij
 Het gebruik sub alinea’s is toegestaan.
 
 Kopje D
--------
+=======
 
 Zorg dat de laatste alinea
 A) de cirkel rond maakt. Het moet de vraag van de lead (of 1ste kopje) beantwoorden.
@@ -119,8 +120,11 @@ See you soon; keep using your own synapses too--ALbert
 
 =========
 
+Hints etc
+==========
+
 Em/En dashes
-------------
+-------------
 
 * Sphinx converts ``---`` to an em-dash, the longer of the two; and ``--`` to the en-dash
 * We use em-dash (except for ranges)
