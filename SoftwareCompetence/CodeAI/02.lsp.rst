@@ -53,7 +53,7 @@ Bridging the odds, with LSP
    over the intelligence that used to be built-in *(look for ‘-ts’ in the mode names)*.
 
    Another nice advantage of `eglot` is that it runs concurrently with any *‘MCP’-package* in Emacs, see
-   :ref:`an upcoming article <MCP>`.
+   :ref:`an upcoming article <CodeAI-MCP>`.
 
 
 From editors and compilers to LSP
