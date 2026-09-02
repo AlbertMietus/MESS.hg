@@ -3,7 +3,7 @@
 .. image:: ScenerySketching-image6.png
    :class: codeai-head
 
-:reading-time:  XXX		
+:reading-time:  XXX
 
 .. _CodeAI-Ollama:
 
@@ -33,10 +33,23 @@ Sovereignty with Ollama
 
 .. sidebar:: Maps & Milestones
    :class: sidebar-ScenerySketching
-   
-   XXX XXX XXX			
-   
-   In ca 100 woorden: wat achtergrond e/o links naar (eigen/externe) voorbeelden, als brug naar actie.
+
+   Ollama is, like any AI-tool, in constant development. It started to *run* open LLMs locally ---and still
+   does. Nowadays it also offers *"cloud models"* --- the same open-source/weigh models run on their
+   servers. Using the same setup and API.
+   |BR|
+   It's a nice options to use bigger open-models, without investing in hardware, but less local. Still, it offers an
+   transition path: start small local, try less-local bigger models, and invest in own hardware when it work and you
+   need maximum sovereignty.
+
+   Ollama is the best known tool for local, safe, sovereign LLMs, but not the only one. It is based on `Llama.cpp
+   <https://en.wikipedia.org/wiki/Llama.cpp>`__, a library that comes with it own CLI-tool, and used by other tools as
+   well.
+   |BR|
+   Also Apple's 'MLX' can me mentioned here. It used to be a alternative, but is now integrated in Ollama. Especially
+   for Apple-computers this is interesting as its "unified memory design" fits very well for AI computing. That makes it
+   realistic to run CodeAI in airplane-mode: it works fine on my M1-32G MacBook --- locally.
+
 
 Remote CodeAI
 =============
@@ -106,4 +119,4 @@ A well-known program to execute (and manage) those LLMs is `Ollama <https://olla
 
 
 
-..  LocalWords:  Ollama GDPR LLM LLMs 
+..  LocalWords:  Ollama GDPR LLM LLMs

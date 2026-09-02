@@ -11,4 +11,5 @@ Agile System Architecting blogs
    :glob:
 
    *
+   */index
 
