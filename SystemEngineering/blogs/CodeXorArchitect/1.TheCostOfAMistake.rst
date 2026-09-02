@@ -6,7 +6,9 @@
 The costs of a mistake
 ======================
 :Ready: 13/Aug 2026
+:Posted: 2/Sept 2026
 :reading-time: 59 sec
+:LinkedIn: https://lnkd.in/p/eYPJtsPc
 .. 236 words from here
 
 A typical code bug takes between one hour and one week to solve. Annoying, but the costs are minor --- a
