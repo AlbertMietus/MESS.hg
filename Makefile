@@ -91,3 +91,15 @@ push-all: _sync-bookmarks
 	-hg push --all github
 
 RTD RTfD RTFD: push-all
+
+start-local-server:
+	python -m http.server --directory __result/html  > local-server.output  2>&1 & echo $$! > local-server.pid
+	@echo See local-server.pid for PID $$(cat local-server.pid)
+
+stop-local-server:
+	@echo stopping: $$(cat local-server.pid)
+	ps $$(cat local-server.pid)
+	sleep 1
+	kill $$(cat local-server.pid)
+	rm  local-server.pid
+

@@ -35,7 +35,7 @@ Sovereignty with Ollama
    :class: sidebar-ScenerySketching
 
    Ollama is, like any AI-tool, in constant development. It started to *run* open LLMs locally ---and still
-   does. Nowadays it also offers *"cloud models"* --- the same open-source/weight models run on their
+   does. Nowadays it also offers *"cloud models"* --- the same open-source/weight models runing on their
    servers. Using the same setup and API.
    |BR|
    It's a nice option to use bigger open models, without investing in hardware, but less local. Still, it offers a

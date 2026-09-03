@@ -8,4 +8,5 @@ __pycache__
 RTD-settings.mk
 .*~
 SoftwareCompetence/CodeAI/landingPage.rst
-
+local-server.output
+local-server.pid
