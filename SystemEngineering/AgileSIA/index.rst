@@ -53,6 +53,7 @@ An Agile SIA
 .. rubric:: Content
 .. toctree::
    :maxdepth: 2
+   :titlesonly:
 
    goal/index
    goal/5chapters

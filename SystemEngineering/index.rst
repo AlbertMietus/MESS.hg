@@ -28,6 +28,7 @@ executed. One of the reasons to write the blogs and articles here.
 
 
 .. toctree::
+   :titlesonly:
    :maxdepth: 2
    :glob:
 
