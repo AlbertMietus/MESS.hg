@@ -89,3 +89,5 @@ push-all: _sync-bookmarks
 	-hg push
 	-hg push --all SF
 	-hg push --all github
+
+RTD RTfD RTFD: push-all
