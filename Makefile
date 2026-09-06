@@ -64,16 +64,10 @@ Hogsmeade-clean: Hogsmeade_check
 	${MAKE} OUTd=${HOGSMEADEd} cleanest
 
 include RTD-settings.mk
-RTD  RTfD-build RTfD RTFD RTfD-webhook:
+RTfD-webhook:
+	@echo "Not essential anymore -- push to GH will trigger the buils (may use for debug)"
 	@BRANCH=$${BRANCH:-`hg branch`} ;\
 	curl -X POST -d "branches=$${BRANCH}" -d "token=${TOKEN}"  ${HOOK}
-#	@echo
-
-## RTD:
-## 	-hg push --all
-## 	-hg bookmarks default
-## 	-hg push github
-## 	@echo "push to github will trigger RTD"
 
 
 wc:
@@ -82,7 +76,7 @@ wc:
 
 _sync-bookmarks:
 	for b in $$(hg branches | awk '{print $$1}'); do \
-	    hg bookmark -r "$$b" "_g_$$b"; \
+	    hg bookmark -f -r "$$b" "_g_$$b"; \
 	done
 
 push-all: _sync-bookmarks
