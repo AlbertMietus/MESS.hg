@@ -6,7 +6,9 @@
 Global Details
 ==============
 :Ready: 14/Aug 2026
+:Posted: 8/Sept 2026
 :reading-time: 1min5
+:LinkedIn: https://lnkd.in/p/egCu5sUr
 .. 258 words from here
 
 Any senior (embedded) software engineer knows (s)he should focus on details, as the devil is in
@@ -29,9 +31,10 @@ floor. Four details that have a commonality: water and a drain. Therefore, the �
 will align them vertically. Why? Simply, it reduces costs and makes building (“implementing”) a lot
 easier when there is one “column” (or corner) for all those pipes.
 
-Is software any different? Ever used an API where every function used a different style? Do you like
-it, when you sometimes need to use `camel_case`, and sometimes `SnakeCase`? Or, when the order of
-parameters seems random, or at best alphabetical?
+Is software any different?
+|BR|
+Ever used an API where every function used a different style? Do you like it, when you sometimes need to use
+`camel_case`, and sometimes `SnakeCase`? Or when the order of parameters seems random, or at best alphabetical?
 
 Or would having the same convention, the same design, make your programming-life a lot easier?
 |BR|
