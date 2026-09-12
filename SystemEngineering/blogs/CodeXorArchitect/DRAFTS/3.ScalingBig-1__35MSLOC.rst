@@ -35,8 +35,8 @@ To improve, for example, the real-time behavior of the scheduler, you can skip e
 irrelevant, the hardware abstraction and all IO modules are unimportant too. Only about 0.2% of all code is for the scheduler;
 and it's easy to find (It’s in ``/kernel/sched/``:-).
 |BR|
-The real-time part of the scheduler is even smaller; it's less than 1/100 of 1% of the codebase. An ample 2k
-lines; you probably go over it in less than half a day.
+The real-time part of the scheduler is even smaller; it's less than 1/100 of 1% of the codebase. A meager 2k lines; you
+probably go over it in a few days.
 
 Architecture brings structure; architecture gives the ability to find stuff. And with that, the option to change a few
 lines, without reading most of the code.
