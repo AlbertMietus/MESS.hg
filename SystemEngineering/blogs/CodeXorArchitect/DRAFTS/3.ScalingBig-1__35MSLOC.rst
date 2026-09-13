@@ -3,6 +3,8 @@
 .. image:: images/ScalingBig-1.png
    :width: 100%
 
+.. _CodeXorArchitect-scalingbig-1:
+
 Scaling Big (1)
 ===============
 :Ready: 		13/Sept 2026
@@ -10,17 +12,17 @@ Scaling Big (1)
 :reading-time:	1m17
 :LinkedIn: 		To Be done
 
-.. 329 words from here
+.. 333 words from here
 
 You shouldn't build a 350m-high skyscraper like a bike shed; likewise, Linux (35M lines of code) needed a different
-principle than ``HelloWorld``.  All software starts small, though. Once, Linux fitted on a single page.
+principle than ``HelloWorld``.  All software starts small, though. Once, Linux fit on a single page.
 |BR|
-Sound architecture helps to scale! E.g., Linux is based on the *'Common Unix Architecture'*, with drivers, CPU abstraction,
+Architecture helps to scale! E.g., Linux is based on the *'Common Unix Architecture'*, with drivers, CPU abstraction,
 file- & networking-I/O, etc. Even version v0.0.1 of the Linux kernel used it.
 
 Remember, a big codebase is a lot of work. Estimates suggest a product of Linux's complexity costs around **20,000 Sprints**.
 |BR|
-But it always starts small and smooth; probably you know every line of ``HelloWorld``. But that approach doesn't
+But it always starts small and smooth; you probably know every line of ``HelloWorld``. But that approach doesn't
 scale -- you can't memorize 35M Source Lines of Code.
 
 To scale, no single software engineer should ever get lost in a codebase. Otherwise nobody can add features, and the
@@ -29,17 +31,17 @@ system can't grow!
 Grouping sources in (sub)directories along the architectural structure helps!
 |BR|
 Roughly, 80% of all Linux code is in the `drivers` directory. When you're not working on drivers, you can skip the biggest
-portion of the code in a heartbeat. This structure is everywhere.  To improve, for example, the real-time behavior of the
-scheduler, you can also skip the hardware abstraction, and all I/O modules. Only about 0.2% of all code is for the
-scheduler; and it's easy to find (in ``/kernel/sched/`` :-).
+portion of the code in a heartbeat. This structure is everywhere.  To improve, for example, the real-time behaviour of the
+‘scheduler’, you can also skip the hardware abstraction and all I/O modules. Only about 0.2% of all code is for the
+scheduler, and it's easy to find (in ``/kernel/sched/`` :-).
 |BR|
-The real-time part of the scheduler is even smaller; it's less than 1/100 of 1% of the codebase. A manageable 2k lines.
+The real-time part of the scheduler is even smaller; it's less than 1/100 of 1% of the codebase: a manageable 2k lines.
 
-Architecture brings structure, and the ability to find stuff. And with that, the option to change a few lines,
-without reading most of the code.
+Architecture should bring structure, the ability to find stuff, and the benefit of changing a few lines without
+reading most of the code. It enables scaling your teams.
 |BR|
-Next time you start with something that potentially can become bigger than 5 lines: Start with a sound
-architecture. Always make sure there is only one logical spot for all future lines. Then, one day, you can add as many
-SW-bricklayers as you need for your “skyscraper”.
+Next time you start coding something that can grow beyond 5 lines: Start with a sound architecture. Always make sure
+there is only one logical spot for all future lines. Then, one day, you can add as many SW-bricklayers as you need for
+your “skyscraper”.
 
 ..  LocalWords:  codebase
