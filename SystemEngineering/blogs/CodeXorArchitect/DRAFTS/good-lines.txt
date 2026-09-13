@@ -1,0 +1,2 @@
+
+* Linux is based on the common Unix architecture.Which starting with ‘Multix’ (end 196X), and boosted when K&R invented  C (1973).

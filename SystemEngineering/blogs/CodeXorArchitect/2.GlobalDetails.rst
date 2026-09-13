@@ -9,6 +9,7 @@ Global Details
 :Posted: 8/Sept 2026
 :reading-time: 1min5
 :LinkedIn: https://lnkd.in/p/egCu5sUr
+
 .. 258 words from here
 
 Any senior (embedded) software engineer knows (s)he should focus on details, as the devil is in
