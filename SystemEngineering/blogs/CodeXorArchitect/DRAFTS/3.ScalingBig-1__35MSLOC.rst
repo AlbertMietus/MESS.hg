@@ -13,7 +13,7 @@ Scaling Big (1)
 .. 329 words from here
 
 You shouldn't build a 350m-high skyscraper like a bike shed; likewise, Linux (35M lines of code) needed a different
-principle than ``HelloWorld``.  All software starts small, though; Linux fit on a single page, once.
+principle than ``HelloWorld``.  All software starts small, though. Once, Linux fitted on a single page.
 |BR|
 Sound architecture helps to scale! E.g., Linux is based on the *'Common Unix Architecture'*, with drivers, CPU abstraction,
 file- & networking-I/O, etc. Even version v0.0.1 of the Linux kernel used it.
@@ -30,7 +30,7 @@ Grouping sources in (sub)directories along the architectural structure helps!
 |BR|
 Roughly, 80% of all Linux code is in the `drivers` directory. When you're not working on drivers, you can skip the biggest
 portion of the code in a heartbeat. This structure is everywhere.  To improve, for example, the real-time behavior of the
-scheduler, you can skip more, like the hardware abstraction, and all I/O modules. Only about 0.2% of all code is for the
+scheduler, you can also skip the hardware abstraction, and all I/O modules. Only about 0.2% of all code is for the
 scheduler; and it's easy to find (in ``/kernel/sched/`` :-).
 |BR|
 The real-time part of the scheduler is even smaller; it's less than 1/100 of 1% of the codebase. A manageable 2k lines.
