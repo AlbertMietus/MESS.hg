@@ -11,10 +11,10 @@ Unlearn Coding
 :reading-time:	?	
 :LinkedIn: 		To Be done
 
-.. XXX words from here
+.. 290 words from here
 
 An architect isn't a bricklayer, so why should a software architect write code? Doesn't (s)he have more important
-activities?
+work?
 |BR|
 This is a hard question and depends heavily on subjective personal preferences. But not answering does degrade the
 craft. Whereas *“genuine embedded system/software architects”* are needed more than ever.
@@ -22,19 +22,22 @@ craft. Whereas *“genuine embedded system/software architects”* are needed mo
 Let us start with the goal of a software team. That is to produce code --- the asset that brings value. Other activities
 are **“overhead”**, unless they increase the yield.
 |BR|
-This gives us a simple guideline for the worth of non-coding tasks, like composing an architecture document. Every hour
+This gives us a simple guideline for the worth of non-coding tasks. Every hour
 of labor the architect spends should (all in all) deliver more than an hour of coding. Actually more like 2 hours,
 as they are expensive. This already hints that "coding" isn't a major objective.
 
-In software, however, it isn’t binary. The path from programmer to architect is more like a slider. This is troublesome,
-as it confuses, but it also enables us to grow and mature. (More on that in :ref:`3Amigos_P4`).
-Mostly, the size & complexity of the product and the team's maturity dictate where that slider should be. For a small
-product with very experienced developers no full-time architect is needed. But a big, multi-team project --- especially
-with many young coworker --- the slider should probably be at the far end.
+In software, however, it isn’t binary. The path from programmer to architect is more like a slider. This can be
+confusing, but it also helps us grow and mature. (More on that in :ref:`3Amigos_P4`).
+|BR|
+Mostly, the product size & complexity, and the team’s maturity dictate where that slider should be. For a small
+product with very experienced developers, you don't need a full-time architect. But for a big, multi-team project —
+especially with many young coworkers — the slider should probably be at the far end.
 
-The remaining questions,
-
-
+Next time you start coding — if being an architect is truly your ambition — just stop! Think for a minute. Maybe
+somebody else can do that too, maybe even cheaper.
+|BR|
+When you spend 1 hour coaching 1 or 2 juniors, to make them 1.25% more efficient, you more than double your value!
+The team produces this sprint exactly the same -- and next sprint even more.
 
 ---
 
