@@ -1,2 +1,28 @@
+.. -*- rst -*- (C) ALbert
 
-* Linux is based on the common Unix architecture.Which starting with ‘Multix’ (end 196X), and boosted when K&R invented  C (1973).
+**********
+GOOD LINES
+**********
+
+Blog-starts
+************
+
+...
+
+
+ALGEMEEN
+*********
+
+* Linux is based on the common Unix architecture; which starting with ‘Multix’ (end 196X), and boosted when K&R invented
+  C (1973).
+* Even a junior developer should understand architecture a tiny bit, and the most senior embedded systems architect
+  should understand code.
+* But also when an architect is on writing documents, like a design or an beneficial. It’s not the person writing
+  documents, but the one that makes the teams go faster.
+
+
+LINKS
+******
+
+* “Breaking a habit” or “Unlearn” — UNLEARN                 --- https://share.google/aimode/4kLQPltYJWbh95StY
+* verschil tussen een goede software engineer en architect  --- https://share.google/aimode/VDvFVS8EB9K78jkYk 

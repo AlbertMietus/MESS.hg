@@ -25,9 +25,15 @@ Vrijwel GEEN opmaak: geen kopjes, geen headers etc. **Bold** en *italic* mag wel
 
 
 
-Zie `~/work/MIJN.docs/MoreBlogs/0.meta/2.CodeXorArchitect.rst` ect voor info.
-Zie `~/work/MIJN.docs/MoreBlogs/0.meta/2.CodeXorArchitect.rst` ect voor info.
+#CodeXorArchitect -- Your #TechFluencer
+
+---
+
+
+Zie `~/work/MIJN.docs/MoreBlogs/0.meta/2.CodeXorArchitect.rst` (etc) voor info.
 
 * Plaatje voor linkedIn maken met `~/work/MIJN.docs/tools/AddText-toHeaderImage.html`
 * Basis: ~/work/MESS,hg/SystemEngineering/blogs/CodeXorArchitect/images/base/CodeXorArchitect-header-1128x368.png
 * The kop/title (met spaces) er overheen. #CodeXorArchitect als reeks
+
+..  LocalWords:  TechFluencer
