@@ -3,7 +3,7 @@
 .. image:: ScenerySketching-image6.png
    :class: codeai-head
 
-:reading-time:  XXX
+:reading-time:  5min
 
 .. _CodeAI-Ollama:
 

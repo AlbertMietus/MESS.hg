@@ -6,15 +6,19 @@
 
 DRAFT TEMPLATE
 ==============
-:Ready: 		No	
-:Posted: 		No	
-:reading-time:	?	
-:LinkedIn: 		To Be done
 
-.. XXX words from here
+.. post:: 
+   :tags: CodeXorArchitect
+   :category: LinkedIn-Post
 
-Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het engels.
-Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het engels.
+   :reading-time:	ToDo
+   :LinkedIn: 		ToDo
+
+
+   Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het
+   engels. Ongeveer 250 woorden, in het engels.     Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het
+   engels. Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het engels. 
+
 Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het engels.
 Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het engels.
 

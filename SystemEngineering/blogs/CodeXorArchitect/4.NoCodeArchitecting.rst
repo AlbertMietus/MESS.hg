@@ -1,24 +1,23 @@
 .. Copyright (C) ALbert Mietus, 2026
 
 .. image:: images/NoCodeArchitecting.png
-   :width: 100%
-
 
 NoCode Architecting
 ===================
 
-:Ready: 		22/Sept/2026
-:Posted: 		22/Sept/2026
-:reading-time:  1min13
-:LinkedIn: 		https://lnkd.in/p/eni5fszP
+.. post:: 22/Sept/2026
+   :tags: CodeXorArchitect
+   :category: LinkedIn-Post
 
-.. 301 words from here
+   :reading-time:  1min13
+   :LinkedIn: 		https://lnkd.in/p/eni5fszP
 
-An architect isn't a bricklayer, so why should a software architect write code? Don’t they have more important work?
-This is a hard question and depends heavily on subjective personal preferences. But avoiding the question degrades the
-craft.
-|BR|
-So, what is a *genuine embedded systems/software architect*? And how do you become one?
+
+   An architect isn't a bricklayer, so why should a software architect write code? Don’t they have more important work?
+   This is a hard question and depends heavily on subjective personal preferences. But avoiding the question degrades
+   the craft.
+   |BR|
+   So, what is a *genuine embedded systems/software architect*? And how do you become one?
 
 Let us start with the goal of a software team: produce code --- the asset that brings value. Other activities
 are **‘overhead’**, unless they increase the yield.  This gives us a simple guideline for the worth of non-coding

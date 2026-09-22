@@ -1,22 +1,21 @@
 .. Copyright (C) ALbert Mietus, 2026
 
 .. image:: images/GlobalDetails.png
-   :width: 100%
 
 Global Details
 ==============
-:Ready: 14/Aug 2026
-:Posted: 8/Sept 2026
-:reading-time: 1min5
-:LinkedIn: https://lnkd.in/p/egCu5sUr
+.. post:: 14/Sept 2026
+   :tags: CodeXorArchitect
+   :category: LinkedIn-Post
 
-.. 258 words from here
+   :reading-time: 1min5
+   :LinkedIn: https://lnkd.in/p/egCu5sUr
 
-Any senior (embedded) software engineer knows (s)he should focus on details, as the devil is in
-those details. But what is a detail?
-|BR|
-Often, a client ---as a user--- will focus on the most important pieces and call everything else a
-detail: *“We hardly use that”*. Yet they still assume every part is bug-free.
+   Any senior (embedded) software engineer knows (s)he should focus on details, as the devil is in those details. But
+   what is a detail?
+   |BR|
+   Often, a client ---as a user--- will focus on the most important pieces and call everything else a detail: *“We
+   hardly use that”*. Yet they still assume every part is bug-free.
 
 Something equivalent can be seen when we look at software from contrasting abstraction levels. To
 create maintainable, bug-free code, almost every line is a detail that should get the full attention
