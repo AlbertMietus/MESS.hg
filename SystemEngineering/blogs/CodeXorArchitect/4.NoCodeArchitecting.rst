@@ -10,7 +10,7 @@ NoCode Architecting
 :Ready: 		22/Sept/2026
 :Posted: 		22/Sept/2026
 :reading-time:  1min13
-:LinkedIn: 		To Be done
+:LinkedIn: 		https://lnkd.in/p/eni5fszP
 
 .. 301 words from here
 
@@ -43,9 +43,5 @@ double your value! Do the math: You get the same code this sprint. And next spri
 |BR|
 Then, you did *more important work*!
 
----
-
-
-#CodeXorArchitect -- Your #TechFluencer
 
 ..  LocalWords:  TechFluencer Architecting NoCode LocalWords CTO CodeXorArchitect
