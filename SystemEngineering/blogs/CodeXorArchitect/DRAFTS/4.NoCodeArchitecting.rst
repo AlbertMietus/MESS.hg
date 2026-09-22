@@ -7,43 +7,45 @@
 NoCode Architecting
 ===================
 
-:Ready: 		No	
-:Posted: 		No	
-:reading-time:	?	
+:Ready: 		22/Sept/2026
+:Posted: 		22/Sept/2026
+:reading-time:  1min13
 :LinkedIn: 		To Be done
 
-.. 291 words from here
+.. 301 words from here
 
-An architect isn't a bricklayer, so why should a software architect write code? Don’t they have more important
-work?
+An architect isn't a bricklayer, so why should a software architect write code? Don’t they have more important work?
+This is a hard question and depends heavily on subjective personal preferences. But avoiding the question degrades the
+craft.
 |BR|
-This is a hard question and depends heavily on subjective personal preferences. But not answering does degrade the
-craft. Whereas *genuine embedded systems/software architects* are needed more than ever.
+So, what is a *genuine embedded systems/software architect*? And how do you become one?
 
-Let us start with the goal of a software team. That is to produce code --- the asset that brings value. Other activities
+Let us start with the goal of a software team: produce code --- the asset that brings value. Other activities
 are **‘overhead’**, unless they increase the yield.  This gives us a simple guideline for the worth of non-coding
-tasks. Every hour of labor the architect spends should (all in all) deliver more than an hour of coding. Actually, more
-like 2 hours, as they are expensive. This already hints that "coding" isn't a major objective.
+tasks. Every hour of labor the architect spends should (all in all) deliver more than an hour of coding. Given their
+costs, even more is expected.
 |BR|
-In software, however, the difference isn’t binary. The path from programmer to architect is like a sliding spanner; one
-can be a bit of both. It doesn't help to define the role, yet enables to grow and mature architects - from level *L1*'
-upwards (More on that in :ref:`3Amigos_P4`).
+Therefore, architects shouldn't just code.
 
-The product’s size & complexity, as well as the team’s maturity, dictates the architects *'Level'* that is needed.
+As shown in the ':ref:`3Amigos_P1`' series, the architect role can be defined with levels. It starts with 'L1': an
+aspiring part-time architect.
 |BR|
-A small product with very experienced developers, doesn't demand a full-time architect; a L1 will do. With many young
-coworker you need more maturity -- maybe a 'L3'. For a big, multidisciplinary, products with many products, the slider
-should be even farther.
+The *required* architect's level is dictated by the product’s size & complexity, and the team’s maturity.
+A small product with very experienced developers doesn't demand a full-time architect; an *L1* will do. With many young
+coworkers, you need more maturity ---maybe an *L2* or *L3*. For a multidisciplinary product with (sub)teams, the
+bar should be raised further ---like an *L5* or above.
 |BR|
-It doesn't mater which level you are now, there is always room to improve, to raise the bar.
+The higher your 'Level', the less time you have for coding.
 
-Plz, Next time you start coding — if being an architect is truly your ambition — just stop! Think for a minute. Maybe
-someone else can do that too, maybe even cheaper.  |BR| When you spend 1 hour coaching 2 juniors, to make them 3% more
-efficient, you more than double your value!  The team produces this sprint exactly the same -- and next sprint even
-more.
+When your ambition is to grow as an architect, and you start coding ... Stop!  Think for a minute. Maybe someone else can do
+it ---perhaps even cheaper.  When you spend 1 hour coaching 2 juniors to make them 3% more effective, you more than
+double your value! Do the math: You get the same code this sprint. And next sprint, even more.
+|BR|
+Then, you did *more important work*!
 
 ---
 
+
 #CodeXorArchitect -- Your #TechFluencer
 
-..  LocalWords:  TechFluencer Architecting NoCode LocalWords
+..  LocalWords:  TechFluencer Architecting NoCode LocalWords CTO CodeXorArchitect
