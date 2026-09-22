@@ -1,6 +1,6 @@
 .. Copyright (C) ALbert Mietus, 2026
 
-.. .. image:: images/  .. TO BE DONE
+.. image:: images/NoCodeArchitecting.png
    :width: 100%
 
 
