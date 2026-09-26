@@ -40,8 +40,8 @@ processor --- while low power calls for ‘deep sleep’. Polling the switch eve
 An (RC) filter doesn't use energy --- unless the button is pressed.
 
 Long story short: You need an estimate of how often & how long the buttons are pressed to calculate the µAh used every
-day and per *push*. You also need technicalities, like how the buttons are connected to the MCU and the algorithm used 
-to estimate how often the processor will be awake.
+day and per *push*.  Also technical details --- like how the buttons are connected to the MCU, and the exact algorithm
+--- are needed to estimate how often the processor will be awake.
 |BR|
 Then you can determine the best option!
 
