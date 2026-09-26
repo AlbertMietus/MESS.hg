@@ -1,6 +1,6 @@
 .. Copyright (C) ALbert Mietus, 2026
 
-.. .. image:: images//DebounceNoise.png  .. TO BE DONE
+.. image:: images/DebounceNoise.png
    :width: 100%
 
 
@@ -14,7 +14,7 @@ Debounce Noise
 
    :reading-time:	1min19
    :LinkedIn: 		ToDo
-   :status:			Revision RC3
+   :status:			Ready (to publish)
 
    .. 317 words from here
 
@@ -35,9 +35,9 @@ low, and that it runs *for years* on a battery, possibly using energy harvesting
 Now look at those buttons again: how can we minimize cost and power use at the same time?
 
 Any solution with fewer components will be cheaper --- that votes for a software solution. But software needs an active
-processor --- while low power calls for ‘deep sleep’. Polling the switch every 10 ms will drain the battery!
+processor --- while low power calls for ‘deep sleep’. Polling the switch every 10ms will drain the battery!
 |BR|
-An filter doesn't use energy --- unless the button is pressed.
+A filter doesn't use energy --- unless the button is pressed.
 
 Long story short: You need an estimate of how often & how long the buttons are pressed to calculate the µAh used every
 day and per *push*.  Also, technical details --- like how the buttons are connected to the MCU, and the exact algorithm
