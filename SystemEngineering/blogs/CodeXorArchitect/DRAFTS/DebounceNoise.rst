@@ -8,17 +8,17 @@ Debounce Noise
 ==============
 
 
-.. post:: 
+.. post:: 29/Sept/2026
    :tags: CodeXorArchitect
    :category: LinkedIn-Post
 
-   :reading-time:	ToDo
+   :reading-time:	1min19
    :LinkedIn: 		ToDo
-   :status:			Draft
+   :status:			Revision RC3
 
-   .. 332 words from here
+   .. 317 words from here
 
-   Everybody likes to push buttons. And every engineer knows you must debounce them. Or we get a lot of noise. But who
+   Everybody likes to push buttons. And every engineer knows you must debounce them, to avoid noise. But who
    decides how to do that? Is there a best strategy?  Today we do a deep dive and consider all details that might be
    architecturally important.
    |BR|
@@ -35,18 +35,18 @@ low, and that it runs *for years* on a battery, possibly using energy harvesting
 Now look at those buttons again: how can we minimize cost and power use at the same time?
 
 Any solution with fewer components will be cheaper --- that votes for a software solution. But software needs an active
-processor --- while low power calls for ‘deep sleep’. Polling the switch every 10ms will drain the battery!
+processor --- while low power calls for ‘deep sleep’. Polling the switch every 10 ms will drain the battery!
 |BR|
-An (RC) filter doesn't use energy --- unless the button is pressed.
+An filter doesn't use energy --- unless the button is pressed.
 
 Long story short: You need an estimate of how often & how long the buttons are pressed to calculate the µAh used every
-day and per *push*.  Also technical details --- like how the buttons are connected to the MCU, and the exact algorithm
+day and per *push*.  Also, technical details --- like how the buttons are connected to the MCU, and the exact algorithm
 --- are needed to estimate how often the processor will be awake.
 |BR|
 Then you can determine the best option!
 
 There is one other option, with two possible outcomes --- here comes the noise. Leave it to the two departments. Either
-the engineers solve it, or both bureaucrats know it's the other side's issue ...
+the engineers solve it, or the bureaucrats know it's the other side's issue...
 |BR|
 Therefore, a great embedded systems architect will solve it long before that.
 
