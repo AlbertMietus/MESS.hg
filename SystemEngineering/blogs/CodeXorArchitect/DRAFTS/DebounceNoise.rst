@@ -32,24 +32,23 @@ But which *technical* solution is the best option? And what is ‘best’?
 Suppose we are designing a high-volume, long-lasting, luxurious, self-powered device. This implies the ‘BOM’ should be
 low, and that it runs *for years* on a battery, possibly using energy harvesting.
 |BR|
-Now look to those buttons again: how can we minimize cost and power use at the same time?
+Now look at those buttons again: how can we minimize cost and power use at the same time?
 
 Any solution with fewer components will be cheaper -- that votes for a software solution. But software needs an active
-processor, using power. Whereas ‘long-lasting, low power’ calls for a CPU that is mostly in deep sleep. Pulling the
-switch every 10ms will drain the battery!
+processor --- while low power calls for ‘deep sleep’. Polling the switch every 10ms will drain the battery!
 |BR|
-Whereas the (RC) filter doesn't use energy --- unless the button is pressed.
+An (RC) filter doesn't use energy --- unless the button is pressed.
 
-Long story short: You need an estimate of how often & how long the buttons are pressed to calculate how many µC will be
-used every day and per *push*. You also need technicalities, like how the buttons are connected to the MCU and the
-algorithm used to estimate how often the processor will be awake.
+Long story short: You need an estimate of how often & how long the buttons are pressed to calculate the µAh used every
+day and per *push*. You also need technicalities, like how the buttons are connected to the MCU and the algorithm used 
+to estimate how often the processor will be awake.
 |BR|
 Then you can determine the best option!
 
-A great embedded systems architect will surely do so beforehand.
+There is one other option, with two possible outcomes --- here comes the noise. Leave it to the two departments. Either
+the engineers solve it, or both bureaucrats know it's the other side's issue ...
 |BR|
-There is one other option, with two possible outcomes -- here comes the noise. Leave it to the two departments. Either
-the engineers solve it, or both bureaucrats know  it's the other side's issue ...
+Therefore, a great embedded systems architect will solve it long before that.
 
 
 
