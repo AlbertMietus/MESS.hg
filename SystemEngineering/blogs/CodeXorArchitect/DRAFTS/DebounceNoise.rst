@@ -24,7 +24,7 @@ Debounce Noise
    |BR|
    And, as we will see, we might even find some noise in the organization.
 
-Roughly, there are two options: an (RC) filter in electronics, or a bit of software -- both with several variants. Both
+Roughly, there are two options: an (RC) filter in electronics, or a bit of software --- both with several variants. Both
 an electrical engineer and an (embedded) software professional can implement them in a couple of hours.
 |BR|
 But which *technical* solution is the best option? And what is ‘best’?
@@ -34,7 +34,7 @@ low, and that it runs *for years* on a battery, possibly using energy harvesting
 |BR|
 Now look at those buttons again: how can we minimize cost and power use at the same time?
 
-Any solution with fewer components will be cheaper -- that votes for a software solution. But software needs an active
+Any solution with fewer components will be cheaper --- that votes for a software solution. But software needs an active
 processor --- while low power calls for ‘deep sleep’. Polling the switch every 10ms will drain the battery!
 |BR|
 An (RC) filter doesn't use energy --- unless the button is pressed.
@@ -51,16 +51,8 @@ the engineers solve it, or both bureaucrats know it's the other side's issue ...
 Therefore, a great embedded systems architect will solve it long before that.
 
 
+-----
 
-#CodeXorArchitect -- Your #TechFluencer
-
----
-
-
-Zie `~/work/MIJN.docs/MoreBlogs/0.meta/2.CodeXorArchitect.rst` (etc) voor info.
-
-* Plaatje voor linkedIn maken met `~/work/MIJN.docs/tools/AddText-toHeaderImage.html`
-* Basis: ~/work/MESS,hg/SystemEngineering/blogs/CodeXorArchitect/images/base/CodeXorArchitect-header-1128x368.png
-* The kop/title (met spaces) er overheen. #CodeXorArchitect als reeks
+#CodeXorArchitect --- Your #TechFluencer
 
 ..  LocalWords:  TechFluencer debounce  µC MCU
