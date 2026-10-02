@@ -1,6 +1,6 @@
 .. Copyright (C) ALbert Mietus, 2026
 
-.. .. image:: images/ScalingBig.png  .. TO BE DONE
+.. .. image:: images/TO BE DONE .png 
    :width: 100%
 
 
