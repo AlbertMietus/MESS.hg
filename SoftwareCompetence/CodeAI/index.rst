@@ -1,6 +1,6 @@
 .. Copyright (C) ALbert Mietus; 2026
 
-.. image:: ScenerySketching-image6.png
+.. image:: ./images/ScenerySketching.png
    :class: codeai-head
 
 The software world is changing rapidly. Some believe that bots will take over coding. Others see *(gen)AI* as a

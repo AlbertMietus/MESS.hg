@@ -1,6 +1,6 @@
 .. Copyright (C) ALbert Mietus; 2026
 
-.. image:: ScenerySketching-image6.png
+.. image:: images/ScenerySketching.png
    :class: codeai-head
 
 :reading-time:  5min
