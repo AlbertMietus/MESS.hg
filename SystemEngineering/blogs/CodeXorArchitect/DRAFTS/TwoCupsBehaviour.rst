@@ -20,10 +20,10 @@ Two Cups Behaviour
    |BR|
    What a stupid behaviour!
 
-Without a doubt, it's a software flaw ---after all, most *mis*\behaviour is software-related. Still, when I ask my
+Without a doubt, it's a software flaw --- after all, most *mis*\behaviour is software-related. Still, when I ask my
 development team (or actually: my training class), all TDD tests pass. The problem isn't in the code, however. It's
 about how we deal with constantly changing features. When the water sensor story is long 'done' before the "double"
-option is requested, we tend to implement just that one and some new tests.
+option is requested, we tend to implement just that one, and some new tests.
 
 Unlike in the old days ---when architecture and design were finished before coding started--- we now do all phases
 concurrently in each sprint. As nobody asked for the combination, both features will work, but not together.
@@ -38,19 +38,16 @@ dislike.  "*Given two cups of coffee are selected, and there is enough water, th
 A BDD expert can phrase it more formally. But even those informal 'needs' will drive the engineers in the right direction!
 
 With a nested double-loop of *Behaviour-* and *Test-Driven Development* ('B&TDD'), system-level tests drive the
-requested behaviour of the parts, and thus define the TDD tests --- even when extra stories are added later.
+requested behaviour of the parts and thus define the TDD tests --- even when extra stories are added later.
 |BR|
-This yields structure, like the old architecture documents did.
+This yields structure, just like the old architecture documents did.
 
 Architecture isn't just technology; it’s about solutions that make the machinery work.
 |BR|
-To become a genuine architect, you should learn to coach your team to follow the *engineering path* ---for example, with
-*B&TDD*. 
-|BR|
-That is why I designed this "USB-practice" carefully.  It's no wonder the machinery never works; it is an intended
-pitfall.
+To become a genuine architect, you should learn to coach your team to follow the *discipline of engineering*.  That is
+why I designed this "USB-practice" carefully.  It's no wonder the machinery never works; it is an intended pitfall.
 
-
+----
 
 
 
