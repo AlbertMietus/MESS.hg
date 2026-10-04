@@ -21,6 +21,9 @@ ALGEMEEN
   documents, but the one that makes the teams go faster.
 
 
+
+* We also tend to forget to design the product as a whole. 
+
 LINKS
 ******
 
