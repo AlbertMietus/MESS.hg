@@ -29,7 +29,7 @@ Bridging the odds, with LSP
    the CodeAI to contribute that kind of detail.  It is possible to connect those ideas, although it is not obvious. We
    need a few big steps to bridge the gap.
    |BR|
-   In this article, we introduce `LSP`; later, we will handle the other parts, such as :ref:`MCP <CodeAI-MCP>`.
+   In this article, we introduce `LSP`; later, we will handle the other parts, such as :ref:`MCP <CodeAI-MCP1>`.
 
 .. include:: ./sidebar-ScenerySketching.irst
 
@@ -53,7 +53,7 @@ Bridging the odds, with LSP
    over the intelligence that used to be built-in *(look for ‘-ts’ in the mode names)*.
 
    Another nice advantage of `eglot` is that it runs concurrently with any *‘MCP’-package* in Emacs, see
-   :ref:`an upcoming article <CodeAI-MCP>`.
+   :ref:`an upcoming article <CodeAI-MCP1>`.
 
 
 From editors and compilers to LSP
@@ -160,7 +160,8 @@ for now, remember we need an extra step to bridge the gap, just because bots and
 |BR|
 Ignoring that, LSP can provide the fine points and factual details that an LLM is missing.
 
-That is why we need to comprehend LSP before we can study :ref:`MCP <CodeAI-MCP>`, the new interface toward LLMs.
+That is why we need to comprehend LSP before we can study :ref:`MCP <CodeAI-MCP1>`, the new interface toward LLMs.
+
 See you soon; keep using your own synapses to --- ALbert
 
 

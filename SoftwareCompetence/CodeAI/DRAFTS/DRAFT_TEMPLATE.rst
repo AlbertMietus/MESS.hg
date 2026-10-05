@@ -98,30 +98,35 @@ Kopje D
 
 Zorg dat de laatste alinea
 A) de cirkel rond maakt. Het moet de vraag van de lead (of 1ste kopje) beantwoorden.
-B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende blogs/artikelen
+B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende 'article'
 
 
 Zorg dat de laatste alinea
 A) de cirkel rond maakt. Het moet de vraag van de lead (of 1ste kopje) beantwoorden.
-B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende blogs/artikelen
+B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende 'article'
 
 
 Zorg dat de laatste alinea
 A) de cirkel rond maakt. Het moet de vraag van de lead (of 1ste kopje) beantwoorden.
-B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende blogs/artikelen
+B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende 'article'
 
 
 Zorg dat de laatste alinea
 A) de cirkel rond maakt. Het moet de vraag van de lead (of 1ste kopje) beantwoorden.
-B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende blogs/artikelen
+B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende 'article'
 
 
-See you soon; keep using your own synapses too--ALbert
+See you soon; keep using your own synapses too --- ALbert
 
 =========
 
 Hints etc
 ==========
+
+article|blog|post
+-----------------
+
+In deze reeks schrijf ik ‘article’ (geen blog of post)
 
 Em/En dashes
 -------------

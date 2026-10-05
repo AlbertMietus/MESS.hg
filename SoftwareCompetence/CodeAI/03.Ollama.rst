@@ -118,6 +118,6 @@ A well-known program to execute (and manage) those LLMs is `Ollama <https://olla
 <https://github.com/ollama/ollama>`__ --- so you can even inspect it for quality and security issues (if you want to go
 the last mile).
 
-
+See you soon; keep using your own synapses too --- ALbert
 
 ..  LocalWords:  Ollama GDPR LLM LLMs

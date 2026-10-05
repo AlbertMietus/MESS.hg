@@ -1,0 +1,5 @@
+   LLM-assisted coding started with *ghost code* ---a form of chatting. As this is very interactive, a quick (<200ms)
+   reaction time is needed. And thus, there is little time for communication (a single round trip: 100ms). This makes
+   cloud-based
+   
+   Which has limitations as it should be  very interactive. 

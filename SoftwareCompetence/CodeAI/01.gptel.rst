@@ -121,6 +121,7 @@ Basically, you have refactored a personal sketch into a team asset! Your team an
 In this way, we can blend proven gear with new machinery. You hardly have to spend time mastering new tools. And gradually become more
 productive, while keeping control.
 |BR|
-This meta-interface can be extended even more, as we will see in upcoming columns.
+This meta-interface can be extended even more, as we will see in upcoming artificial.
+
 See you soon; keep using your own synapses too --- ALbert
 

@@ -5,23 +5,29 @@
 
 :reading-time: ToDo 	
 
+.. _CodeAI-MCP1:
+
 =======================
 Agentic Coding with MCP
 =======================
 
-.. post::
+.. post:: 2026/10/05		
    :category: ScenerySketching
    :tags: CodeAI
    :location: Geldrop
    :language: en
 
-   “Writing code” is more then just *writing text*. When human engineers are focusing on the code, they also use many
-   tools; like the **compiler**, **test-runners**, etc. We can enable LLMs to run those tools too, with has many
-   benefits, and can introduce huge risk.
+   “Writing code” is more than just *writing text*. When human engineers work with code, they need a variety of tools to
+   build (a **compiler**) and verify (several **test runners**) the software. We can enable LLMs to run these tools as
+   well; this offers many benefits and can introduce huge risks.
 
-   A LEAD of a about 3 lines, 84 word.    A LEAD of a about 3 lines, 84 word.    A LEAD of a about 3 lines, 84 word
-   A LEAD of a about 3 lines, 84 word.    A LEAD of a about 3 lines, 84 word.    A LEAD of a about 3 lines, 84 word
-   A LEAD of a about 3 lines, 84 word.    A LEAD of a about 3 lines, 84 word.    A LEAD of a about 3 lines, 84 word
+   In this article, we introduce MCP, the protocol that enables *agentic AI*. But be warned! MCP is extremely powerful,
+   and ---as an LLM has no conscience--- it will happily wipe all your work, or worse.  More on that in an upcoming
+   article: :ref:`“MCP safety” <CodeAI-MCP2>`.
+   |BR|
+   Now we focus on how agentic coding fits into the scenery, and how we can speed up engineering by asking LLMs to run
+   those tools for us.
+
 
 .. include:: ./sidebar-ScenerySketching.irst
 
@@ -102,54 +108,26 @@ Kopje D
 
 Zorg dat de laatste alinea
 A) de cirkel rond maakt. Het moet de vraag van de lead (of 1ste kopje) beantwoorden.
-B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende blogs/artikelen
+B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende 'article'
 
 
 Zorg dat de laatste alinea
 A) de cirkel rond maakt. Het moet de vraag van de lead (of 1ste kopje) beantwoorden.
-B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende blogs/artikelen
+B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende 'article'
 
 
 Zorg dat de laatste alinea
 A) de cirkel rond maakt. Het moet de vraag van de lead (of 1ste kopje) beantwoorden.
-B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende blogs/artikelen
+B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende 'article'
 
 
 Zorg dat de laatste alinea
 A) de cirkel rond maakt. Het moet de vraag van de lead (of 1ste kopje) beantwoorden.
-B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende blogs/artikelen
+B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende 'article'
 
+See you soon; keep using your own synapses too --- ALbert
 
-See you soon; keep using your own synapses too--ALbert
 
 =========
 
-Hints etc
-==========
-
-Em/En dashes
--------------
-
-* Sphinx converts ``---`` to an em-dash, the longer of the two; and ``--`` to the en-dash
-* We use em-dash (except for ranges)
-
-  - To break/connect a line *(dramatically)*: without spaces: ``xxxx---yyyy``
-  - Between parenthesis: a space before “ (“ and after “) ”:  ``xxx ---tussen haakjes--- yyy``
-  - When “tussen haakjes” is at the end of the line, the trailing one is missing. Use a dot: ``xxx ---no end haak.``
-
-* When in doubt: use no spaces!
-* The “tag” ``too --- ALbert`` has spaces before and after.
-  
-
-.. seealso::
-
-   Sphinx::smartquotes
-     - default: `qDe` (D: Convert dashes (old school) (convert -- to en-dashes and --- to em-dashes)
-     - https://www.sphinx-doc.org/en/master/usage/configuration.html
-
-   em-dashes vs en-dashes
-      - https://share.google/aimode/oEn0l83UGHJUhvaiz
-      - https://www.merriam-webster.com/grammar/em-dash-en-dash-how-to-use
-   
-
-..  LocalWords:  Agentic MCP LLMs
+..  LocalWords: MCP LLMs agentic LLM
