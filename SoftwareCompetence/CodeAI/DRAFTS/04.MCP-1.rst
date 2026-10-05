@@ -3,17 +3,21 @@
 .. image:: images/ScenerySketching.png
    :class: codeai-head
 
-:reading-time: 4-5min (900 words in this file)
+:reading-time: ToDo 	
 
-===============
-DRAFT Templates
-===============
+=======================
+Agentic Coding with MCP
+=======================
 
 .. post::
    :category: ScenerySketching
    :tags: CodeAI
    :location: Geldrop
    :language: en
+
+   “Writing code” is more then just *writing text*. When human engineers are focusing on the code, they also use many
+   tools; like the **compiler**, **test-runners**, etc. We can enable LLMs to run those tools too, with has many
+   benefits, and can introduce huge risk.
 
    A LEAD of a about 3 lines, 84 word.    A LEAD of a about 3 lines, 84 word.    A LEAD of a about 3 lines, 84 word
    A LEAD of a about 3 lines, 84 word.    A LEAD of a about 3 lines, 84 word.    A LEAD of a about 3 lines, 84 word
@@ -147,4 +151,5 @@ Em/En dashes
       - https://share.google/aimode/oEn0l83UGHJUhvaiz
       - https://www.merriam-webster.com/grammar/em-dash-en-dash-how-to-use
    
-..  LocalWords: LLMs CodeAI
+
+..  LocalWords:  Agentic MCP LLMs
