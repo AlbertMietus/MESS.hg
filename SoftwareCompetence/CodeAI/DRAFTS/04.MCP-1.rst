@@ -28,106 +28,107 @@ Agentic Coding with MCP
    Now we focus on how agentic coding fits into the scenery, and how we can speed up engineering by asking LLMs to run
    those tools for us.
 
-
 .. include:: ./sidebar-ScenerySketching.irst
 
 .. sidebar:: Maps & Milestones
    :class: sidebar-ScenerySketching
 
-   In ca 100 woorden: wat achtergrond e/o links naar (eigen/externe) voorbeelden, als brug naar actie.
-   In ca 100 woorden: wat achtergrond e/o links naar (eigen/externe) voorbeelden, als brug naar actie.
-   In ca 100 woorden: wat achtergrond e/o links naar (eigen/externe) voorbeelden, als brug naar actie.
-   In ca 100 woorden: wat achtergrond e/o links naar (eigen/externe) voorbeelden, als brug naar actie.
-   In ca 100 woorden: wat achtergrond e/o links naar (eigen/externe) voorbeelden, als brug naar actie.
-   In ca 100 woorden: wat achtergrond e/o links naar (eigen/externe) voorbeelden, als brug naar actie.
+   The open-source standard **MCP** is invented by Anthropic in 2024 and has become the widely supported standard.
+   |BR|
+   The terminology used in MCP can be a bit confusing, possible as the original use-case (‘context’) is currently
+   completely outdated.
 
+   Basically, your *LLM-IDE* (like Emacs, Claude, Copilot, etc ) sends an list of available tools. The LLM selects, and
+   direct your LLM_IDE to run it with some parameters, and the result is send to the LLM again, who read it and either
+   runs the next tool, or give an answer.
 
-Kopje (a)
-=========
+   MCP is open and flexible. It’s basically text, with a little bit of JSON structure; which is just text for an LLM.
 
-De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
-lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
+   .. About 100 woorden: wat achtergrond e/o links naar (eigen/externe) voorbeelden, als brug naar actie.
+
+.. De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje.
+
+Automating isn't new
+====================
+
+For years the software engineering world has been automating itself. Thirty years ago, we used tools like `cron` for a
+*nightly build*. It did run a `script` to check-out a revision, run the compiler via a `Makefile`, and so on.  Gradually
+that evolved into the current CI/CD environments. Nowadays every tool is run automatically via a configuration.
+
+So, what's new with *agentic coding*?
 |BR|
-Het gebruik sub alinea’s is toegestaan.
+*Nothing* and **Everything**! The same tools are still used. But now a *’stochastic'* LLM is in charge of running
+those tools. It might start the compiler, or a test-tool, etc receive the results. As it understand most errors and
+warning, it can even fix the bug or rerun the tool with other options.
 
-De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
-lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
-Het gebruik sub alinea’s is toegestaan.
+Again, the basic idea is the same --- even better, as the LLM can react more flexible than a tradition script.
+
+
+Context is relevant
+===================
+
+**MCP**: *Model Context Protocol* has become the de facto protocol to run all kind of tools, from searching
+the web, to running developers-tools on your computer. But it started with context.
 |BR|
-De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
-lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
-Het gebruik sub alinea’s is toegestaan.
-De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
-lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
-Het gebruik sub alinea’s is toegestaan.
+As an example, your LLM may need the docs of an library it want to use. Often it is inconvenient to supply them
+proactively. With MCP, the LLM can request that context, by sending a request to your CodeAI environments (“LLM-IDE”)
+who uploads it, and the LLM continues.
+
+But, MCP is more flexible. It can also ask to search the internet --- the LLM has no direct web-abilities --- by
+instructing the ‘LLM-server’ with an URL, and forward the web-page back to the LLM.
+
+Develop & Change
+================
+
+Developing software is more then requesting more ‘context’. We need to change files and run tools. Fortunately, MCP is
+flexible: it can run any (non interactive) tool. Executing your compiler is easy, but it also change, or save, files.
+|BR|
+In chat-mode you can also ask for some code, but you have to copy in manually into the correct file. With MCP that step
+can be automated. When you provide a *‘patch’ tool*, your LLM wil send a patch. But you LLM can also work with a
+*‘write’ tool* --- then it happily send the complete file. A typical LLM is cleaver enough to select a tool it can
+use. Or misuse one, as we will see later.
+
+
+
+
+---------------------------------
+
+
+, *nothing* ---the same tools are still used --- and **everything** --- when we consider sovereignty.
+Those *"scripts"*, when made by experts, performed the same task every time ---every night or every check-in.
+
+That changes when we use agentic coding, as an LLM   kind of reinvents the steps over and over
+again, to execute it on your computer. And keeps trying until it archived a result.
+|BR|
+It's a little bit more complex (and restricted) then that but that is basically what it is happening. Very similar to
+what young developers did before we standardized the process with cron.
+
+--------------
+
+A flexible interface
+====================
+
+
+
+---------
+
+|BR|
+That *deterministic* behaviour gives control and certainty. We ---the programmers, the team or the organization--- owned
+the process.
+
+
 
 Kopje B
 =======
 
-De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
-lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
-|BR|
-Het gebruik sub alinea’s is toegestaan.
 
-De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
-lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
-Het gebruik sub alinea’s is toegestaan.
-|BR|
-De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
-lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
-Het gebruik sub alinea’s is toegestaan.
-De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
-lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
-Het gebruik sub alinea’s is toegestaan.
-De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
-lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
-Het gebruik sub alinea’s is toegestaan.
-
-
-Kopje C
-=======
-
-De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
-lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
-|BR|
-Het gebruik sub alinea’s is toegestaan.
-
-De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
-lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
-Het gebruik sub alinea’s is toegestaan.
-|BR|
-De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
-lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
-Het gebruik sub alinea’s is toegestaan.
-De hoofdtekst (in 4 kopjes) is 700-800 woorden. Dus 175 tot 200 woorden per kopje. En dat is een alinea of 3. Als mag 1
-lange of max 4 kortere ook. De secties hoeven ook niet allemaal even lang te zijn.
-Het gebruik sub alinea’s is toegestaan.
-
-Kopje D
-=======
-
-Zorg dat de laatste alinea
-A) de cirkel rond maakt. Het moet de vraag van de lead (of 1ste kopje) beantwoorden.
 B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende 'article'
 
-
-Zorg dat de laatste alinea
-A) de cirkel rond maakt. Het moet de vraag van de lead (of 1ste kopje) beantwoorden.
-B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende 'article'
-
-
-Zorg dat de laatste alinea
-A) de cirkel rond maakt. Het moet de vraag van de lead (of 1ste kopje) beantwoorden.
-B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende 'article'
-
-
-Zorg dat de laatste alinea
-A) de cirkel rond maakt. Het moet de vraag van de lead (of 1ste kopje) beantwoorden.
-B) Het moet ook een “cliffhanger(tje)” hebben, zodat je lezer terug komt voor de volgende 'article'
+-------------------
 
 See you soon; keep using your own synapses too --- ALbert
 
 
 =========
 
-..  LocalWords: MCP LLMs agentic LLM
+..  LocalWords: MCP LLMs agentic LLM cron Anthropic ScenerySketching
