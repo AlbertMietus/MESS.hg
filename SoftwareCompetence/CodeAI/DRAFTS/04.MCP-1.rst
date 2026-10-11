@@ -53,7 +53,7 @@ Agentic Coding with MCP
    MCP is open and flexible. It’s basically text, with a little bit of JSON structure; which is just text for an LLM.
 
    Basically, your *LLM-IDE* (like Emacs, Claude, Copilot, etc ) sends a list of available tools. The LLM selects, and
-   direct your LLM_IDE to run it with some parameters, and the result is sent  to the LLM again, who reads it and either
+   direct your LLM-IDE to run it with some parameters, and the result is sent  to the LLM again, who reads it and either
    runs the next tool, or give an answer.
    |BR|
    As you can see, it is all text-based, and so fits the LLM very well.
@@ -157,10 +157,12 @@ Engineering isn't only about writing code. It's also about control, about crafts
 practice to understand how to construct an complicated machine.
 
 Sometimes, the outcome of a 'Agentic Code job' is amazing. And, at the same time --- when we look under the bonnet, like
-described above --- it feels like a bombshell.
+described above --- it feels like a bombshell.  When a (junior) coworkers behaves like that, we call it "try and error",
+not good engineering practices. Even I love the enthusiastic, never-give-up mentality, I will plan some coaching session
+to mature them.
 |BR|
-When a (junior) coworkers behaves like that, we call it "try and error", not good engineering practices. Even I love the
-enthusiastic, never-give-up mentality, I will plan some coaching session to mature them.
+I did the same with several CodeAI agents. I failed! They keep responding enthusiastically, promise me
+improvements and continue as usual. Apparently, virtual coworkers have to mature in a different way.
 
 It's truly wonderful that LLM have come so far in a couple of years. More and more they can take over light coding jobs
 ---and I glad about that.
@@ -168,8 +170,8 @@ It's truly wonderful that LLM have come so far in a couple of years. More and mo
 I'm equally grateful that they helped me to understand how 'Agentic' works, and assisted to configure my lab MCP
 environment. Still, it was shocking to read the MCP-conversation; it did mis the engineering discipline, we need.
 
-To make a long story short: Yes, it helps. But, I for now I will not redeem my *deterministic* build scripts for the "try
-and error" approach of the current agents.
+To make a long story short: Yes, it helps. But, for now, I will not redeem my *deterministic* build scripts for the "try
+and error", stochastic approach of the current agents.
 
 
 See you soon; keep using your own synapses too --- ALbert
@@ -178,3 +180,4 @@ See you soon; keep using your own synapses too --- ALbert
 =========
 
 ..  LocalWords: MCP LLMs agentic LLM cron Anthropic ScenerySketching
+
