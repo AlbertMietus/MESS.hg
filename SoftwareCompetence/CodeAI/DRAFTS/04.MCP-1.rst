@@ -3,23 +3,16 @@
 .. image:: images/ScenerySketching.png
    :class: codeai-head
 
+:status: Final Draft	
 :reading-time: ToDo 	
 
 .. _CodeAI-MCP1:
-
-.. sidebar:: On this page
-   :class: localtoc
-
-   .. contents::
-      :depth: 6
-      :local:
-      :backlinks: none
 
 =======================
 Agentic Coding with MCP
 =======================
 
-.. post:: 2026/10/05		
+.. post:: 		
    :category: ScenerySketching
    :tags: CodeAI
    :location: Geldrop
@@ -36,9 +29,6 @@ Agentic Coding with MCP
    Now we focus on how agentic coding fits into the scenery, and how we can speed up engineering by asking LLMs to run
    those tools for us.
 
-.. .. include:: ./sidebar-ScenerySketching.irst
-
-
 .. sidebar:: Maps & Milestones
    :class: sidebar-ScenerySketching
 
@@ -52,9 +42,9 @@ Agentic Coding with MCP
 
    MCP is open and flexible. It’s basically text, with a little bit of JSON structure; which is just text for an LLM.
 
-   Basically, your *LLM-IDE* (like Emacs, Claude, Copilot, etc ) sends a list of available tools. The LLM selects, and
-   direct your LLM-IDE to run it with some parameters, and the result is sent  to the LLM again, who reads it and either
-   runs the next tool, or give an answer.
+   Basically, your *LLM-IDE* (like Emacs, Claude, Copilot, etc ) sends a list of available tools. The LLM selects and
+   directs your LLM-IDE to run it with some parameters, and the result is sent  to the LLM again, who reads it and either
+   runs the next tool, or gives an answer.
    |BR|
    As you can see, it is all text-based, and so fits the LLM very well.
 
@@ -107,7 +97,7 @@ flexible: it can run any (non-interactive) tool. Give it a tool to save a text f
 In the old CodeAI-days, the LLM could also write code --- in chat mode. But, you had to copy in manually into the correct
 file. With MCP that step is automated.
 
-In this way, an LLM can support the programmer. And very similar, it can use a huge variety of rig to handle code.
+In this way, an LLM can support the programmer. And very similar, it can use a huge variety of rigs to handle code.
 |BR|
 When you provide a *‘patch’ tool*, your LLM will send a patch. But you LLM can also work with a *‘write’ tool* --- then
 it happily send the complete file. A typical LLM is clever enough to select a tool it can use. Or misuse one, as we
@@ -128,11 +118,11 @@ LLM directly, a bit of extra was added: *“Please don’t answer, but act as a 
 it”* (and then execute it).
 |BR|
 Typically that plan is hidden for the user.  When you look to it, you will see the same kind of mistake and correct
-approach --- like it any plan.
+approach --- like any plan.
 
 The next conceptual step is use a loop, instead of just 2 steps.
 |BR|
-So, we start with a plan, including some ‘reasoning’ on what data and tools are needed. Then the LLM write text, to run
+So, we start with a plan, including some ‘reasoning’ on what data and tools are needed. Then the LLM writes text, to run
 a tool, and collects the data. And that repeats.
 
 Again, most of those in-between “chats with itself” are hidden, but in many environments you can see them. Have a look,
@@ -145,7 +135,7 @@ recognize this loop.
 Coding: Engineering or Hacking?
 ===============================
 
-GenAI made some big steps in a few years. Some people didn't even take the first step a: simple chat. Other are already
+GenAI made some big steps in a few years. Some people didn't even take the first step a: simple chat. Others are already
 sure programming is outdated, as LLM can write software.
 |BR|
 And, when we follow the developments computers already mastered the concept of *hacking*; they do break-in into other
@@ -154,25 +144,24 @@ systems.
 My quest is different: Are they becoming an *artificial (software) engineer?*
 |BR|
 Engineering isn't only about writing code. It's also about control, about craftsmanship. It takes years of study and
-practice to understand how to construct an complicated machine.
+practice to understand how to construct a complicated machine.
 
 Sometimes, the outcome of a 'Agentic Code job' is amazing. And, at the same time --- when we look under the bonnet, like
-described above --- it feels like a bombshell.  When a (junior) coworkers behaves like that, we call it "try and error",
-not good engineering practices. Even I love the enthusiastic, never-give-up mentality, I will plan some coaching session
-to mature them.
+described above --- it feels like a bombshell.  When (junior) coworkers behaves like that, we call it "try and error",
+not good engineering practices. Even though I love the enthusiastic, never-give-up mentality. But I will plan some coaching
+sessions to mature them.
 |BR|
 I did the same with several CodeAI agents. I failed! They keep responding enthusiastically, promise me
 improvements and continue as usual. Apparently, virtual coworkers have to mature in a different way.
 
-It's truly wonderful that LLM have come so far in a couple of years. More and more they can take over light coding jobs
----and I glad about that.
+It's truly wonderful that LLMs have come so far in a couple of years. More and more they can take over light coding jobs
+---and I'm glad about that.
 |BR|
 I'm equally grateful that they helped me to understand how 'Agentic' works, and assisted to configure my lab MCP
-environment. Still, it was shocking to read the MCP-conversation; it did mis the engineering discipline, we need.
+environment. Still, it was shocking to read the MCP-conversation; it did miss the engineering discipline, we need.
 
 To make a long story short: Yes, it helps. But, for now, I will not redeem my *deterministic* build scripts for the "try
 and error", stochastic approach of the current agents.
-
 
 See you soon; keep using your own synapses too --- ALbert
 
