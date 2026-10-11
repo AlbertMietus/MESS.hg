@@ -1,10 +1,11 @@
 .. Copyright (C) ALbert Mietus; 2026
 
-.. image:: images/ScenerySketching.png
+.. image:: ./images/ScenerySketching.png
    :class: codeai-head
 
 :status: Final Draft	
 :reading-time: ToDo 	
+:4LinkedIn: 	./images/4linkedIn/04.MCP-1.png
 
 .. _CodeAI-MCP1:
 
@@ -37,14 +38,14 @@ Agentic Coding with MCP
    |BR|
    The terminology used in MCP can be a bit confusing, possibly as the original use-case (‘context’) feels currently
    outdated. Also, the words ‘Server’ and ‘Client’ are, though technically correct, inverted compared to what
-   most people expect: The server is running on your computer, to start the tools on your computer. Only the LLM (acting as
-   client) runs remotely.
+   most people expect: The server is running on your computer, to start the tools on your computer. Only the LLM (acting
+   as client) runs remotely.
 
    MCP is open and flexible. It’s basically text, with a little bit of JSON structure; which is just text for an LLM.
 
-   Basically, your *LLM-IDE* (like Emacs, Claude, Copilot, etc ) sends a list of available tools. The LLM selects and
-   directs your LLM-IDE to run it with some parameters, and the result is sent  to the LLM again, who reads it and either
-   runs the next tool, or gives an answer.
+   Basically, your *CodeAI-IDE* (like Emacs, Claude, Copilot, etc ) sends a list of available tools. The LLM selects and
+   directs your CodeAI-IDE to run it with some parameters, and the result is sent to the LLM again, who reads it and
+   either runs the next tool, or gives an answer.
    |BR|
    As you can see, it is all text-based, and so fits the LLM very well.
 
@@ -54,15 +55,15 @@ Automating isn't new
 ====================
 
 For years, the software engineering world has been automating itself. Thirty years ago, we used tools like `cron` for a
-*nightly build*. It did run a `script` to check out a revision, run the compiler via a `Makefile`, and so on.  Gradually,
-that evolved into the current CI/CD environments. Nowadays, every developer-tool runs automatically as set by a
-configuration file.
+*nightly build*. It did run a `script` to check out a revision, run the compiler via a `Makefile`, and so on.
+Gradually, that evolved into the current CI/CD environments. Nowadays, every developer-tool runs automatically as set by
+a configuration file.
 
 So, what's new with *agentic coding*? *Nothing* and *Everything*!
 |BR|
 The same tools are still used. But now the script, aka configuration, is replaced by an LLM. It can start the compiler,
-or a test-tool, etc and receive the results. As it understands errors and warnings, it can even fix the bug and
-rerun some tool with other options. And continue until it decides it ready.
+or a test-tool, etc and receive the results. As it understands errors and warnings, it can even fix the bug and rerun
+some tool with other options. And continue until it decides it ready.
 
 Again, the basic idea is the same. Better ---some will say--- as the LLM reacts more flexibly than a traditional
 script. Substandard, others will say, as the deterministic script, aka configuration, is replaced by a *stochastic*
@@ -74,16 +75,16 @@ Pick your own side; both arguments are legitimate.
 Context is relevant
 ===================
 
-**MCP** has become the de facto protocol to run all kinds of tools, from searching the web to running developer tools
-on your computer. But it started with context.
+**MCP** has become the de facto protocol to run all kinds of tools, from searching the web to running developer tools on
+your computer. But it started with context.
 |BR|
 For example, your LLM may need the docs of a library it wants to use. As it was inconvenient to supply them all
-proactively, an alternative reactive way was invented. With MCP, the LLM can request the info it needs by sending a request
-to your CodeAI environments (“LLM-IDE”) that uploads it, such that the LLM has all context it needs.
+proactively, an alternative reactive way was invented. With MCP, the LLM can request the info it needs by sending a
+request to your CodeAI environments (“CodeAI-IDE”) that uploads it, such that the LLM has all context it needs.
 
-But MCP is more flexible. It can also ask to search the internet --- as the LLM itself has no direct web abilities --- by
-instructing your ‘LLM-IDE.’ with a URL and forwarding the web page back to the LLM. Or, for CodeAI, read the code, the
-design document, etc.
+But MCP is more flexible. It can also ask to search the internet ---as the LLM itself has no direct web abilities--- by
+sending an URL to your ‘CodeAI-IDE’, which will load that web page, and forwarding it back to the LLM. Or, more relevant
+for CodeAI, read the code, the design document, etc.
 |BR|
 There are no limits --- also, reading the errors of a compile-job gives ‘context’.
 
@@ -94,7 +95,7 @@ Develop & Change
 Developing software is more than requesting more ‘context’. We need to change files and run tools. Fortunately, MCP is
 flexible: it can run any (non-interactive) tool. Give it a tool to save a text file, it is able to change code.
 |BR|
-In the old CodeAI-days, the LLM could also write code --- in chat mode. But, you had to copy in manually into the correct
+In the old CodeAI-days, the LLM could also write code --- in chat mode. You had to copy in manually into the correct
 file. With MCP that step is automated.
 
 In this way, an LLM can support the programmer. And very similar, it can use a huge variety of rigs to handle code.
@@ -106,23 +107,23 @@ will see later.
 Plan & Act
 ==========
 
-A big change between the initial “chat” LLMs and ‘agentic AI’ is that it can act. However, there is one important step
-in between ‘planning’. Originally, the chat just continues your story, generating the next (most likely) word, word for
+A big change between the initial *chat LLMs* and ‘agentic AI’ is that it can act. However, there is one important step
+in between: ‘planning’. Originally, the chat just continues your story, generating the next (most likely) word, word for
 word.
 |BR|
-Everybody will remember those examples where its answer started with ‘yes’ and continued arguing it should be no. As if there
-is no backspace on an LLM.
+Everybody will remember those examples where the answer started with ‘yes’ and continued arguing it should be 'no'. As
+if there is no backspace on an LLM.
 
 That changed when ‘reasoning’ was discovered. The key here was a 2-step approach. Instead of sending the question to the
 LLM directly, a bit of extra was added: *“Please don’t answer, but act as a project manager: write a plan on how to solve
 it”* (and then execute it).
 |BR|
-Typically that plan is hidden for the user.  When you look to it, you will see the same kind of mistake and correct
-approach --- like any plan.
+Typically that plan is hidden for the user.  When you look into it however, you will see the same kind of mistake and
+correct approach. The answer itself is much better now.
 
 The next conceptual step is use a loop, instead of just 2 steps.
 |BR|
-So, we start with a plan, including some ‘reasoning’ on what data and tools are needed. Then the LLM writes text, to run
+So, we start with a plan, including some ‘reasoning’ on what data and tools are needed. Then the LLM writes text to run
 a tool, and collects the data. And that repeats.
 
 Again, most of those in-between “chats with itself” are hidden, but in many environments you can see them. Have a look,
@@ -138,7 +139,7 @@ Coding: Engineering or Hacking?
 GenAI made some big steps in a few years. Some people didn't even take the first step a: simple chat. Others are already
 sure programming is outdated, as LLM can write software.
 |BR|
-And, when we follow the developments computers already mastered the concept of *hacking*; they do break-in into other
+When we follow headlines, computers already mastered the concept of *hacking*; they do break-in into other
 systems.
 
 My quest is different: Are they becoming an *artificial (software) engineer?*
@@ -147,18 +148,18 @@ Engineering isn't only about writing code. It's also about control, about crafts
 practice to understand how to construct a complicated machine.
 
 Sometimes, the outcome of a 'Agentic Code job' is amazing. And, at the same time --- when we look under the bonnet, like
-described above --- it feels like a bombshell.  When (junior) coworkers behaves like that, we call it "try and error",
-not good engineering practices. Even though I love the enthusiastic, never-give-up mentality. But I will plan some coaching
-sessions to mature them.
+described above --- it feels like a bombshell.  When (junior) coworkers behaves like that, we call it "try and error"
+--- not good engineering practices. Even though, I love the enthusiastic, never-give-up mentality. But I will plan some
+coaching sessions to mature them.
 |BR|
-I did the same with several CodeAI agents. I failed! They keep responding enthusiastically, promise me
-improvements and continue as usual. Apparently, virtual coworkers have to mature in a different way.
+I did the same with several CodeAI agents. I failed. They keep responding enthusiastically, promise me improvements and
+continue as usual. Apparently, virtual coworkers have to mature in a different way.
 
 It's truly wonderful that LLMs have come so far in a couple of years. More and more they can take over light coding jobs
 ---and I'm glad about that.
 |BR|
 I'm equally grateful that they helped me to understand how 'Agentic' works, and assisted to configure my lab MCP
-environment. Still, it was shocking to read the MCP-conversation; it did miss the engineering discipline, we need.
+environment. Still, it was shocking to read the MCP-conversation; all the engineering discipline, we need, is absent.
 
 To make a long story short: Yes, it helps. But, for now, I will not redeem my *deterministic* build scripts for the "try
 and error", stochastic approach of the current agents.
