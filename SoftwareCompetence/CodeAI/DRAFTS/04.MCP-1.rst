@@ -26,10 +26,10 @@ Agentic Coding with MCP
    :language: en
 
    “Writing code” is more than just *writing text*. When human engineers work with code, they need a variety of tools to
-   build (a **compiler**) and verify (several **test runners**) the software. We can enable LLMs to run these tools as
-   well; this offers many benefits and can introduce huge risks.
+   build (a **compiler**) and verify (several **test runners**) the software. We can also enable LLMs to run these
+   tools; this offers many benefits and can introduce huge risks.
 
-   In this article, we bring up *MCP*, the protocol that enables *agentic AI*. But be warned! MCP is extremely powerful,
+   In this article, we briefly cover *MCP*, the protocol that enables *agentic AI*. But be warned! MCP is extremely powerful,
    and ---as an LLM has no conscience--- it will happily wipe all your work, or worse.  More on that in an upcoming
    article: :ref:`“MCP safety” <CodeAI-MCP2>`.
    |BR|
@@ -45,13 +45,15 @@ Agentic Coding with MCP
    The open-source standard **MCP** (*Model Context Protocol*) is invented by Anthropic in 2024 and has become the
    widely supported standard.
    |BR|
-   The terminology used in MCP can be a bit confusing, possibly as the original use-case (‘context’) is currently
-   completely outdated.
+   The terminology used in MCP can be a bit confusing, possibly as the original use-case (‘context’) feels currently
+   outdated. Also, the words ‘Server’ and ‘Client’ are, though technically correct, inverted compared to what
+   most people expect: The server is running on your computer, to start the tools on your computer. Only the LLM (acting as
+   client) runs remotely.
 
    MCP is open and flexible. It’s basically text, with a little bit of JSON structure; which is just text for an LLM.
 
    Basically, your *LLM-IDE* (like Emacs, Claude, Copilot, etc ) sends a list of available tools. The LLM selects, and
-   direct your LLM_IDE to run it with some parameters, and the result is sent  to the LLM again, who reads it and either 
+   direct your LLM_IDE to run it with some parameters, and the result is sent  to the LLM again, who reads it and either
    runs the next tool, or give an answer.
    |BR|
    As you can see, it is all text-based, and so fits the LLM very well.
@@ -86,11 +88,11 @@ Context is relevant
 on your computer. But it started with context.
 |BR|
 For example, your LLM may need the docs of a library it wants to use. As it was inconvenient to supply them all
-proactively, an alternative reactive way was invented. With MCP, the LLM can request the info it needs, by sending a request
-to your CodeAI environments (“LLM-IDE”) who uploads it, such that the LLM has all context it needs.
+proactively, an alternative reactive way was invented. With MCP, the LLM can request the info it needs by sending a request
+to your CodeAI environments (“LLM-IDE”) that uploads it, such that the LLM has all context it needs.
 
 But MCP is more flexible. It can also ask to search the internet --- as the LLM itself has no direct web abilities --- by
-instructing your ‘LLM-server’ with a URL and forwarding the web page back to the LLM. Or, for CodeAI, read the code, the
+instructing your ‘LLM-IDE.’ with a URL and forwarding the web page back to the LLM. Or, for CodeAI, read the code, the
 design document, etc.
 |BR|
 There are no limits --- also, reading the errors of a compile-job gives ‘context’.
@@ -118,7 +120,7 @@ A big change between the initial “chat” LLMs and ‘agentic AI’ is that it
 in between ‘planning’. Originally, the chat just continues your story, generating the next (most likely) word, word for
 word.
 |BR|
-Everybody will remember those examples where its answer stated with ‘yes’ and continued arguing it should be no. As if there
+Everybody will remember those examples where its answer started with ‘yes’ and continued arguing it should be no. As if there
 is no backspace on an LLM.
 
 That changed when ‘reasoning’ was discovered. The key here was a 2-step approach. Instead of sending the question to the
@@ -137,28 +139,38 @@ Again, most of those in-between “chats with itself” are hidden, but in many 
 its fun!
 |BR|
 Often, it will describe something like: Maybe I can use tool one, and tries it. When it fails, it writes that down,
-re-plan, and tries the next one. And keeps “trying” until you run out of tokens or it thinks it is ready. --- We all recognize this loop.
+re-plan, and tries the next one. And keeps “trying” until you run out of tokens or it thinks it is ready. --- We all
+recognize this loop.
 
+Coding: Engineering or Hacking?
+===============================
 
+GenAI made some big steps in a few years. Some people didn't even take the first step a: simple chat. Other are already
+sure programming is outdated, as LLM can write software.
+|BR|
+And, when we follow the developments computers already mastered the concept of *hacking*; they do break-in into other
+systems.
 
+My quest is different: Are they becoming an *artificial (software) engineer?*
+|BR|
+Engineering isn't only about writing code. It's also about control, about craftsmanship. It takes years of study and
+practice to understand how to construct an complicated machine.
 
+Sometimes, the outcome of a 'Agentic Code job' is amazing. And, at the same time --- when we look under the bonnet, like
+described above --- it feels like a bombshell.
+|BR|
+When a (junior) coworkers behaves like that, we call it "try and error", not good engineering practices. Even I love the
+enthusiastic, never-give-up mentality, I will plan some coaching session to mature them.
 
+It's truly wonderful that LLM have come so far in a couple of years. More and more they can take over light coding jobs
+---and I glad about that.
+|BR|
+I'm equally grateful that they helped me to understand how 'Agentic' works, and assisted to configure my lab MCP
+environment. Still, it was shocking to read the MCP-conversation; it did mis the engineering discipline, we need.
 
+To make a long story short: Yes, it helps. But, I for now I will not redeem my *deterministic* build scripts for the "try
+and error" approach of the current agents.
 
-
-
----------------------------------
-
-
---------------
-
-
-That *deterministic* behaviour gives control and certainty. We ---the programmers, the team or the organization--- owned
-the process.
-
-
-
--------------------
 
 See you soon; keep using your own synapses too --- ALbert
 
