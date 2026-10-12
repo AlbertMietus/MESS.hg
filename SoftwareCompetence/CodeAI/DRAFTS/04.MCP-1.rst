@@ -36,14 +36,16 @@ Agentic Coding with MCP
    The open-source standard **MCP** (*Model Context Protocol*) was invented by Anthropic in 2024 and has become the
    widely supported standard.
    |BR|
-   The terminology used in MCP can be a bit confusing, possibly as the original use-case (‘context’) feels currently
-   outdated. Also, the words ‘Server’ and ‘Client’ are, though technically correct, inverted compared to what
-   most people expect: The server is running on your computer, to start the tools on your computer. Only the LLM (acting
-   as client) runs remotely.
+   The terminology used in MCP can be a bit confusing, possibly as the original use-case (‘context’) is
+   widened. Nowadays, it's more about tools and capabilities, than static context.
+   |BR|
+   Also, the words ‘Server’ and ‘Client’ are, though technically correct, inverted compared to what most people expect:
+   The server is running on your computer, to start the tools on your computer. Only the LLM (acting as client) runs
+   remotely.
 
    MCP is open and flexible. It’s basically text, with a little bit of JSON structure; which is just text for an LLM.
 
-   Basically, your *CodeAI-IDE* (like Emacs, Claude, Copilot, etc) sends a list of available tools. The LLM selects and
+   Basically, your *"CodeAI-IDE"* (like Emacs, Claude, Copilot, etc) sends a list of available tools. The LLM selects and
    directs your CodeAI-IDE to run it with some parameters, and the result is sent to the LLM again, which reads it and
    either runs the next tool, or gives an answer.
    |BR|
@@ -80,10 +82,10 @@ your computer. But it started with context.
 |BR|
 For example, your LLM may need the docs of a library it wants to use. As it was inconvenient to supply them all
 proactively, an alternative reactive way was invented. With MCP, the LLM can request the info it needs by sending a
-request to your CodeAI environments (“CodeAI-IDE”) that uploads it, such that the LLM has all context it needs.
+request to your CodeAI environments (CodeAI-IDE) that uploads it, such that the LLM has all context it needs.
 
 But MCP is more flexible. It can also ask to search the internet ---as the LLM itself has no direct web abilities--- by
-sending an URL to your ‘CodeAI-IDE’, which will load that web page, and forwards it back to the LLM. Or, more relevant
+sending a URL to your CodeAI-IDE, which will load that web page, and forward it back to the LLM. Or, more relevant
 for CodeAI, read the code, the design document, etc.
 |BR|
 There are no limits --- also, reading the errors of a compile-job gives ‘context’.
@@ -146,13 +148,13 @@ My quest is different: Are they becoming an *artificial (software) engineer?*
 Engineering isn't only about writing code. It's also about control, about craftsmanship. It takes years of study and
 practice to understand how to construct a complicated machine.
 
-Sometimes, the outcome of a 'Agentic Code job' is amazing. And, at the same time --- when we look under the bonnet, like
-described above --- it feels like a bombshell.  When (junior) coworkers behave like that, we call it *"trial and error"*
+Sometimes, the outcome of an 'agentic code job' is amazing. And, at the same time ---when we look under the bonnet, like
+described above--- it feels like a bombshell.  When (junior) coworkers behave like that, we call it *"trial and error"*
 --- not good engineering practices. Even though, I love the enthusiastic, never-give-up mentality. But I will plan some
 coaching sessions to mature them.
 |BR|
 I did the same with several CodeAI agents. I failed. They keep responding enthusiastically, promise me improvements and
-continue as usual. Apparently, virtual coworkers have to mature in a different way.
+carries on as usual. Apparently, virtual coworkers have to mature in a different way.
 
 It's truly wonderful that LLMs have come so far in a couple of years. More and more they can take over light coding jobs
 ---and I'm glad about that.
@@ -160,9 +162,9 @@ It's truly wonderful that LLMs have come so far in a couple of years. More and m
 I'm equally grateful that they helped me to understand how 'Agentic' works, and assisted to configure my lab MCP
 environment. Still, it was shocking to read the MCP-conversation; all the engineering discipline we need is absent.
 
-To make a long story short: Yes, it helps. But, for now, I will not trade in my *deterministic* build scripts for the "trial
+To make a long story short: Yes, it helps. But, for now, I will not swap my *deterministic* build scripts for the "trial
 and error", approach of the current agents. Not when we need high-tech, reliable software, not for software in
-regulated domains, and not as long we can't safeguard it.
+regulated domains, and not as long as we can't safeguard it.
 
 See you soon; keep using your own synapses too --- ALbert
 
