@@ -160,9 +160,9 @@ It's truly wonderful that LLMs have come so far in a couple of years. More and m
 I'm equally grateful that they helped me to understand how 'Agentic' works, and assisted to configure my lab MCP
 environment. Still, it was shocking to read the MCP-conversation; all the engineering discipline we need is absent.
 
-To make a long story short: Yes, it helps. But, for now, I will not redeem my *deterministic* build scripts for the "trial
-and error", approach of the current agents. Not when we need high-tech, reliable software, not  for software in
-regulated domains, and  as long we can't safeguard it.
+To make a long story short: Yes, it helps. But, for now, I will not trade in my *deterministic* build scripts for the "trial
+and error", approach of the current agents. Not when we need high-tech, reliable software, not for software in
+regulated domains, and not as long we can't safeguard it.
 
 See you soon; keep using your own synapses too --- ALbert
 
