@@ -25,11 +25,11 @@
    :term:`Sovereign software` is about control.  No
    matter how complex an embedded system is, we are
    responsible for every detail --- not only for the
-   functionality.   Also the quality of the system
-   and the crafting process, is our responsibility.
+   functionality.   Also, the quality of the system
+   and the crafting process are our responsibility.
    |BR|
    For example, in **regulated domains** (*healthcare*,
-   *automotive*, *defense*), AI-generated code is a
+   *automotive*, *defence*), AI-generated code is a
    liability unless it can be audited. Likewise, there
    are often very strict rules on handling
    ("exporting") code.
