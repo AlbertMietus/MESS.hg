@@ -33,7 +33,7 @@ Agentic Coding with MCP
 .. sidebar:: Maps & Milestones
    :class: sidebar-ScenerySketching
 
-   The *Model Context Protocol* (**MCP**) is invented by Anthropic in 2024; who amde it an open standard. Now it is
+   The *Model Context Protocol* (**MCP**) is invented by Anthropic in 2024; who made it an open standard. Now it is
    widely supported.
    |BR|
    MCP terminology can be confusing, partly because the original use-case (‘context’) is quite narrow. Nowadays, it's
@@ -80,7 +80,7 @@ your computer. But it started with context.
 |BR|
 For example, your LLM may need the docs of a library it wants to use. As it was inconvenient to supply them all
 proactively, an alternative reactive way was invented. With MCP, the LLM can request the info it needs by sending a
-request to your CodeAI environments (CodeAI-IDE) that uploads it, such that the LLM has all the context it needs.
+request to your CodeAI environment (CodeAI-IDE) that uploads it, such that the LLM has all the context it needs.
 
 But MCP is more flexible. It can also ask to search the internet ---as the LLM itself has no direct web abilities--- by
 sending a URL to your CodeAI-IDE, which will load that web page and forward it back to the LLM. Or, more relevant
@@ -115,11 +115,11 @@ Everybody will remember those examples where the answer started with ‘yes’ a
 As-if there is no backspace on an LLM.
 
 That changed when ‘reasoning’ was discovered. The key here was a 2-step approach. Instead of sending the question to the
-LLM directly, a bit of extra was added: *“Please don’t answer, but act as a project manager: write a plan on how to solve
+LLM directly, a bit extra is added: *“Please don’t answer, but act as a project manager: write a plan on how to solve
 it”* (and then execute it).
 |BR|
-Typically that plan is hidden from the user.  When you look into it, however, you will see the same kind of mistake and
-correct approach. The answer itself is much better now.
+Typically that plan is hidden from the user.  When you look into it, however, you will see the same kind of mistakes and
+corrections. Still, the answer itself is much better.
 
 The next conceptual step is to use a loop, instead of just 2 steps.
 |BR|
