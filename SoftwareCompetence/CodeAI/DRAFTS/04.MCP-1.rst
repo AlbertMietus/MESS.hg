@@ -3,7 +3,7 @@
 .. image:: ./images/ScenerySketching.png
    :class: codeai-head
 
-.. LinkedIn image: 	./images/4linkedIn/04.MCP-1.png           
+.. LinkedIn image: 	./images/4linkedIn/04.MCP-1.png
 
 :reading-time: 6-7 min
 
@@ -33,15 +33,13 @@ Agentic Coding with MCP
 .. sidebar:: Maps & Milestones
    :class: sidebar-ScenerySketching
 
-   The open-source standard **MCP** (*Model Context Protocol*) was invented by Anthropic in 2024 and has become the
-   widely supported standard.
+   The *Model Context Protocol* (**MCP**) is invented by Anthropic in 2024; who amde it an open standard. Now it is
+   widely supported.
    |BR|
-   The MCP terminology can be a bit confusing, possibly as the original use-case (‘context’) is widened. Nowadays, it's
-   more about tools and capabilities than static context. 
-   |BR|
-   Also, the words ‘Server’ and ‘Client’ are, though technically correct, inverted compared to what most people expect:
-   The server is running on your computer to start the tools on your computer. Only the LLM (acting as client) runs
-   remotely.
+   MCP terminology can be confusing, partly because the original use-case (‘context’) is quite narrow. Nowadays, it's
+   more about tools and capabilities than around static context. Also, the words ‘Server’ and ‘Client’ are (though
+   technically correct) inverted compared to what most people expect: The server runs on your local computer, like
+   the tools it starts. Only the LLM (acting as client) runs remotely.
 
    MCP is open and flexible. It’s basically text, with a little bit of JSON structure, which is just text for an LLM.
 
