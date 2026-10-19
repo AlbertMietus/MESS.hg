@@ -14,18 +14,27 @@ DRAFT TEMPLATE
    :reading-time:	ToDo
    :LinkedIn: 		ToDo
 
+   De lead is 60-110 woorden; in het Engels.  De lead is 60-110 woorden; in het Engels.  De lead is 60-110 woorden; in
+   het Engels.  De lead is 60-110 woorden; in het Engels.  De lead is 60-110 woorden; in het Engels.  De lead is 60-110
+   woorden; in het Engels.
+   |BR|
+   De lead is 60-110 woorden; in het Engels.
 
-   Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het
-   engels. Ongeveer 250 woorden, in het engels.     Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het
-   engels. Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het engels. 
+   De lead is 60-110 woorden; in het Engels.  De lead is 60-110 woorden; in het Engels.  De lead is 60-110 woorden; in
+   het Engels.  De lead is 60-110 woorden; in het Engels.
 
-Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het engels.
-Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het engels. Ongeveer 250 woorden, in het engels.
+In totaal zo’n 250 woorden . Vrijwel GEEN opmaak: geen kopjes, geen headers etc. **Bold** en *italic* mag wel. Wellicht
+1 link.  Witregels mogen natuurlijk wel `BR` mag ook.  In totaal zo’n 250 woorden . Vrijwel GEEN opmaak: geen kopjes,
+geen headers etc. **Bold** en *italic* mag wel. Wellicht 1 link.  Witregels mogen natuurlijk wel `BR` mag ook.
 
-Vrijwel GEEN opmaak: geen kopjes, geen headers etc. **Bold** en *italic* mag wel. Wellicht 1 link.  Witregels mogen natuurlijk wel `BR` mag ook.
-Vrijwel GEEN opmaak: geen kopjes, geen headers etc. **Bold** en *italic* mag wel. Wellicht 1 link.  Witregels mogen natuurlijk wel `BR` mag ook.
-Vrijwel GEEN opmaak: geen kopjes, geen headers etc. **Bold** en *italic* mag wel. Wellicht 1 link.  Witregels mogen natuurlijk wel `BR` mag ook.
-Vrijwel GEEN opmaak: geen kopjes, geen headers etc. **Bold** en *italic* mag wel. Wellicht 1 link.  Witregels mogen natuurlijk wel `BR` mag ook.
+In totaal zo’n 250 woorden . Vrijwel GEEN opmaak: geen kopjes, geen headers etc. **Bold** en *italic* mag wel. Wellicht
+1 link.  Witregels mogen natuurlijk wel `BR` mag ook.  In totaal zo’n 250 woorden . Vrijwel GEEN opmaak: geen kopjes,
+geen headers etc. **Bold** en *italic* mag wel. Wellicht 1 link.  Witregels mogen natuurlijk wel `BR` mag ook.
+
+In totaal zo’n 250 woorden . Vrijwel GEEN opmaak: geen kopjes, geen headers etc. **Bold** en *italic* mag wel. Wellicht
+1 link.  Witregels mogen natuurlijk wel `BR` mag ook.  In totaal zo’n 250 woorden . Vrijwel GEEN opmaak: geen kopjes,
+geen headers etc. **Bold** en *italic* mag wel. Wellicht 1 link.  Witregels mogen natuurlijk wel `BR` mag ook.
+
 
 
 
