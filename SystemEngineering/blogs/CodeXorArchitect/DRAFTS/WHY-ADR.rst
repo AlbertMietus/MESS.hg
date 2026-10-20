@@ -11,11 +11,11 @@ Why? the ADR!
    :tags: CodeXorArchitect
    :category: LinkedIn-Post
 
-   :reading-time:	ToDo
+   :reading-time:	1min50
    :LinkedIn: 		ToDo
-   :status:			DRAFT
+   :status:			RC3
 
-   June 1996: the maiden flight of the Ariane 5 --a rocket of €666M-- failed, with a big explosion!
+   June 1996: the maiden flight of Ariane 5 --a €666M rocket-- failed, with a big explosion!
    |BR|
    But **Why**?
 
@@ -35,8 +35,8 @@ The Ariane 5 reused code from the Ariane 4 without much discussion or documentat
 argument. The specs of the ‘4’ and ‘5’ are totally different, however. The existing code didn't need to work with the
 much higher speeds of the Ariane 5. A disaster waiting to happen.
 
-**Why** is this relevant? Maybe because you recognize: Aren't those kinds of misses everybody makes? So, how can we learn
-to avoid them?
+**Why** is this relevant? Maybe because you recognize them: aren't these the kinds of misses everybody makes? How can we
+learn to avoid them?
 |BR|
 I give you two simple concepts: “**5 Whys**” and the “**ADR**” (*Architecture Decision Records)*. Both are lean and
 agile. They make you a better architect.
@@ -52,10 +52,10 @@ options, the outcome and next steps. Keep it simple, not technical.
 Maybe a technically superior solution exists, but there was no time to implement it. Write it down! For the ‘4’, the
 chosen one was adequate!
 
-One day, there will be an ‘5’, then you spend maybe half a day writing a new ADR.
+One day, there will be a ‘5’, then you spend maybe half a day writing a new ADR.  Option 1: reuse as is, with a small
+risk: the €666M bug. Option 2: rework; will cost a few days more ---no big bang. Option 3: ...
 |BR|
-Option 1: reuse as is, with a small risk of a €666M bug. Option 2: rework; will cost a few days more ---no big
-bang. Option 3: ... Even the writing itself will help.
+Even the writing itself will help.
 
 There are plenty of examples freely available. You can look them up today and start tomorrow.
 |BR|
