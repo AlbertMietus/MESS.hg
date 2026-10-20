@@ -11,7 +11,7 @@ Why? the ADR!
    :tags: CodeXorArchitect
    :category: LinkedIn-Post
 
-   :reading-time:	1min50
+   :reading-time:	1min46
    :LinkedIn: 		ToDo
    :status:			RC3
 
