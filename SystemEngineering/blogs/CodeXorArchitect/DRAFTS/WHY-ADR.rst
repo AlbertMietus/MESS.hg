@@ -15,21 +15,21 @@ Why? the ADR!
    :LinkedIn: 		ToDo
    :status:			RC3
 
-   June 1996: the maiden flight of Ariane 5 --a €666M rocket-- failed, with a big explosion!
+   June 1996: The maiden flight of Ariane 5 --a €666M rocket-- failed, with a big explosion!
    |BR|
    But **Why**?
 
-   You probably remember: it was a software flaw. An expensive one, and not a very complicated one. Or, as studies show,
+   You probably remember: it was a software flaw. An expensive one, but not a very complicated one. Or, as studies show,
    a couple of them. Some *dead code*, a calculation *overflow*, and faulty *error handling*. Each of them shouldn't
    happen ---but can you guarantee that your system doesn't have them?
 
    But **Why**? Why did the code have those kinds of stupid mistakes?
    |BR|
-   Or maybe more important: How can you, as an architect, prevent them?
+   Or maybe more importantly: How can you, as an architect, prevent them?
 
 Expensive flaws are hardly ever introduced during coding. In an unpublished investigation, I showed that over 2 in 3
 field-hits are *“pre-coding”*. That is, the specification, architecture or design documents almost *demand* the bug to
-happen. And it looks like the bigger the blunder, the earlier it was made.
+happen. And it seems that the larger the blunder, the earlier it was made.
 
 The Ariane 5 reused code from the Ariane 4 without much discussion or documentation. “It worked” was the main
 argument. The specs of the ‘4’ and ‘5’ are totally different, however. The existing code didn't need to work with the
@@ -57,7 +57,7 @@ risk: the €666M bug. Option 2: rework; will cost a few days more ---no big ban
 |BR|
 Even the writing itself will help.
 
-There are plenty of examples freely available. You can look them up today and start tomorrow.
+Plenty of examples are freely available. Look them up today and start tomorrow.
 |BR|
 Please do! **Why?** *Because!* If you don’t, who will?
 
