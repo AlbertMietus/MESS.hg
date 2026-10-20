@@ -1,4 +1,4 @@
-. Copyright (C) ALbert Mietus, 2026
+.. Copyright (C) ALbert Mietus, 2026
 
 .. image:: images/WhyTheADR.png
    :width: 100%
@@ -12,8 +12,7 @@ Why? the ADR!
    :category: LinkedIn-Post
 
    :reading-time:	1min46
-   :LinkedIn: 		ToDo
-   :status:			RC3
+   :LinkedIn: 		https://lnkd.in/p/eGQBcEbY
 
    June 1996: The maiden flight of Ariane 5 --a €666M rocket-- failed, with a big explosion!
    |BR|
