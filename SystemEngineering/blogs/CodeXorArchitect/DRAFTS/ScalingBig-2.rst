@@ -18,7 +18,7 @@ The Library Algorithm (Scaling Big 2)
    than you can ever read. Maybe you ask yourself about the ‘algorithm’ to find it quickly. But probably not, as
    everybody follows the same approach.
 
-   This 'Library Algorithm', however, can make you a better writer. And it's *indispensable for a genuine architect*.
+   This 'Library Algorithm', however, can make you a better engineer. And it's *indispensable for a genuine architect*.
 
    Below, I will make it explicit --- admitting the formula itself is NOT that relevant. What matters is knowing it
    exists! And that you can use it to mature as an engineer.
@@ -37,7 +37,7 @@ That procedure isn't about the *best “book”*, nor about searching. People st
 you skip the science department, you don't enter the 18+ floor, ignore the kids’ corner, and much more. At a glance,
 most cabinets are ignored. Humans don’t find; they discard.
 |BR|
-Sometimes a book is completely ignored because the bookseller didn't understand it and shelved it wrongly.
+Sometimes “the best book” is completely ignored because the bookseller didn't understand it and shelved it wrongly.
 
 Eventually, when you find the last few shelves, you turn your head 90 degrees and scan the spines. Again you fly over
 most titles; too thin, too thick, or the wrong shade of pink. Finally, you slide a few books forward, actually pick some
