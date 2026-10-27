@@ -19,9 +19,9 @@ The Library Algorithm (Scaling Big 2)
    everybody follows the same approach.
 
    This 'Library Algorithm', however, can make you a better engineer. And it's *indispensable for a genuine architect*.
-
-   Below, I will make it explicit --- admitting the formula itself is NOT that relevant. What matters is knowing it
-   exists! And that you can use it to mature as an engineer.
+   |BR|
+   The formula itself is NOT that relevant. What matters is knowing it exists! And that you can use it to mature as an
+   engineer.
 
 Architects should make big systems feel simple. When teams are added to speed up development, they should get insight
 into the system; fast. And so they need great documentation and need to find it easily. They shouldn't need to read
@@ -29,25 +29,27 @@ everything to discover what they need.
 |BR|
 See here an analogy between a bookshop with novels and your library full of code, designs, user manuals, meeting minutes
 and more.
+|BR|
+When you write, you should write for an audience, and make sure your readers will find that document!
 
-When you write, you should write for an audience, and make sure your readers will find that document! Therefore, you
-don’t need to be a novelist; you need to be a craftsman and grasp “the algorithm”.
-
-That procedure isn't about the *best “book”*, nor about searching. People start by excluding. When you want a detective,
+The Library Algorithm isn't about the *best “book”*, nor about searching. People start by excluding. When you want a detective,
 you skip the science department, you don't enter the 18+ floor, ignore the kids’ corner, and much more. At a glance,
 most cabinets are ignored. Humans don’t find; they discard.
 |BR|
-Sometimes “the best book” is completely ignored because the bookseller didn't understand it and shelved it wrongly.
-
 Eventually, when you find the last few shelves, you turn your head 90 degrees and scan the spines. Again you fly over
 most titles; too thin, too thick, or the wrong shade of pink. Finally, you slide a few books forward, actually pick some
 up, read the back --- and put them back. Of all those thousands of books, you open maybe a few dozen. Typically to read
 the first paragraph only...
 
-What should you learn from that? Make sure it’s found. The “library shelver” needs your hint on where to place it.
+Sometimes “the best book” is completely ignored because the bookseller didn't understand it and shelved it wrongly.
 |BR|
-Likewise, the title (and the cover) should be spot-on. Your readers must be seduced to continue reading after that
-*'lead'*...
+This doesn't apply to novelists only. The same procedure affects technical documentation; from architecture to code!
+
+Make sure it’s found. Also, your “library shelver” needs your hint on where to place it. Likewise, the title (and the
+cover) should be spot-on.
+|BR|
+Put effort into it so that people start reading. And that *'lead'* should seduce your audience to continue reading.
+
 
 Long story short: Become an architect! Don’t write for people who already know; explain big, complicated systems in a
 simple, understandable way. Whether you write a novel, a design, or even code, keep it simple! Simple to find, simple to
