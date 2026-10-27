@@ -11,7 +11,7 @@ The Library Algorithm (Scaling Big 2)
    :tags: CodeXorArchitect
    :category: LinkedIn-Post
 
-   :reading-time:	ToDo                    
+   :reading-time:	1min53
    :LinkedIn: 		ToDo                    
 
    Suppose you want to read a really nice novel --- but which one? Even a modest library or bookshop has more books
@@ -30,12 +30,11 @@ read everything to discover what they need.
 For a big system, your library full of code, designs, user manuals, meeting minutes, and more is very much like a
 bookshop with novels: too big to read ...
 |BR|
-When you write, don’t only write for an audience. Also make sure your readers will find it!
+When you write, write for an audience; and make sure your readers will find it!
 
 The Library Algorithm isn't about the *best “book”*, nor about searching. Humans start by excluding. When you want a
 detective, you skip the science department, you don't enter the 18+ floor, ignore the kids’ corner, and much more. At a
-glance, most cabinets are ignored. Man don’t find; they discard.
-
+glance, most cabinets are ignored. Humans don’t find; they discard.
 |BR|
 Eventually, when you find the last few shelves, you turn your head 90 degrees and scan the spines. Again you fly over
 most titles; too thin, too thick, or the wrong shade of pink. Finally, you slide a few books forward, actually pick some
