@@ -12,7 +12,7 @@ The Library Algorithm (Scaling Big 2)
    :category: LinkedIn-Post
 
    :reading-time:	1min53
-   :LinkedIn: 		ToDo                    
+   :LinkedIn: 		https://lnkd.in/p/eXcHXF6H 
 
    Suppose you want to read a really nice novel --- but which one? Even a modest library or bookshop has more books
    than you can ever read. Maybe you ask yourself about the ‘algorithm’ to find it quickly. But probably not, as
