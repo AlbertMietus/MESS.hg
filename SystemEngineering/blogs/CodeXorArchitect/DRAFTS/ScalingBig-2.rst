@@ -47,8 +47,8 @@ only the first paragraph...
 
 What should you learn from that? Make sure it’s found. A library shelver understands what is the best cabinet to place it.
 |BR|
-Likewise, the title (and the cover) should be spot-on. Your readers must be to seduced to continue reading after that
-“lead”...
+Likewise, the title (and the cover) should be spot-on. Your readers must be seduced to continue reading after that
+*’lead’*...
 
 Long story short: Become an architect! Don’t write for people who already know; explain big, complicated systems in a
 simple, understandable way. It doesn't matter whether you write a novel, a design, or even code. Make it simple!
