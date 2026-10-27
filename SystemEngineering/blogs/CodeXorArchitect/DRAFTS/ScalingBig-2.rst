@@ -23,18 +23,19 @@ The Library Algorithm (Scaling Big 2)
    The formula itself is NOT that relevant. What matters is knowing it exists! And that you can use it to mature as an
    engineer.
 
-Architects should make big systems feel simple. When teams are added to speed up development, they should get insight
-into the system; fast. And so they need great documentation and need to find it easily. They shouldn't need to read
-everything to discover what they need.
+Architects should make big systems feel simple. When teams are added to speed up development, they quickly need to
+understand the system. They need great documentation and need to find the relevant part easily. They shouldn't need to
+read everything to discover what they need.
 |BR|
-See here an analogy between a bookshop with novels and your library full of code, designs, user manuals, meeting minutes
-and more.
+For a big system, your library full of code, designs, user manuals, meeting minutes, and more is very much like a
+bookshop with novels: too big to read ...
 |BR|
-When you write, you should write for an audience, and make sure your readers will find that document!
+When you write, don’t only write for an audience. Also make sure your readers will find it!
 
-The Library Algorithm isn't about the *best “book”*, nor about searching. People start by excluding. When you want a detective,
-you skip the science department, you don't enter the 18+ floor, ignore the kids’ corner, and much more. At a glance,
-most cabinets are ignored. Humans don’t find; they discard.
+The Library Algorithm isn't about the *best “book”*, nor about searching. Humans start by excluding. When you want a
+detective, you skip the science department, you don't enter the 18+ floor, ignore the kids’ corner, and much more. At a
+glance, most cabinets are ignored. Man don’t find; they discard.
+
 |BR|
 Eventually, when you find the last few shelves, you turn your head 90 degrees and scan the spines. Again you fly over
 most titles; too thin, too thick, or the wrong shade of pink. Finally, you slide a few books forward, actually pick some
@@ -43,12 +44,12 @@ the first paragraph only...
 
 Sometimes “the best book” is completely ignored because the bookseller didn't understand it and shelved it wrongly.
 |BR|
-This doesn't apply to novelists only. The same procedure affects technical documentation; from architecture to code!
+This doesn't apply only to novelists. The same procedure affects technical documentation, from architecture to code!
 
 Make sure it’s found. Also, your “library shelver” needs your hint on where to place it. Likewise, the title (and the
 cover) should be spot-on.
 |BR|
-Put effort into it so that people start reading. And that *'lead'* should seduce your audience to continue reading.
+Put effort into it so that professionals start reading. And that *'lead'* should seduce your audience to continue reading.
 
 
 Long story short: Become an architect! Don’t write for people who already know; explain big, complicated systems in a
