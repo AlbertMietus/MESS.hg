@@ -42,6 +42,10 @@ geen headers etc. **Bold** en *italic* mag wel. Wellicht 1 link.  Witregels moge
 
 ---
 
+Words:
+ * LEAD 60-110
+ * TOTAL: 250
+ - ca 3 paragraph (250-80)/3 ==> 60 each
 
 Zie `~/work/MIJN.docs/MoreBlogs/0.meta/2.CodeXorArchitect.rst` (etc) voor info.
 

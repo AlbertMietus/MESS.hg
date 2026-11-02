@@ -1,0 +1,72 @@
+.. Copyright (C) ALbert Mietus, 2026
+
+.. .. image:: images/TO BE DONE .png 
+   :width: 100%
+
+
+Software BOM
+============
+
+.. post:: 
+   :tags: CodeXorArchitect
+   :category: LinkedIn-Post
+
+   :reading-time:	ToDo
+   :LinkedIn: 		ToDo
+
+   When developing an embedded system, most engineers ask, *“What does it do?”* The question *“How many are we going to
+   sell?”* is at least as interesting. however! As it defines the architecture!
+   |BR|
+   Embedded systems are built from software and hardware. Traditionally, a lower ‘BOM’ --- the cost of the electronics,
+   mechanics, etc. --- has always been the goal, as software has only development costs.
+
+   But is that always true?
+   |BR|
+   For huge sales volumes (millions/week) it is. But for low numbers, the architect should correct that illusion!
+
+Calculation the (sales) prices is a profession on it own, but the basics are simple. There are many costs, like
+marketing & promotion, that we can ignore ---- as unrelated to development cost.  The cost of the electronics,
+especially the compute part, does, however.
+|BR|
+That is a choice made by an architect.
+
+In a nutshell, the development investment divided by the total sales volume contributes to the unit price.
+|BR|
+Roughly, you can add it to the BOM and play with it. More computing power raises the BOM, which is fine when it lowers
+the software investment more. This isn't simple arithmetic, as most numbers are based on predictions. But price
+experts are used to work forecasts anyhow.
+|BR|
+The hardest part is fighting tradition, as software costs are ignored for years.
+
+Let me give you two examples to inspire you.
+|BR|
+One company almost went out of business, as they forgot to add the RT-OS
+licensing price to the BOM, as it was software... The second is Embedded Linux. That success is based on the same
+formula. Compared to classic embedded systems, it's much easier and faster to write code for. Or rephrased: the software
+development investment when down hard. Even for a medium print run it is currently competitive; the extra costs for
+hardware is minor to the savings in development cost!
+
+
+
+
+
+
+#CodeXorArchitect --- Your #TechFluencer
+
+---
+
+
+Words:
+ * LEAD 60-110
+ * TOTAL: 250
+ - ca 3 paragraph (250-80)/3 ==> 60 each
+   
+
+
+Zie `~/work/MIJN.docs/MoreBlogs/0.meta/2.CodeXorArchitect.rst` (etc) voor info.
+
+* Plaatje voor linkedIn maken met `~/work/MIJN.docs/tools/AddText-toHeaderImage.html`
+* Basis: ~/work/MESS,hg/SystemEngineering/blogs/CodeXorArchitect/images/base/CodeXorArchitect-header-1128x368.png
+* The kop/title (met spaces) er overheen. #CodeXorArchitect als reeks
+
+..  LocalWords:  TechFluencer BOM
