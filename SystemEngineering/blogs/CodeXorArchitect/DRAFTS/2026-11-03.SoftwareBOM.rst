@@ -7,7 +7,7 @@
 Software BOM
 ============
 
-.. post:: 
+.. post:: 3/Nov/2026
    :tags: CodeXorArchitect
    :category: LinkedIn-Post
 
@@ -15,18 +15,18 @@ Software BOM
    :LinkedIn: 		ToDo
 
    When developing an embedded system, most engineers ask, *“What does it do?”* The question *“How many are we going to
-   sell?”* is at least as interesting. however! As it defines the architecture!
+   sell?”* is at least as interesting, however! As it defines the architecture!
    |BR|
    Embedded systems are built from software and hardware. Traditionally, a lower ‘BOM’ --- the cost of the electronics,
    mechanics, etc. --- has always been the goal, as software has only development costs.
 
    But is that always true?
    |BR|
-   For huge sales volumes (millions/week) it is. But for low numbers, the architect should correct that illusion!
+   For huge sales volumes (millions/week), it is. But for low numbers, the architect should correct that illusion!
 
-Calculation the (sales) prices is a profession on it own, but the basics are simple. There are many costs, like
-marketing & promotion, that we can ignore ---- as unrelated to development cost.  The cost of the electronics,
-especially the compute part, does, however.
+Calculating the (sales) prices is a profession on its own, but the basics are simple. There are many costs, like
+marketing & promotion, that we can ignore --- as unrelated to development cost.  The costs of the electronics do,
+however ---especially the compute part.
 |BR|
 That is a choice made by an architect.
 
@@ -34,7 +34,7 @@ In a nutshell, the development investment divided by the total sales volume cont
 |BR|
 Roughly, you can add it to the BOM and play with it. More computing power raises the BOM, which is fine when it lowers
 the software investment more. This isn't simple arithmetic, as most numbers are based on predictions. But price
-experts are used to work forecasts anyhow.
+experts are always working with forecasts.
 |BR|
 The hardest part is fighting tradition, as software costs are ignored for years.
 
@@ -43,9 +43,14 @@ Let me give you two examples to inspire you.
 One company almost went out of business, as they forgot to add the RT-OS
 licensing price to the BOM, as it was software... The second is Embedded Linux. That success is based on the same
 formula. Compared to classic embedded systems, it's much easier and faster to write code for. Or rephrased: the software
-development investment when down hard. Even for a medium print run it is currently competitive; the extra costs for
-hardware is minor to the savings in development cost!
+development investment went down hard. Even for a medium print run it is currently competitive; the extra costs for
+hardware is a fraction of the savings in development cost!
 
+Although architecture often provides technical solutions, it should answer business questions --- like finding the balance
+between cost and investment.
+|BR|
+Do yourself a favor and practice this algorithm ---even afterwards. Try it with your currents products; with hindsight
+it a bit easier.
 
 
 
