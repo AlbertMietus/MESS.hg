@@ -53,6 +53,8 @@ Scenery Sketching:: CodeAI
    :titlesonly:
 
    [0-9][0-9]*
+   [0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9].*
+
 
 
 More articles will be added frequently.
