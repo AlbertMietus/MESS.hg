@@ -24,35 +24,33 @@ Software BOM
    |BR|
    For huge sales volumes (millions/week), it is. But for low numbers, the architect should correct that illusion!
 
-Calculating the (sales) prices is a profession on its own, but the basics are simple. There are many costs, like
-marketing & promotion, that we can ignore --- as unrelated to development costs.  The costs of the electronics do
-matter, however.
+Calculating the sales price is a profession in its own, but the basics are simple. We can ignore expenses unrelated to
+development ---like marketing & promotion.  Hardware costs, especially for “computer electronics”, do matter, however.
 |BR|
 Here, the architect has a role.
 
-
-In a nutshell, the (software) development investment divided by the total sales volume contributes to the unit price.
-|BR|
-Roughly, you can add it to the BOM and play with it. More computing power raises the BOM, which is fine when it lowers
-the software investment more. This isn't simple arithmetic, as most numbers are based on predictions. But price
-experts are always working with forecasts.
+In a nutshell: Dividing the (software) development investment by the total number of sold entities gives the cost per
+unit.  Roughly, you can add it to the BOM and play with it. Adding computing power raises the BOM, which is fine when it
+lowers the software investment even more. This isn't simple arithmetic, as most numbers are based on predictions. But
+price experts are always working with forecasts.
 |BR|
 The hardest part is fighting tradition, as software costs are ignored for years.
 
 Let me give you two examples to inspire you.
 |BR|
-One company almost went out of business, as they forgot to add the RT-OS licensing price to the BOM, as it was
-software... The second is Embedded Linux. That success is based on the same formula. Compared to classic embedded
-systems, it's much easier and faster to write code for.
+One company almost went out of business; they forgot to add the RT-OS licensing price because it was software...
 |BR|
-Or rephrased: the software development investment went down hard. Even for a midsize volume, it is currently
-competitive; the extra costs for hardware are a fraction of the savings in development costs!
+The second is Embedded Linux. That success comes from the same formula. Compared to classic embedded systems, it makes
+writing code easier and faster. Or rephrased: the software development investment went down hard.  Even at midsize
+volumes, it is currently competitive. The extra hardware (BOM) costs are a fraction of the reduced development!
 
-Although architecture often provides technical solutions, it should answer business questions --- like finding the balance
-between cost and investment.
+Although architecture often provides technical solutions, it should answer business questions --- like finding the
+balance between saving cost and optimising investment.
 |BR|
-Do yourself a favour and practice this algorithm ---even afterwards. Try it with your current products; with hindsight
+Do yourself a favour and practice this algorithm --even afterwards. Try it with your current products; with hindsight
 it's a bit easier.
+
+-----------
 
 
 
