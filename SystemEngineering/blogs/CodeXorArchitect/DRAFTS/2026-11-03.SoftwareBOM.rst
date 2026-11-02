@@ -29,7 +29,7 @@ development ---like marketing & promotion.  Hardware costs, especially for “co
 |BR|
 Here, the architect has a role.
 
-In a nutshell: Dividing the (software) development investment by the total number of sold entities gives the cost per
+In a nutshell: Dividing the (software) development investment by the total number of units sold gives the cost per
 unit.  Roughly, you can add it to the BOM and play with it. Adding computing power raises the BOM, which is fine when it
 lowers the software investment even more. This isn't simple arithmetic, as most numbers are based on predictions. But
 price experts are always working with forecasts.
@@ -38,17 +38,18 @@ The hardest part is fighting tradition, as software costs are ignored for years.
 
 Let me give you two examples to inspire you.
 |BR|
-One company almost went out of business; they forgot to add the RT-OS licensing price because it was software...
+One company almost went out of business. They forgot to add the RTOS licensing price because it was software...
 |BR|
 The second is Embedded Linux. That success comes from the same formula. Compared to classic embedded systems, it makes
-writing code easier and faster. Or rephrased: the software development investment went down hard.  Even at midsize
+writing code easier and faster. Or rephrased: the software development investment dropped significantly.  Even at midsize
 volumes, it is currently competitive. The extra hardware (BOM) costs are a fraction of the reduced development!
 
 Although architecture often provides technical solutions, it should answer business questions --- like finding the
-balance between saving cost and optimising investment.
+balance between saving costs and optimising investment.
 |BR|
-Do yourself a favour and practice this algorithm --even afterwards. Try it with your current products; with hindsight
+Do yourself a favour and practice this algorithm ---even afterwards. Try it with your current products; with hindsight,
 it's a bit easier.
+
 
 -----------
 
@@ -57,3 +58,5 @@ it's a bit easier.
 
 
 #CodeXorArchitect --- Your #TechFluencer
+
+..  LocalWords:  RTOS
