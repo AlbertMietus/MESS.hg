@@ -1,6 +1,6 @@
 .. Copyright (C) ALbert Mietus, 2026
 
-.. .. image:: images/TO BE DONE .png 
+.. image:: images/SoftwareBOM.png
    :width: 100%
 
 
@@ -14,8 +14,8 @@ Software BOM
    :reading-time:	ToDo
    :LinkedIn: 		ToDo
 
-   When developing an embedded system, most engineers ask, *“What does it do?”* The question *“How many are we going to
-   sell?”* is at least as interesting, however! As it defines the architecture!
+   When developing an embedded system, most engineers ask, *“What does it do?”* However, the question *“How many are we going to
+   sell?”* is at least as interesting --- as it defines the architecture!
    |BR|
    Embedded systems are built from software and hardware. Traditionally, a lower ‘BOM’ --- the cost of the electronics,
    mechanics, etc. --- has always been the goal, as software has only development costs.
@@ -25,12 +25,13 @@ Software BOM
    For huge sales volumes (millions/week), it is. But for low numbers, the architect should correct that illusion!
 
 Calculating the (sales) prices is a profession on its own, but the basics are simple. There are many costs, like
-marketing & promotion, that we can ignore --- as unrelated to development cost.  The costs of the electronics do,
-however ---especially the compute part.
+marketing & promotion, that we can ignore --- as unrelated to development costs.  The costs of the electronics do
+matter, however.
 |BR|
-That is a choice made by an architect.
+Here, the architect has a role.
 
-In a nutshell, the development investment divided by the total sales volume contributes to the unit price.
+
+In a nutshell, the (software) development investment divided by the total sales volume contributes to the unit price.
 |BR|
 Roughly, you can add it to the BOM and play with it. More computing power raises the BOM, which is fine when it lowers
 the software investment more. This isn't simple arithmetic, as most numbers are based on predictions. But price
@@ -40,38 +41,21 @@ The hardest part is fighting tradition, as software costs are ignored for years.
 
 Let me give you two examples to inspire you.
 |BR|
-One company almost went out of business, as they forgot to add the RT-OS
-licensing price to the BOM, as it was software... The second is Embedded Linux. That success is based on the same
-formula. Compared to classic embedded systems, it's much easier and faster to write code for. Or rephrased: the software
-development investment went down hard. Even for a medium print run it is currently competitive; the extra costs for
-hardware is a fraction of the savings in development cost!
+One company almost went out of business, as they forgot to add the RT-OS licensing price to the BOM, as it was
+software... The second is Embedded Linux. That success is based on the same formula. Compared to classic embedded
+systems, it's much easier and faster to write code for.
+|BR|
+Or rephrased: the software development investment went down hard. Even for a midsize volume, it is currently
+competitive; the extra costs for hardware are a fraction of the savings in development costs!
 
 Although architecture often provides technical solutions, it should answer business questions --- like finding the balance
 between cost and investment.
 |BR|
-Do yourself a favor and practice this algorithm ---even afterwards. Try it with your currents products; with hindsight
-it a bit easier.
+Do yourself a favour and practice this algorithm ---even afterwards. Try it with your current products; with hindsight
+it's a bit easier.
 
 
 
 
 
 #CodeXorArchitect --- Your #TechFluencer
-
----
-
-
-Words:
- * LEAD 60-110
- * TOTAL: 250
- - ca 3 paragraph (250-80)/3 ==> 60 each
-   
-
-
-Zie `~/work/MIJN.docs/MoreBlogs/0.meta/2.CodeXorArchitect.rst` (etc) voor info.
-
-* Plaatje voor linkedIn maken met `~/work/MIJN.docs/tools/AddText-toHeaderImage.html`
-* Basis: ~/work/MESS,hg/SystemEngineering/blogs/CodeXorArchitect/images/base/CodeXorArchitect-header-1128x368.png
-* The kop/title (met spaces) er overheen. #CodeXorArchitect als reeks
-
-..  LocalWords:  TechFluencer BOM
