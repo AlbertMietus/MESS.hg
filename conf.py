@@ -45,11 +45,11 @@ blog_languages = {
     'nl'  : ('Nederlands', None),
     'en'  : ('English', None),
 }
-language='en' # As workaround for ABlog.post.generate_atom_feeds -- see: https://github.com/sunpy/ablog/issues/137
+#language='en' # As workaround for ABlog.post.generate_atom_feeds -- see: https://github.com/sunpy/ablog/issues/137
 blog_default_language = 'en'
 post_always_section = True
 
-blog_baseurl = 'http://mess.softwarebetermaken.nl/'
+blog_baseurl = 'https://mess.softwarebetermaken.nl/'
 disqus_shortname = 'mess-swbmnl'
 disqus_pages = True                                                 # All pages have a disqus-section
 disqus_drafts = False                                               # .. but the draft (blog) pages (.. post:: without date )
