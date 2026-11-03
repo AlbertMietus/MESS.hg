@@ -24,7 +24,7 @@ Software BOM
    |BR|
    For huge sales volumes (millions/week), it is. But for low numbers, the architect should correct that illusion!
 
-Calculating the sales price is a profession in its own, but the basics are simple. We can ignore expenses unrelated to
+Calculating the sales price is a profession in its own --- but the basics are simple. We can ignore expenses unrelated to
 development ---like marketing & promotion.  Hardware costs, especially for “computer electronics”, do matter, however.
 |BR|
 Here, the architect has a role.
@@ -44,8 +44,8 @@ The second is Embedded Linux. That success comes from the same formula. Compared
 writing code easier and faster. Or rephrased: the software development investment dropped significantly.  Even at midsize
 volumes, it is currently competitive. The extra hardware (BOM) costs are a fraction of the reduced development!
 
-Although architecture often provides technical solutions, it should answer business questions --- like finding the
-balance between saving costs and optimising investment.
+Although architecture often provides technical solutions, it should answer business questions. Finding the balance
+between saving costs and optimising investment is one of them.
 |BR|
 Do yourself a favour and practice this algorithm ---even afterwards. Try it with your current products; with hindsight,
 it's a bit easier.
