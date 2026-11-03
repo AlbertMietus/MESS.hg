@@ -43,12 +43,12 @@ but as it was software...
 |BR|
 The second is Embedded Linux. That success comes from the same formula. Compared to classic embedded systems, it makes
 writing code easier and faster. Or rephrased: the software development investment dropped significantly.  Even at midsize
-volumes, it is currently competitive. The extra hardware (BOM) costs are a fraction of the reduced development!
+volumes, it is currently competitive. The extra hardware (BOM) costs are a fraction of the reduced development budget!
 
 Although architecture often provides technical solutions, it should answer business questions. Finding the balance
 between saving costs and optimizing investment is one of them.
 |BR|
-Do yourself a favour and practice this algorithm. Try it with your current products; with hindsight, it's a bit
+Do yourself a favour and practice this algorithm. Try it with your current products; with hindsight, it is a bit
 easier. And you learn faster.
 
 
