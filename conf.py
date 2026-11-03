@@ -46,7 +46,7 @@ blog_languages = {
     'en'  : ('English', None),
 }
 language='en' # As workaround for ABlog.post.generate_atom_feeds -- see: https://github.com/sunpy/ablog/issues/137
-blog_default_language = 'nl'
+blog_default_language = 'en'
 post_always_section = True
 
 blog_baseurl = 'http://mess.softwarebetermaken.nl/'

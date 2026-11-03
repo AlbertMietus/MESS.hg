@@ -21,7 +21,6 @@ ThreadPoolExecutor
    :tags: DesignWorkShops
    :category: practice
    :location: Eindhoven
-   :language: nl,en
 
    :practice-time: 2 * 1 hour
 
