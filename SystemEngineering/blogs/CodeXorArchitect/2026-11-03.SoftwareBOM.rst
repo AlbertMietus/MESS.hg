@@ -11,8 +11,8 @@ Software BOM
    :tags: CodeXorArchitect
    :category: LinkedIn-Post
 
-   :reading-time:	ToDo
-   :LinkedIn: 		ToDo
+   :reading-time:	1min27
+   :LinkedIn: 		https://lnkd.in/p/eUQcUD9c
 
    When developing an embedded system, most engineers ask, *“What does it do?”* But *“How many are we going to
    sell?”* is just as interesting --- as it defines the architecture!
