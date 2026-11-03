@@ -14,8 +14,8 @@ Software BOM
    :reading-time:	ToDo
    :LinkedIn: 		ToDo
 
-   When developing an embedded system, most engineers ask, *“What does it do?”* However, the question *“How many are we going to
-   sell?”* is at least as interesting --- as it defines the architecture!
+   When developing an embedded system, most engineers ask, *“What does it do?”* But *“How many are we going to
+   sell?”* is just as interesting --- as it defines the architecture!
    |BR|
    Embedded systems are built from software and hardware. Traditionally, a lower ‘BOM’ --- the cost of the electronics,
    mechanics, etc. --- has always been the goal, as software has only development costs.
@@ -24,31 +24,32 @@ Software BOM
    |BR|
    For huge sales volumes (millions/week), it is. But for low numbers, the architect should correct that illusion!
 
-Calculating the sales price is a profession in its own --- but the basics are simple. We can ignore expenses unrelated to
+Price calculation is a profession --- but the basics are simple. We can ignore expenses unrelated to
 development ---like marketing & promotion.  Hardware costs, especially for “computer electronics”, do matter, however.
 |BR|
 Here, the architect has a role.
 
-In a nutshell: Dividing the (software) development investment by the total number of units sold gives the cost per
-unit.  Roughly, you can add it to the BOM and play with it. Adding computing power raises the BOM, which is fine when it
-lowers the software investment even more. This isn't simple arithmetic, as most numbers are based on predictions. But
-price experts are always working with forecasts.
+In a nutshell: Divide the (software) development investment by the total number of units to get the cost per unit.
+Roughly, you can add it to the BOM and compare it with alternatives. Adding computing power raises the BOM, which is
+fine when it lowers the software cost per unit even more. This isn't simple arithmetic, as most numbers are based on
+predictions and forecasts. But a price expert values a solid estimate over details, too.
 |BR|
 The hardest part is fighting tradition, as software costs are ignored for years.
 
 Let me give you two examples to inspire you.
 |BR|
-One company almost went out of business. They forgot to add the RTOS licensing price because it was software...
+One company almost went out of business when they forgot about the RTOS licensing price. It should be on the BOM,
+but as it was software...
 |BR|
 The second is Embedded Linux. That success comes from the same formula. Compared to classic embedded systems, it makes
 writing code easier and faster. Or rephrased: the software development investment dropped significantly.  Even at midsize
 volumes, it is currently competitive. The extra hardware (BOM) costs are a fraction of the reduced development!
 
 Although architecture often provides technical solutions, it should answer business questions. Finding the balance
-between saving costs and optimising investment is one of them.
+between saving costs and optimizing investment is one of them.
 |BR|
-Do yourself a favour and practice this algorithm ---even afterwards. Try it with your current products; with hindsight,
-it's a bit easier.
+Do yourself a favour and practice this algorithm. Try it with your current products; with hindsight, it's a bit
+easier. And you learn faster.
 
 
 -----------
@@ -59,4 +60,4 @@ it's a bit easier.
 
 #CodeXorArchitect --- Your #TechFluencer
 
-..  LocalWords:  RTOS
+..  LocalWords:  RTOS BOM
