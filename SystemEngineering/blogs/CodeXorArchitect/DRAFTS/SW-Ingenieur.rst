@@ -10,7 +10,7 @@ Act as an SW-Ingenieur!
    :tags: CodeXorArchitect
    :category: LinkedIn-Post
 
-   :reading-time:	ToDo
+   :reading-time:	1min38
    :LinkedIn: 		ToDo
 
    Dutch law protects the title *“ingenieur”*. Unlike the English term *engineer*, you can’t use it without completing a
