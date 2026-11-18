@@ -22,13 +22,12 @@ Act as an SW-Ingenieur!
    It’s time to make it clear --- as an architect, I feel obligated.
 
 
-
 Again, Dutch law has a saying about this. You are only an ‘architect’ when you're registered in the official Dutch
 Architects Register, which accepts people with experience in buildings only. Most ‘architects’ are also ‘ingenieur’, but
 not all ---some are trained in the Art Academy department.
 |BR|
 Luckily,  the term architect with a prefix, like “software-architect”, is allowed. But all formal guarantees are then
-gone. 
+gone.
 
 Still, it gives us some hints. A ‘SW-Ingenieur’ is well-trained and should be able to deliver more than just code.
 |BR|
@@ -66,7 +65,5 @@ engineering software/code can be automated, but SW-Ingenieurs deliver value.
 |BR|
 Please like or reply to this article (on LinkedIn a/o `‘MESS’
 <https://mess.softwarebetermaken.nl/en/latest/blog/tag/codexorarchitect.html>`__) if you'd like to read more.
-
-
 
 ..  LocalWords:  TechFluencer ingenieur ingenieurs HighTech
