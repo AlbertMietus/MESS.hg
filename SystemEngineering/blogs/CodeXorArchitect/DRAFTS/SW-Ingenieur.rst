@@ -51,7 +51,7 @@ I hope this helps. Still, we have one extra complication: when a SW-Ingenieur ca
 the difference between ‘design’ and ‘architecture’? That, however, is stuff for a whole other :ref:`story
 <layers-inversion>`!
 
-For now, just act as an Ingenieur! And please, help me to plug the term ‘SW-Ingenieur’; that solves a big problem! For
+For now, please, always act as an Ingenieur! And help to plug the term ‘SW-Ingenieur’; that solves a big problem! For
 all of us.
 
 
@@ -60,8 +60,8 @@ all of us.
 
 #CodeXorArchitect  ---Your #TechFluencer
 |BR|
-Please. like of replay to this article (on LinkedIn a/o `‘MESS’
-<https://mess.softwarebetermaken.nl/en/latest/blog/tag/codexorarchitect.html>`__, when you like to read more.
+Please, like or reply to this article (on LinkedIn a/o `‘MESS’
+<https://mess.softwarebetermaken.nl/en/latest/blog/tag/codexorarchitect.html>`__) when you like to read more.
 
 
 ..  LocalWords:  TechFluencer ingenieur ingenieurs HighTech
