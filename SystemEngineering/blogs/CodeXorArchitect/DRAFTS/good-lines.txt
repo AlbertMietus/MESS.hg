@@ -19,13 +19,11 @@ ALGEMEEN
   should understand code.
 * But also when an architect is on writing documents, like a design or an beneficial. It’s not the person writing
   documents, but the one that makes the teams go faster.
-
-
-
 * We also tend to forget to design the product as a whole. 
 
 LINKS
 ******
 
 * “Breaking a habit” or “Unlearn” — UNLEARN                 --- https://share.google/aimode/4kLQPltYJWbh95StY
-* verschil tussen een goede software engineer en architect  --- https://share.google/aimode/VDvFVS8EB9K78jkYk 
+* Verschil tussen een goede software engineer en architect  --- https://share.google/aimode/VDvFVS8EB9K78jkYk
+* (reversed) AR/Design layers:: EU/VS, Systems/Web, ...     --- https://share.google/aimode/4JB4A5rHnow6N5HZY
