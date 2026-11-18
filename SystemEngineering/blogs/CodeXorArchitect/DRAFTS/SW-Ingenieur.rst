@@ -21,7 +21,6 @@ Act as an SW-Ingenieur!
    |BR|
    It’s time to make it clear --- as an architect, I feel obligated.
 
-
 Again, Dutch law has a saying about this. You are only an ‘architect’ when you're registered in the official Dutch
 Architects Register, which accepts people with experience in buildings only. Most ‘architects’ are also ‘ingenieur’, but
 not all ---some are trained in the Art Academy department.
@@ -56,7 +55,6 @@ the difference between ‘design’ and ‘architecture’? That, however, is st
 
 For now, please, always act as an ingenieur! And help to plug the term ‘SW-Ingenieur’; that solves a big problem. Maybe
 engineering software/code can be automated, but SW-Ingenieurs deliver value.
-
 
 
 -------------
